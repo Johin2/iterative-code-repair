@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Analyze self-repair experiment results and generate figures/tables."""
-import json
-import os
-import sys
+from __future__ import annotations
+
 import argparse
-from pathlib import Path
+import json
 from collections import defaultdict
 
 import numpy as np
@@ -12,8 +11,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-sys.path.insert(0, os.path.dirname(__file__))
-from config import MODELS, RESULTS_DIR, MAX_REPAIR_ROUNDS
+from experiments.config import MODELS, RESULTS_DIR, MAX_REPAIR_ROUNDS
 
 FIGURES_DIR = RESULTS_DIR.parent / "paper" / "figures"
 

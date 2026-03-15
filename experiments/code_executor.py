@@ -1,8 +1,10 @@
-"""Safe code execution for HumanEval and MBPP problems."""
+"""Safe sandboxed code execution for HumanEval and MBPP problems."""
+from __future__ import annotations
+
+import os
 import subprocess
 import sys
 import tempfile
-import os
 
 COMMON_IMPORTS = """\
 from typing import List, Tuple, Optional, Dict, Set, Any, Union
@@ -21,20 +23,23 @@ import copy
 """
 
 
-def execute_solution(code, test_code, entry_point, timeout=15):
-    """Execute generated code against test cases (HumanEval or MBPP).
+def execute_solution(
+    code: str,
+    test_code: str,
+    entry_point: str,
+    timeout: int = 15,
+) -> dict[str, str | bool]:
+    """Execute generated code against test cases in an isolated subprocess.
 
-    HumanEval tests define a ``check(candidate)`` function that is invoked
-    with the entry point.  MBPP tests are plain ``assert`` statements.
-    This function detects which style is used and acts accordingly.
+    Supports both HumanEval (``check(candidate)`` pattern) and MBPP
+    (plain ``assert`` statements) test formats.
 
     Returns dict with keys: passed, error_message, error_type, stdout.
     """
     full_code = COMMON_IMPORTS + "\n" + code + "\n\n" + test_code
 
-    # HumanEval format: test_code defines ``def check(candidate)``
-    # -> we need to call ``check(entry_point)`` at the end.
-    # MBPP format: test_code is plain assert statements -> run as-is.
+    # HumanEval tests define ``def check(candidate)`` which must be
+    # invoked with the entry-point function; MBPP tests run as-is.
     if "def check(" in test_code:
         if f"check({entry_point})" not in test_code:
             full_code += f"\n\ncheck({entry_point})\n"
@@ -76,7 +81,7 @@ def execute_solution(code, test_code, entry_point, timeout=15):
             pass
 
 
-def _classify_error(stderr):
+def _classify_error(stderr: str) -> str:
     """Classify error type from stderr output."""
     if not stderr:
         return "unknown"

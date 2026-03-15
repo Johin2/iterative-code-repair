@@ -19,18 +19,21 @@ We investigate iterative self-repair across five open-weight models spanning 8B 
 │   ├── references.bib        # Bibliography
 │   └── figures/              # Paper figures (PNG + PDF)
 ├── experiments/
-│   ├── run_experiment.py     # Main experiment runner
-│   ├── run_ablation.py       # Prompt ablation study
-│   ├── analyze_results.py    # Result analysis and visualization
-│   ├── analyze_ablation.py   # Ablation result analysis
+│   ├── __init__.py           # Package marker
+│   ├── config.py             # Models, paths, hyperparameters
+│   ├── api_client.py         # Groq API client with retry logic
 │   ├── self_repair.py        # Prompt building and code extraction
 │   ├── code_executor.py      # Sandboxed Python execution
 │   ├── data_loader.py        # HumanEval/MBPP data loading
-│   ├── config.py             # Configuration
-│   └── requirements.txt      # Python dependencies
+│   ├── run_experiment.py     # Main experiment runner
+│   ├── run_ablation.py       # Prompt ablation study
+│   ├── analyze_results.py    # Result analysis and visualization
+│   └── analyze_ablation.py   # Ablation result analysis
 ├── results/
-│   ├── *.json                # Per-model result files
-│   └── ablation/             # Ablation study results
+│   ├── *.json                # Per-model result files (10 main + 2 summaries)
+│   └── ablation/             # Ablation study results (6 files)
+├── requirements.txt          # Python dependencies
+├── LICENSE                   # MIT license
 └── README.md
 ```
 
@@ -39,51 +42,81 @@ We investigate iterative self-repair across five open-weight models spanning 8B 
 ### Prerequisites
 
 - Python 3.10+
-- Groq API key (free tier)
+- A [Groq API key](https://console.groq.com/) (free tier is sufficient)
 
 ### Installation
 
 ```bash
-pip install -r experiments/requirements.txt
+git clone https://github.com/Johin2/Self-repair.git
+cd Self-repair
+pip install -r requirements.txt
 ```
 
 ### Environment Variables
 
-```bash
-export GROQ_API_KEY="your-key"
+Create a `.env` file in the project root:
+
+```
+GROQ_API_KEY=your-key-here
 ```
 
-### Data
+## Reproducing the Paper Results
 
-HumanEval and MBPP datasets should be placed in `experiments/data/`:
-- `experiments/data/HumanEval.jsonl`
-- `experiments/data/MBPP_sanitized.jsonl`
+All scripts are run from the **project root** using `-m` to ensure correct imports.
 
-## Running Experiments
+### 1. Main experiments (Table 1 and Table 2)
 
-### Run main experiments
+Run each model on both benchmarks (5 attempts per problem, greedy decoding):
 
 ```bash
-cd experiments
-python run_experiment.py
+# HumanEval (164 problems) — all 5 models
+python -m experiments.run_experiment --benchmark humaneval
+
+# MBPP Sanitized (257 problems) — all 5 models
+python -m experiments.run_experiment --benchmark mbpp
 ```
 
-### Run ablation study
+To run a single model:
 
 ```bash
-python run_ablation.py
+python -m experiments.run_experiment --benchmark humaneval --models Llama-3.3-70B
 ```
 
-### Analyze results
+Results are saved incrementally to `results/`, so interrupted runs can be resumed.
+
+### 2. Prompt ablation (Table 6)
+
+Compare minimal, explain-then-fix, and chain-of-thought repair strategies:
 
 ```bash
-python analyze_results.py
-python analyze_ablation.py
+python -m experiments.run_ablation --models Llama-3.3-70B Llama-4-Scout-17B
 ```
+
+### 3. Generate figures and tables
+
+```bash
+# Main figures (cumulative pass rates, error distributions, etc.)
+python -m experiments.analyze_results
+
+# Ablation comparison figure
+python -m experiments.analyze_ablation
+```
+
+Figures are saved to `paper/figures/` in both PNG (300 dpi) and PDF formats.
+
+### Available models
+
+| Name | Groq Model ID | Architecture |
+|------|---------------|-------------|
+| `Llama-3.1-8B` | `llama-3.1-8b-instant` | 8B dense |
+| `Llama-3.3-70B` | `llama-3.3-70b-versatile` | 70B dense |
+| `Llama-4-Scout-17B` | `meta-llama/llama-4-scout-17b-16e-instruct` | 17B active, 16-expert MoE |
+| `Llama-4-Maverick-17B` | `meta-llama/llama-4-maverick-17b-128e-instruct` | 17B active, 128-expert MoE |
+| `Qwen3-32B` | `qwen/qwen3-32b` | 32B dense |
 
 ## Key Results
 
-### HumanEval
+### HumanEval (164 problems)
 
 | Model | Initial (R0) | Final (R4) | Gain |
 |-------|-------------|------------|------|
@@ -93,7 +126,7 @@ python analyze_ablation.py
 | Llama 4 Maverick 17B (128E) | 87.2% | 93.9% | +6.7pp |
 | Qwen3 32B | 87.8% | 92.7% | +4.9pp |
 
-### MBPP Sanitized
+### MBPP Sanitized (257 problems)
 
 | Model | Initial (R0) | Final | Gain |
 |-------|-------------|-------|------|

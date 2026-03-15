@@ -1,25 +1,24 @@
 #!/usr/bin/env python3
 """Run self-repair experiments on HumanEval and MBPP benchmarks."""
-import os
-import sys
+from __future__ import annotations
+
+import argparse
 import json
 import time
-import argparse
 
-sys.path.insert(0, os.path.dirname(__file__))
-
-from config import (
-    MODELS, MAX_REPAIR_ROUNDS, REQUEST_DELAY,
-    RESULTS_DIR, GROQ_API_KEY, TEMPERATURE, MAX_TOKENS,
-)
-from data_loader import load_humaneval, load_mbpp
-from code_executor import execute_solution
-from self_repair import build_initial_prompt, build_repair_prompt, extract_code
-
-from groq import Groq
+from experiments.config import MODELS, MAX_REPAIR_ROUNDS, RESULTS_DIR
+from experiments.data_loader import load_humaneval, load_mbpp
+from experiments.code_executor import execute_solution
+from experiments.self_repair import build_initial_prompt, build_repair_prompt, extract_code
+from experiments.api_client import create_client, call_model
 
 
-def run_single_problem(client, model_id, problem, max_rounds):
+def run_single_problem(
+    client,
+    model_id: str,
+    problem: dict,
+    max_rounds: int,
+) -> dict:
     """Run self-repair loop for one problem."""
     entry_point = problem["entry_point"]
     test_code = problem["test"]
@@ -34,35 +33,7 @@ def run_single_problem(client, model_id, problem, max_rounds):
     rounds = []
 
     for round_num in range(max_rounds):
-        time.sleep(REQUEST_DELAY)
-
-        # Call API with retry
-        raw_response = None
-        usage = {}
-        for attempt in range(6):
-            try:
-                response = client.chat.completions.create(
-                    model=model_id,
-                    messages=messages,
-                    temperature=TEMPERATURE,
-                    max_tokens=MAX_TOKENS,
-                )
-                raw_response = response.choices[0].message.content or ""
-                usage = {
-                    "prompt_tokens": response.usage.prompt_tokens,
-                    "completion_tokens": response.usage.completion_tokens,
-                    "total_tokens": response.usage.total_tokens,
-                }
-                break
-            except Exception as e:
-                err_str = str(e).lower()
-                if "429" in err_str or "rate" in err_str:
-                    wait = 60 * (attempt + 1)
-                    print(f" [rl {wait}s]", end="", flush=True)
-                    time.sleep(wait)
-                else:
-                    print(f" [err: {type(e).__name__}]", end="", flush=True)
-                    time.sleep(10)
+        raw_response, usage = call_model(client, model_id, messages)
 
         if raw_response is None:
             rounds.append({
@@ -94,7 +65,7 @@ def run_single_problem(client, model_id, problem, max_rounds):
                 "rounds": rounds,
             }
 
-        # Build repair context
+        # Build repair context for next round
         messages.append({"role": "assistant", "content": raw_response})
         messages.append({"role": "user", "content": build_repair_prompt(exec_result["error_message"])})
 
@@ -107,9 +78,15 @@ def run_single_problem(client, model_id, problem, max_rounds):
     }
 
 
-def run_model_experiment(model_name, model_id, problems, max_rounds, benchmark="humaneval"):
+def run_model_experiment(
+    model_name: str,
+    model_id: str,
+    problems: list[dict],
+    max_rounds: int,
+    benchmark: str = "humaneval",
+) -> list[dict]:
     """Run experiment for one model across all problems."""
-    client = Groq(api_key=GROQ_API_KEY)
+    client = create_client()
 
     if benchmark == "humaneval":
         results_file = RESULTS_DIR / f"{model_name}.json"
@@ -143,7 +120,7 @@ def run_model_experiment(model_name, model_id, problems, max_rounds, benchmark="
         else:
             print(f" FAIL (all {max_rounds} rounds)")
 
-        # Save incrementally — include all existing results to prevent data loss
+        # Save incrementally to prevent data loss
         seen = {r["task_id"] for r in results}
         save_data = results + [existing[tid] for tid in existing if tid not in seen]
         with open(results_file, "w", encoding="utf-8") as f:
@@ -194,7 +171,9 @@ def main():
         print(f"{'='*60}")
 
         start = time.time()
-        results = run_model_experiment(model_name, model_id, problems, args.max_rounds, benchmark=args.benchmark)
+        results = run_model_experiment(
+            model_name, model_id, problems, args.max_rounds, benchmark=args.benchmark,
+        )
         elapsed = time.time() - start
 
         passed = sum(1 for r in results if r["final_passed"])
