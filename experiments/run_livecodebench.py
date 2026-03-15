@@ -30,6 +30,47 @@ DATA_CACHE = LIVECODEBENCH_DIR / "problems.json"
 # Data loading
 # ---------------------------------------------------------------------------
 
+LCB_JSONL_FILES = [
+    "https://huggingface.co/datasets/livecodebench/code_generation_lite/resolve/main/test.jsonl",
+    "https://huggingface.co/datasets/livecodebench/code_generation_lite/resolve/main/test2.jsonl",
+    "https://huggingface.co/datasets/livecodebench/code_generation_lite/resolve/main/test3.jsonl",
+    "https://huggingface.co/datasets/livecodebench/code_generation_lite/resolve/main/test4.jsonl",
+    "https://huggingface.co/datasets/livecodebench/code_generation_lite/resolve/main/test5.jsonl",
+    "https://huggingface.co/datasets/livecodebench/code_generation_lite/resolve/main/test6.jsonl",
+]
+
+
+def _download_livecodebench_jsonl() -> list[dict]:
+    """Download LiveCodeBench JSONL files from HuggingFace."""
+    import urllib.request
+
+    all_items = []
+    for url in LCB_JSONL_FILES:
+        fname = url.rsplit("/", 1)[-1]
+        local_path = LIVECODEBENCH_DIR / fname
+
+        if not local_path.exists():
+            print(f"  Downloading {fname}...", end="", flush=True)
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            try:
+                data = urllib.request.urlopen(req, timeout=120).read()
+                with open(local_path, "wb") as f:
+                    f.write(data)
+                print(" done")
+            except Exception as e:
+                print(f" FAILED: {e}")
+                continue
+
+        with open(local_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    all_items.append(json.loads(line))
+
+    print(f"  Total raw problems: {len(all_items)}")
+    return all_items
+
+
 def load_livecodebench(max_problems: int | None = None) -> list[dict]:
     """Load LiveCodeBench problems via the datasets library, with caching.
 
@@ -46,12 +87,12 @@ def load_livecodebench(max_problems: int | None = None) -> list[dict]:
 
     LIVECODEBENCH_DIR.mkdir(parents=True, exist_ok=True)
 
-    from datasets import load_dataset
-    ds = load_dataset("livecodebench/code_generation_lite", split="test")
+    # Download JSONL files directly from HuggingFace (avoids datasets library
+    # compatibility issues with custom loading scripts)
+    raw_items = _download_livecodebench_jsonl()
 
     problems = []
-    for item in ds:
-        raw = dict(item)
+    for raw in raw_items:
 
         question_id = raw.get("question_id", raw.get("id", f"lcb_{len(problems)}"))
         title = raw.get("question_title", "")
