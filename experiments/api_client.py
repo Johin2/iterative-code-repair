@@ -19,21 +19,30 @@ def call_model(
     model_id: str,
     messages: list[dict[str, str]],
     max_retries: int = 6,
+    temperature: float | None = None,
+    max_tokens: int | None = None,
 ) -> tuple[Optional[str], dict[str, int]]:
     """Call the Groq API with automatic retry on rate limits.
+
+    Args:
+        temperature: Override config TEMPERATURE if provided.
+        max_tokens: Override config MAX_TOKENS if provided.
 
     Returns:
         (response_text, usage_dict) on success, or (None, {}) after all retries fail.
     """
     time.sleep(REQUEST_DELAY)
 
+    _temperature = temperature if temperature is not None else TEMPERATURE
+    _max_tokens = max_tokens if max_tokens is not None else MAX_TOKENS
+
     for attempt in range(max_retries):
         try:
             response = client.chat.completions.create(
                 model=model_id,
                 messages=messages,
-                temperature=TEMPERATURE,
-                max_tokens=MAX_TOKENS,
+                temperature=_temperature,
+                max_tokens=_max_tokens,
             )
             text = response.choices[0].message.content or ""
             usage = {
