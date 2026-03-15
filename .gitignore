@@ -1,14 +1,33 @@
-.env
+# Python
 __pycache__/
 *.pyc
-experiments/data/
+*.pyo
 *.egg-info/
+.env
 .venv/
+
+# Data (downloadable benchmarks)
+experiments/data/
+
+# LaTeX build artifacts
 *.aux
-*.log
-*.out
 *.bbl
 *.blg
-*.synctex.gz
-*.fls
+*.log
+*.out
+*.toc
 *.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Submission packaging
+arxiv_submission/
+TaskRouter_arXiv.zip
