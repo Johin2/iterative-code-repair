@@ -1,0 +1,4051 @@
+[
+  {
+    "task_id": "HumanEval/0",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 162,
+          "total_tokens": 326
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/1",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 235,
+          "total_tokens": 392
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/2",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 90,
+          "total_tokens": 215
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/3",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 149,
+          "total_tokens": 307
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/4",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 141,
+          "total_tokens": 296
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/5",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 129,
+          "total_tokens": 264
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/6",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 153,
+          "completion_tokens": 234,
+          "total_tokens": 387
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/7",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 105,
+          "total_tokens": 238
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/8",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 149,
+          "total_tokens": 299
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/9",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 192,
+          "total_tokens": 332
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/10",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpe4p9gouk.py\", line 52, in <module>\n    check(make_palindrome)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpe4p9gouk.py\", line 47, in check\n    assert candidate('xyz') == 'xyzyx'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 180,
+          "completion_tokens": 182,
+          "total_tokens": 362
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpocn243zp.py\", line 52, in <module>\n    check(make_palindrome)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpocn243zp.py\", line 46, in check\n    assert candidate('x') == 'x'\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 539,
+          "completion_tokens": 331,
+          "total_tokens": 870
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzevcv2kb.py\", line 48, in <module>\n    check(make_palindrome)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzevcv2kb.py\", line 43, in check\n    assert candidate('xyz') == 'xyzyx'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1040,
+          "completion_tokens": 260,
+          "total_tokens": 1300
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/11",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 214,
+          "total_tokens": 332
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/12",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 118,
+          "total_tokens": 260
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/13",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 111,
+          "completion_tokens": 89,
+          "total_tokens": 200
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/14",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 99,
+          "completion_tokens": 74,
+          "total_tokens": 173
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/15",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 109,
+          "completion_tokens": 81,
+          "total_tokens": 190
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/16",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 115,
+          "completion_tokens": 81,
+          "total_tokens": 196
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/17",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 210,
+          "completion_tokens": 218,
+          "total_tokens": 428
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/18",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 147,
+          "total_tokens": 276
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/19",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 214,
+          "total_tokens": 359
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/20",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 248,
+          "total_tokens": 453
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/21",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 199,
+          "total_tokens": 362
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/22",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 134,
+          "completion_tokens": 114,
+          "total_tokens": 248
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/23",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 84,
+          "completion_tokens": 47,
+          "total_tokens": 131
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/24",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 93,
+          "completion_tokens": 80,
+          "total_tokens": 173
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/25",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 184,
+          "total_tokens": 349
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/26",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 124,
+          "completion_tokens": 141,
+          "total_tokens": 265
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/27",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 89,
+          "completion_tokens": 60,
+          "total_tokens": 149
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/28",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 97,
+          "completion_tokens": 62,
+          "total_tokens": 159
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/29",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 100,
+          "total_tokens": 228
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/30",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 126,
+          "total_tokens": 280
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/31",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 182,
+          "total_tokens": 322
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/32",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 299,
+          "completion_tokens": 378,
+          "total_tokens": 677
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/33",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 194,
+          "completion_tokens": 108,
+          "total_tokens": 302
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/34",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 114,
+          "completion_tokens": 78,
+          "total_tokens": 192
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/35",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 86,
+          "total_tokens": 209
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/36",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp00d4rj6f.py\", line 47, in <module>\n    check(fizz_buzz)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp00d4rj6f.py\", line 37, in check\n    assert candidate(78) == 2\n           ^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 124,
+          "completion_tokens": 135,
+          "total_tokens": 259
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_gt45tdf.py\", line 52, in <module>\n    check(fizz_buzz)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_gt45tdf.py\", line 42, in check\n    assert candidate(78) == 2\n           ^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 434,
+          "completion_tokens": 516,
+          "total_tokens": 950
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp2onj1l9v.py\", line 40, in <module>\n    check(fizz_buzz)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp2onj1l9v.py\", line 30, in check\n    assert candidate(78) == 2\n           ^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1121,
+          "completion_tokens": 213,
+          "total_tokens": 1334
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/37",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 205,
+          "total_tokens": 369
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/38",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 265,
+          "total_tokens": 464
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/39",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 137,
+          "completion_tokens": 218,
+          "total_tokens": 355
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/40",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 268,
+          "total_tokens": 468
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/41",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 190,
+          "completion_tokens": 154,
+          "total_tokens": 344
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/42",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 119,
+          "total_tokens": 268
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/43",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 198,
+          "completion_tokens": 187,
+          "total_tokens": 385
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/44",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 138,
+          "total_tokens": 270
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/45",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 87,
+          "completion_tokens": 56,
+          "total_tokens": 143
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/46",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 290,
+          "total_tokens": 501
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/47",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 128,
+          "total_tokens": 244
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/48",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 99,
+          "total_tokens": 211
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/49",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 146,
+          "completion_tokens": 169,
+          "total_tokens": 315
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/50",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 121,
+          "total_tokens": 252
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/51",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 139,
+          "total_tokens": 294
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/52",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 120,
+          "completion_tokens": 92,
+          "total_tokens": 212
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/53",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 94,
+          "completion_tokens": 61,
+          "total_tokens": 155
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/54",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpkt9_8au_.py\", line 51, in <module>\n    check(same_chars)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpkt9_8au_.py\", line 41, in check\n    assert candidate('eabcdzzzz', 'dddzzzzzzzddeddabc') == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 152,
+          "total_tokens": 327
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpi043ho9d.py\", line 49, in <module>\n    check(same_chars)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpi043ho9d.py\", line 39, in check\n    assert candidate('eabcdzzzz', 'dddzzzzzzzddeddabc') == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 514,
+          "completion_tokens": 295,
+          "total_tokens": 809
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzpbxn4zc.py\", line 51, in <module>\n    check(same_chars)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzpbxn4zc.py\", line 41, in check\n    assert candidate('eabcdzzzz', 'dddzzzzzzzddeddabc') == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 992,
+          "completion_tokens": 334,
+          "total_tokens": 1326
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/55",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 93,
+          "completion_tokens": 174,
+          "total_tokens": 267
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/56",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 140,
+          "total_tokens": 273
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/57",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 122,
+          "completion_tokens": 139,
+          "total_tokens": 261
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/58",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 129,
+          "total_tokens": 284
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/59",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 104,
+          "completion_tokens": 104,
+          "total_tokens": 208
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/60",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 110,
+          "total_tokens": 245
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/61",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 64,
+          "total_tokens": 196
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/62",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 126,
+          "total_tokens": 274
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/63",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 188,
+          "completion_tokens": 234,
+          "total_tokens": 422
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/64",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 178,
+          "total_tokens": 343
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/65",
+    "final_passed": true,
+    "rounds_to_pass": 2,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqzcdfszy.py\", line 42, in <module>\n    check(circular_shift)\n    ~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqzcdfszy.py\", line 34, in check\n    assert candidate(97, 8) == \"79\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 122,
+          "completion_tokens": 118,
+          "total_tokens": 240
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpw0sal8ax.py\", line 44, in <module>\n    check(circular_shift)\n    ~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpw0sal8ax.py\", line 35, in check\n    assert candidate(12, 2) == \"12\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 414,
+          "completion_tokens": 257,
+          "total_tokens": 671
+        }
+      },
+      {
+        "round": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 847,
+          "completion_tokens": 261,
+          "total_tokens": 1108
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/66",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 26,
+          "total_tokens": 178
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/67",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 250,
+          "completion_tokens": 230,
+          "total_tokens": 480
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/68",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 354,
+          "completion_tokens": 75,
+          "total_tokens": 429
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/69",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 237,
+          "total_tokens": 442
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/70",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 52,
+          "total_tokens": 216
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/71",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 161,
+          "completion_tokens": 252,
+          "total_tokens": 413
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/72",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 263,
+          "completion_tokens": 29,
+          "total_tokens": 292
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/73",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 205,
+          "total_tokens": 400
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/74",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 233,
+          "completion_tokens": 64,
+          "total_tokens": 297
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/75",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzyc54295.py\", line 57, in <module>\n    check(is_multiply_prime)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzyc54295.py\", line 45, in check\n    assert candidate(30) == True\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 121,
+          "completion_tokens": 196,
+          "total_tokens": 317
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 488,
+          "completion_tokens": 331,
+          "total_tokens": 819
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/76",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 62,
+          "total_tokens": 244
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/77",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "type_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqqdzbejt.py\", line 38, in <module>\n    check(iscube)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqqdzbejt.py\", line 26, in check\n    assert candidate(-1) == True, \"Third test error: \" + str(candidate(-1))\n           ~~~~~~~~~^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqqdzbejt.py\", line 18, in iscube\n    root = round(a ** (1/3))\nTypeError: type complex doesn't define __round__ method",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 33,
+          "total_tokens": 183
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppuh8xw10.py\", line 53, in <module>\n    check(iscube)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppuh8xw10.py\", line 39, in check\n    assert candidate(1) == True, \"First test error: \" + str(candidate(1))\n           ^^^^^^^^^^^^^^^^^^^^\nAssertionError: First test error: None",
+        "usage": {
+          "prompt_tokens": 412,
+          "completion_tokens": 316,
+          "total_tokens": 728
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp74psawzo.py\", line 53, in <module>\n    check(iscube)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp74psawzo.py\", line 39, in check\n    assert candidate(1) == True, \"First test error: \" + str(candidate(1))\n           ^^^^^^^^^^^^^^^^^^^^\nAssertionError: First test error: None",
+        "usage": {
+          "prompt_tokens": 916,
+          "completion_tokens": 333,
+          "total_tokens": 1249
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/78",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 339,
+          "completion_tokens": 49,
+          "total_tokens": 388
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/79",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 179,
+          "completion_tokens": 157,
+          "total_tokens": 336
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/80",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 58,
+          "total_tokens": 220
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/81",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp1wboay6n.py\", line 84, in <module>\n    check(numerical_letter_grade)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp1wboay6n.py\", line 72, in check\n    assert candidate([4.0, 3, 1.7, 2, 3.5]) == ['A+', 'B', 'C-', 'C', 'A-']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 311,
+          "completion_tokens": 490,
+          "total_tokens": 801
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxu7gcvti.py\", line 86, in <module>\n    check(numerical_letter_grade)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxu7gcvti.py\", line 74, in check\n    assert candidate([4.0, 3, 1.7, 2, 3.5]) == ['A+', 'B', 'C-', 'C', 'A-']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1014,
+          "completion_tokens": 694,
+          "total_tokens": 1708
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp9yi_tkk6.py\", line 64, in <module>\n    check(numerical_letter_grade)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp9yi_tkk6.py\", line 52, in check\n    assert candidate([4.0, 3, 1.7, 2, 3.5]) == ['A+', 'B', 'C-', 'C', 'A-']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1921,
+          "completion_tokens": 420,
+          "total_tokens": 2341
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/82",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 121,
+          "completion_tokens": 70,
+          "total_tokens": 191
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/83",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpg3_17031.py\", line 46, in <module>\n    check(starts_one_ends)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpg3_17031.py\", line 36, in check\n    assert candidate(2) == 18\n           ^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 85,
+          "completion_tokens": 139,
+          "total_tokens": 224
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpunkmlksa.py\", line 44, in <module>\n    check(starts_one_ends)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpunkmlksa.py\", line 34, in check\n    assert candidate(2) == 18\n           ^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 398,
+          "completion_tokens": 611,
+          "total_tokens": 1009
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpo35epbli.py\", line 39, in <module>\n    check(starts_one_ends)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpo35epbli.py\", line 29, in check\n    assert candidate(2) == 18\n           ^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1179,
+          "completion_tokens": 396,
+          "total_tokens": 1575
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/84",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpx0qhodtt.py\", line 50, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpx0qhodtt.py\", line 39, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 190,
+          "total_tokens": 363
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 541,
+          "completion_tokens": 687,
+          "total_tokens": 1228
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/85",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpbr1ue87w.py\", line 30, in <module>\n    check(add)\n    ~~~~~^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpbr1ue87w.py\", line 21, in check\n    assert candidate([4, 88]) == 88\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 95,
+          "completion_tokens": 39,
+          "total_tokens": 134
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 308,
+          "completion_tokens": 164,
+          "total_tokens": 472
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/86",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 29,
+          "total_tokens": 201
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/87",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 299,
+          "completion_tokens": 62,
+          "total_tokens": 361
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/88",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 242,
+          "completion_tokens": 277,
+          "total_tokens": 519
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/89",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 177,
+          "total_tokens": 327
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/90",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 53,
+          "total_tokens": 217
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/91",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpukuoa0pe.py\", line 37, in <module>\n    check(is_bored)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpukuoa0pe.py\", line 26, in check\n    assert candidate(\"Is the sky blue?\") == 0, \"Test 2\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 2",
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 54,
+          "total_tokens": 202
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppxt1v29h.py\", line 37, in <module>\n    check(is_bored)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppxt1v29h.py\", line 26, in check\n    assert candidate(\"Is the sky blue?\") == 0, \"Test 2\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 2",
+        "usage": {
+          "prompt_tokens": 388,
+          "completion_tokens": 147,
+          "total_tokens": 535
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpc2rhv9j1.py\", line 37, in <module>\n    check(is_bored)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpc2rhv9j1.py\", line 26, in check\n    assert candidate(\"Is the sky blue?\") == 0, \"Test 2\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 2",
+        "usage": {
+          "prompt_tokens": 723,
+          "completion_tokens": 202,
+          "total_tokens": 925
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/92",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp46ndj8yy.py\", line 37, in <module>\n    check(any_int)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp46ndj8yy.py\", line 33, in check\n    assert candidate(3.0,4,7)==False, \"This prints if this assert fails 10 (also good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 10 (also good for debugging!)",
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 53,
+          "total_tokens": 228
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0r9g9vl6.py\", line 57, in <module>\n    check(any_int)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0r9g9vl6.py\", line 42, in check\n    assert candidate(2, 3, 1)==True, \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 433,
+          "completion_tokens": 370,
+          "total_tokens": 803
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8qnthi_8.py\", line 58, in <module>\n    check(any_int)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8qnthi_8.py\", line 43, in check\n    assert candidate(2, 3, 1)==True, \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 1012,
+          "completion_tokens": 422,
+          "total_tokens": 1434
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/93",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 195,
+          "total_tokens": 342
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/94",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 326,
+          "completion_tokens": 437,
+          "total_tokens": 763
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/95",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpusbrf8fe.py\", line 42, in <module>\n    check(check_dict_case)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpusbrf8fe.py\", line 29, in check\n    assert candidate({\"p\":\"pineapple\", \"b\":\"banana\"}) == True, \"First test error: \" + str(candidate({\"p\":\"pineapple\", \"b\":\"banana\"}))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: First test error: False",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 80,
+          "total_tokens": 289
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 499,
+          "completion_tokens": 238,
+          "total_tokens": 737
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/96",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 185,
+          "completion_tokens": 89,
+          "total_tokens": 274
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/97",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 138,
+          "completion_tokens": 112,
+          "total_tokens": 250
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/98",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 105,
+          "total_tokens": 217
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/99",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 191,
+          "completion_tokens": 84,
+          "total_tokens": 275
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/100",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 186,
+          "total_tokens": 358
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/101",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 156,
+          "completion_tokens": 124,
+          "total_tokens": 280
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/102",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 159,
+          "total_tokens": 292
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/103",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 180,
+          "completion_tokens": 168,
+          "total_tokens": 348
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/104",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 141,
+          "completion_tokens": 160,
+          "total_tokens": 301
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/105",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 316,
+          "completion_tokens": 120,
+          "total_tokens": 436
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/106",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 69,
+          "total_tokens": 233
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/107",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 250,
+          "completion_tokens": 93,
+          "total_tokens": 343
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/108",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "value_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8tczd440.py\", line 55, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8tczd440.py\", line 42, in check\n    assert candidate([-1, -2, 0]) == 0\n           ~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8tczd440.py\", line 29, in count_nums\n    digit_sum = -int(num_str[0])\n                 ~~~^^^^^^^^^^^^\nValueError: invalid literal for int() with ",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 217,
+          "total_tokens": 381
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 619,
+          "completion_tokens": 332,
+          "total_tokens": 951
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/109",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 339,
+          "completion_tokens": 62,
+          "total_tokens": 401
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/110",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 237,
+          "completion_tokens": 124,
+          "total_tokens": 361
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/111",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 191,
+          "completion_tokens": 97,
+          "total_tokens": 288
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/112",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 204,
+          "completion_tokens": 49,
+          "total_tokens": 253
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/113",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 213,
+          "completion_tokens": 77,
+          "total_tokens": 290
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/114",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 136,
+          "total_tokens": 264
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/115",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpooaxm96g.py\", line 37, in <module>\n    check(max_fill)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpooaxm96g.py\", line 33, in check\n    assert candidate([[1,1,1,1], [1,1,1,1]], 9) == 2, \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 363,
+          "completion_tokens": 37,
+          "total_tokens": 400
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnsmit0q3.py\", line 36, in <module>\n    check(max_fill)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnsmit0q3.py\", line 25, in check\n    assert candidate([[0,0,1,0], [0,1,0,0], [1,1,1,1]], 1) == 6, \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 597,
+          "completion_tokens": 211,
+          "total_tokens": 808
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmplpm42y0z.py\", line 37, in <module>\n    check(max_fill)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmplpm42y0z.py\", line 33, in check\n    assert candidate([[1,1,1,1], [1,1,1,1]], 9) == 2, \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 1015,
+          "completion_tokens": 204,
+          "total_tokens": 1219
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/116",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 210,
+          "completion_tokens": 30,
+          "total_tokens": 240
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/117",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 221,
+          "completion_tokens": 67,
+          "total_tokens": 288
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/118",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxgr78xh7.py\", line 46, in <module>\n    check(get_closest_vowel)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxgr78xh7.py\", line 29, in check\n    assert candidate(\"easy\") == \"\"\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 186,
+          "completion_tokens": 91,
+          "total_tokens": 277
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpj78q3g0v.py\", line 48, in <module>\n    check(get_closest_vowel)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpj78q3g0v.py\", line 31, in check\n    assert candidate(\"easy\") == \"\"\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 451,
+          "completion_tokens": 468,
+          "total_tokens": 919
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpsid95rqf.py\", line 59, in <module>\n    check(get_closest_vowel)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpsid95rqf.py\", line 40, in check\n    assert candidate(\"yogurt\") == \"u\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1097,
+          "completion_tokens": 398,
+          "total_tokens": 1495
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/119",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 204,
+          "completion_tokens": 101,
+          "total_tokens": 305
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/120",
+    "final_passed": true,
+    "rounds_to_pass": 2,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpo67f0t33.py\", line 61, in <module>\n    check(maximum)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpo67f0t33.py\", line 45, in check\n    assert candidate([-3, -4, 5], 3) == [-4, -3, 5]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 257,
+          "completion_tokens": 227,
+          "total_tokens": 484
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp13_yjrhj.py\", line 64, in <module>\n    check(maximum)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp13_yjrhj.py\", line 48, in check\n    assert candidate([-3, -4, 5], 3) == [-4, -3, 5]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 675,
+          "completion_tokens": 393,
+          "total_tokens": 1068
+        }
+      },
+      {
+        "round": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 1257,
+          "completion_tokens": 355,
+          "total_tokens": 1612
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/121",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjbdis1y6.py\", line 33, in <module>\n    check(solution)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjbdis1y6.py\", line 21, in check\n    assert candidate([5, 8, 7, 1])    == 12\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 137,
+          "completion_tokens": 42,
+          "total_tokens": 179
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 361,
+          "completion_tokens": 308,
+          "total_tokens": 669
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/122",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 31,
+          "total_tokens": 199
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/123",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 270,
+          "completion_tokens": 316,
+          "total_tokens": 586
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/124",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 189,
+          "total_tokens": 492
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/125",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpp73metjj.py\", line 44, in <module>\n    check(split_words)\n    ~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpp73metjj.py\", line 39, in check\n    assert candidate(\"aaabb\") == 2\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 192,
+          "total_tokens": 374
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 545,
+          "completion_tokens": 378,
+          "total_tokens": 923
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/126",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp1o3otn_e.py\", line 46, in <module>\n    check(is_sorted)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp1o3otn_e.py\", line 41, in check\n    assert candidate([1, 2, 2, 3, 3, 4]) == True, \"This prints if this assert fails 7 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 7 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 289,
+          "completion_tokens": 65,
+          "total_tokens": 354
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 570,
+          "completion_tokens": 283,
+          "total_tokens": 853
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/127",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqvljlglm.py\", line 71, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqvljlglm.py\", line 59, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 293,
+          "completion_tokens": 313,
+          "total_tokens": 606
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdzkifm8h.py\", line 71, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdzkifm8h.py\", line 59, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 786,
+          "completion_tokens": 706,
+          "total_tokens": 1492
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpe74z5lq7.py\", line 64, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpe74z5lq7.py\", line 52, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1676,
+          "completion_tokens": 585,
+          "total_tokens": 2261
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/128",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 161,
+          "completion_tokens": 196,
+          "total_tokens": 357
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/129",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxsyb4mk1.py\", line 58, in <module>\n    check(minPath)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxsyb4mk1.py\", line 45, in check\n    assert candidate([[6, 4, 13, 10], [5, 7, 12, 1], [3, 16, 11, 15], [8, 14, 9, 2]], 7) == [1, 10, 1, 10, 1, 10, 1]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 435,
+          "completion_tokens": 249,
+          "total_tokens": 684
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpezg4bj04.py\", line 58, in <module>\n    check(minPath)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpezg4bj04.py\", line 45, in check\n    assert candidate([[6, 4, 13, 10], [5, 7, 12, 1], [3, 16, 11, 15], [8, 14, 9, 2]], 7) == [1, 10, 1, 10, 1, 10, 1]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 932,
+          "completion_tokens": 349,
+          "total_tokens": 1281
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpz66zjf_r.py\", line 55, in <module>\n    check(minPath)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpz66zjf_r.py\", line 42, in check\n    assert candidate([[6, 4, 13, 10], [5, 7, 12, 1], [3, 16, 11, 15], [8, 14, 9, 2]], 7) == [1, 10, 1, 10, 1, 10, 1]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1527,
+          "completion_tokens": 299,
+          "total_tokens": 1826
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/130",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnziz4nhb.py\", line 46, in <module>\n    check(tri)\n    ~~~~~^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnziz4nhb.py\", line 32, in check\n    assert candidate(3) == [1, 3, 2.0, 8.0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 273,
+          "completion_tokens": 126,
+          "total_tokens": 399
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpz1txih7h.py\", line 65, in <module>\n    check(tri)\n    ~~~~~^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpz1txih7h.py\", line 51, in check\n    assert candidate(3) == [1, 3, 2.0, 8.0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 584,
+          "completion_tokens": 691,
+          "total_tokens": 1275
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "index_key_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpmapp0ymb.py\", line 49, in <module>\n    check(tri)\n    ~~~~~^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpmapp0ymb.py\", line 35, in check\n    assert candidate(3) == [1, 3, 2.0, 8.0]\n           ~~~~~~~~~^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpmapp0ymb.py\", line 28, in tri\n    sequence.append(sequence[i - 1] + sequence[i - 2] + sequence[min(i + 1, len(sequence))])\n                                          ",
+        "usage": {
+          "prompt_tokens": 1462,
+          "completion_tokens": 288,
+          "total_tokens": 1750
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/131",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 111,
+          "completion_tokens": 130,
+          "total_tokens": 241
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/132",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpgkr4isvv.py\", line 62, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpgkr4isvv.py\", line 43, in check\n    assert candidate('[[]]') == True, \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 178,
+          "completion_tokens": 289,
+          "total_tokens": 467
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjit6a6hn.py\", line 51, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjit6a6hn.py\", line 39, in check\n    assert candidate('[[]') == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 668,
+          "completion_tokens": 451,
+          "total_tokens": 1119
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqz_dovia.py\", line 51, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqz_dovia.py\", line 41, in check\n    assert candidate('[[]][[') == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1290,
+          "completion_tokens": 344,
+          "total_tokens": 1634
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/133",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 29,
+          "total_tokens": 228
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/134",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "index_key_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpkyl3ujbd.py\", line 43, in <module>\n    check(check_if_last_char_is_a_letter)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpkyl3ujbd.py\", line 30, in check\n    assert candidate(\"A\") == True\n           ~~~~~~~~~^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpkyl3ujbd.py\", line 22, in check_if_last_char_is_a_letter\n    return last_char.isalpha() and txt[-2] == ' '\n            ",
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 63,
+          "total_tokens": 240
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvp49gdbe.py\", line 43, in <module>\n    check(check_if_last_char_is_a_letter)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvp49gdbe.py\", line 30, in check\n    assert candidate(\"A\") == True\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 479,
+          "completion_tokens": 183,
+          "total_tokens": 662
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5gd3xvtp.py\", line 44, in <module>\n    check(check_if_last_char_is_a_letter)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5gd3xvtp.py\", line 29, in check\n    assert candidate(\"apple pi e\") == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 837,
+          "completion_tokens": 212,
+          "total_tokens": 1049
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/135",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpua9mwxc2.py\", line 34, in <module>\n    check(can_arrange)\n    ~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpua9mwxc2.py\", line 27, in check\n    assert candidate([4,8,5,7,3])==4\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 143,
+          "completion_tokens": 43,
+          "total_tokens": 186
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 367,
+          "completion_tokens": 163,
+          "total_tokens": 530
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/136",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 81,
+          "total_tokens": 263
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/137",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 90,
+          "total_tokens": 271
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/138",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 117,
+          "completion_tokens": 97,
+          "total_tokens": 214
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/139",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 136,
+          "completion_tokens": 129,
+          "total_tokens": 265
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/140",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpftsqt0hs.py\", line 59, in <module>\n    check(fix_spaces)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpftsqt0hs.py\", line 50, in check\n    assert candidate(\"Mudasir Hanif \") == \"Mudasir_Hanif_\", \"This prints if this assert fails 2 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 2 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 146,
+          "completion_tokens": 200,
+          "total_tokens": 346
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpkccrzq35.py\", line 59, in <module>\n    check(fix_spaces)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpkccrzq35.py\", line 50, in check\n    assert candidate(\"Mudasir Hanif \") == \"Mudasir_Hanif_\", \"This prints if this assert fails 2 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 2 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 557,
+          "completion_tokens": 505,
+          "total_tokens": 1062
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpp5_71o76.py\", line 34, in <module>\n    check(fix_spaces)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpp5_71o76.py\", line 30, in check\n    assert candidate(\"   Exa 1 2 2 mple\") == \"-Exa_1_2_2_mple\", \"This prints if this assert fails 4 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 4 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 1275,
+          "completion_tokens": 287,
+          "total_tokens": 1562
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/141",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 254,
+          "completion_tokens": 365,
+          "total_tokens": 619
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/142",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 210,
+          "completion_tokens": 211,
+          "total_tokens": 421
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/143",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 187,
+          "completion_tokens": 316,
+          "total_tokens": 503
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/144",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 48,
+          "total_tokens": 243
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/145",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptyvdx7ks.py\", line 43, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptyvdx7ks.py\", line 31, in check\n    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 138,
+          "total_tokens": 293
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptvpsn4d3.py\", line 43, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptvpsn4d3.py\", line 31, in check\n    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 493,
+          "completion_tokens": 259,
+          "total_tokens": 752
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnngbjn6b.py\", line 43, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnngbjn6b.py\", line 31, in check\n    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 956,
+          "completion_tokens": 244,
+          "total_tokens": 1200
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/146",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 159,
+          "completion_tokens": 113,
+          "total_tokens": 272
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/147",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpoixynpla.py\", line 50, in <module>\n    check(get_max_triples)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpoixynpla.py\", line 44, in check\n    assert candidate(5) == 1\n           ^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 371,
+          "total_tokens": 576
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 746,
+          "completion_tokens": 401,
+          "total_tokens": 1147
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/148",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 251,
+          "completion_tokens": 122,
+          "total_tokens": 373
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/149",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 227,
+          "completion_tokens": 82,
+          "total_tokens": 309
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/150",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 158,
+          "total_tokens": 284
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/151",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 42,
+          "total_tokens": 219
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/152",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 271,
+          "completion_tokens": 36,
+          "total_tokens": 307
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/153",
+    "final_passed": true,
+    "rounds_to_pass": 2,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0vxbpem4.py\", line 16\n    strongest_extension = max(extensions, key=lambda x: (x.count('A') + x.count('B') + x.count('C') + x.count('D') + x.count('E') + x.count('F') + x.count('G') + x.count('H') + x.count('I') + x.count('J') + x.count('K') + x.count('L') + x.count('M') + x.count('N') + x.count('O') + x.count('P') + x.count('Q') + x.count('R') + x.count('S') + x.count('T') + x.count('U') + x.count('V') + x.count('W') + x.count('X') + x.count('Y') + x.c",
+        "usage": {
+          "prompt_tokens": 314,
+          "completion_tokens": 505,
+          "total_tokens": 819
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp9twp9c2e.py\", line 27\n    strongest_extension = max(extensions, key=lambda x: sum(c.isupper() for c) - sum(c.islower() for c), default=None)\n                                                                             ^\nSyntaxError: 'in' expected after for-loop variables",
+        "usage": {
+          "prompt_tokens": 1258,
+          "completion_tokens": 320,
+          "total_tokens": 1578
+        }
+      },
+      {
+        "round": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 1723,
+          "completion_tokens": 314,
+          "total_tokens": 2037
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/154",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp37ip3fqj.py\", line 38, in <module>\n    check(cycpattern_check)\n    ~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp37ip3fqj.py\", line 32, in check\n    assert  candidate(\"efef\",\"fee\") == True , \"test #3\"\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: test #3",
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 42,
+          "total_tokens": 216
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 403,
+          "completion_tokens": 239,
+          "total_tokens": 642
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/155",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 108,
+          "completion_tokens": 120,
+          "total_tokens": 228
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/156",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 232,
+          "total_tokens": 377
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/157",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 141,
+          "total_tokens": 289
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/158",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphxulak34.py\", line 40, in <module>\n    check(find_max)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphxulak34.py\", line 26, in check\n    assert (candidate([\"name\", \"enam\", \"game\"]) == \"enam\"), 't2'\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: t2",
+        "usage": {
+          "prompt_tokens": 159,
+          "completion_tokens": 42,
+          "total_tokens": 201
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 388,
+          "completion_tokens": 307,
+          "total_tokens": 695
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/159",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 316,
+          "completion_tokens": 307,
+          "total_tokens": 623
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/160",
+    "final_passed": true,
+    "rounds_to_pass": 2,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6wl_h2ia.py\", line 66, in <module>\n    check(do_algebra)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6wl_h2ia.py\", line 58, in check\n    assert candidate(['+', '*', '-'], [2, 3, 4, 5]) == 9\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 244,
+          "completion_tokens": 307,
+          "total_tokens": 551
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6q7z6k1q.py\", line 80, in <module>\n    check(do_algebra)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6q7z6k1q.py\", line 71, in check\n    assert candidate(['**', '*', '+'], [2, 3, 4, 5]) == 37\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 740,
+          "completion_tokens": 585,
+          "total_tokens": 1325
+        }
+      },
+      {
+        "round": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 1522,
+          "completion_tokens": 636,
+          "total_tokens": 2158
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/161",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 146,
+          "completion_tokens": 48,
+          "total_tokens": 194
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/162",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 107,
+          "total_tokens": 223
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  },
+  {
+    "task_id": "HumanEval/163",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_ron4k9r.py\", line 42, in <module>\n    check(generate_integers)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_ron4k9r.py\", line 32, in check\n    assert candidate(2, 10) == [2, 4, 6, 8], \"Test 1\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 1",
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 146,
+          "total_tokens": 294
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 494,
+          "completion_tokens": 294,
+          "total_tokens": 788
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Scout-17B"
+  }
+]
