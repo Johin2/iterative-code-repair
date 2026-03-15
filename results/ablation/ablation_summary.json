@@ -1,0 +1,18 @@
+{
+  "Llama-4-Scout-17B_explain": {
+    "model": "Llama-4-Scout-17B",
+    "strategy": "explain",
+    "passed": 143,
+    "total": 164,
+    "rate": 87.2,
+    "time_seconds": 1251.5
+  },
+  "Llama-4-Scout-17B_cot": {
+    "model": "Llama-4-Scout-17B",
+    "strategy": "cot",
+    "passed": 147,
+    "total": 164,
+    "rate": 89.6,
+    "time_seconds": 1306.8
+  }
+}

@@ -1,0 +1,3909 @@
+[
+  {
+    "task_id": "HumanEval/0",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 65,
+          "total_tokens": 229
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/1",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 109,
+          "total_tokens": 266
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/2",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 29,
+          "total_tokens": 154
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/3",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 54,
+          "total_tokens": 212
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/4",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 158,
+          "total_tokens": 313
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/5",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 129,
+          "total_tokens": 264
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/6",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 153,
+          "completion_tokens": 110,
+          "total_tokens": 263
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/7",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 105,
+          "total_tokens": 238
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/8",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 64,
+          "total_tokens": 214
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/9",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 64,
+          "total_tokens": 204
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/10",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpbadexh_1.py\", line 52, in <module>\n    check(make_palindrome)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpbadexh_1.py\", line 46, in check\n    assert candidate('x') == 'x'\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 180,
+          "completion_tokens": 172,
+          "total_tokens": 352
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjf7yhp4r.py\", line 39, in <module>\n    check(make_palindrome)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjf7yhp4r.py\", line 34, in check\n    assert candidate('xyz') == 'xyzyx'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 491,
+          "completion_tokens": 72,
+          "total_tokens": 563
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpuqyruesb.py\", line 37, in <module>\n    check(make_palindrome)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpuqyruesb.py\", line 31, in check\n    assert candidate('x') == 'x'\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 707,
+          "completion_tokens": 62,
+          "total_tokens": 769
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0oq1yu0w.py\", line 38, in <module>\n    check(make_palindrome)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0oq1yu0w.py\", line 33, in check\n    assert candidate('xyz') == 'xyzyx'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 906,
+          "completion_tokens": 66,
+          "total_tokens": 972
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpgmd5fpyc.py\", line 39, in <module>\n    check(make_palindrome)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpgmd5fpyc.py\", line 33, in check\n    assert candidate('x') == 'x'\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1116,
+          "completion_tokens": 69,
+          "total_tokens": 1185
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/11",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 122,
+          "total_tokens": 240
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/12",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 40,
+          "total_tokens": 182
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/13",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 111,
+          "completion_tokens": 89,
+          "total_tokens": 200
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/14",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 99,
+          "completion_tokens": 74,
+          "total_tokens": 173
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/15",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 109,
+          "completion_tokens": 32,
+          "total_tokens": 141
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/16",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 115,
+          "completion_tokens": 25,
+          "total_tokens": 140
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/17",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 210,
+          "completion_tokens": 66,
+          "total_tokens": 276
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/18",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 80,
+          "total_tokens": 209
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/19",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 128,
+          "total_tokens": 273
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/20",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 106,
+          "total_tokens": 311
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/21",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 59,
+          "total_tokens": 222
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/22",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 134,
+          "completion_tokens": 107,
+          "total_tokens": 241
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/23",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 84,
+          "completion_tokens": 47,
+          "total_tokens": 131
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/24",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 93,
+          "completion_tokens": 45,
+          "total_tokens": 138
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/25",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 70,
+          "total_tokens": 235
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/26",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 124,
+          "completion_tokens": 49,
+          "total_tokens": 173
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/27",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 89,
+          "completion_tokens": 53,
+          "total_tokens": 142
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/28",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 97,
+          "completion_tokens": 62,
+          "total_tokens": 159
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/29",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 100,
+          "total_tokens": 228
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/30",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 26,
+          "total_tokens": 180
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/31",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 94,
+          "total_tokens": 234
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/32",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpm9_9kj76.py\", line 79, in <module>\n    check(find_zero)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpm9_9kj76.py\", line 75, in check\n    assert math.fabs(poly(coeffs, solution)) < 1e-4\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 299,
+          "completion_tokens": 401,
+          "total_tokens": 700
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp14tq_xhh.py\", line 67, in <module>\n    check(find_zero)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp14tq_xhh.py\", line 62, in check\n    solution = candidate(copy.deepcopy(coeffs))\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp14tq_xhh.py\", line 24, in find_zero\n    fa = f(a)\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp14tq_xhh.py\", line 17, in f\n    return poly(xs, x)\n           ^^^^\nNameError: ",
+        "usage": {
+          "prompt_tokens": 854,
+          "completion_tokens": 186,
+          "total_tokens": 1040
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpgkroe9l_.py\", line 80, in <module>\n    check(find_zero)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpgkroe9l_.py\", line 76, in check\n    assert math.fabs(poly(coeffs, solution)) < 1e-4\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1261,
+          "completion_tokens": 274,
+          "total_tokens": 1535
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp96moqd79.py\", line 67, in <module>\n    check(find_zero)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp96moqd79.py\", line 63, in check\n    assert math.fabs(poly(coeffs, solution)) < 1e-4\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1687,
+          "completion_tokens": 200,
+          "total_tokens": 1887
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "timeout",
+        "error_message": "Execution timed out after 15s",
+        "usage": {
+          "prompt_tokens": 2037,
+          "completion_tokens": 206,
+          "total_tokens": 2243
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/33",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 194,
+          "completion_tokens": 98,
+          "total_tokens": 292
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/34",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 114,
+          "completion_tokens": 17,
+          "total_tokens": 131
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/35",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 17,
+          "total_tokens": 140
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/36",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 124,
+          "completion_tokens": 59,
+          "total_tokens": 183
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/37",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 96,
+          "total_tokens": 260
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/38",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6bb2395w.py\", line 42, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6bb2395w.py\", line 37, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 135,
+          "total_tokens": 334
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpa5pvl7pm.py\", line 42, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpa5pvl7pm.py\", line 37, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 493,
+          "completion_tokens": 135,
+          "total_tokens": 628
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqq33vyol.py\", line 37, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqq33vyol.py\", line 32, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 789,
+          "completion_tokens": 84,
+          "total_tokens": 873
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpz9r6jfwz.py\", line 37, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpz9r6jfwz.py\", line 32, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 1030,
+          "completion_tokens": 84,
+          "total_tokens": 1114
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnopmgsj6.py\", line 37, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnopmgsj6.py\", line 32, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 1277,
+          "completion_tokens": 84,
+          "total_tokens": 1361
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/39",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 137,
+          "completion_tokens": 257,
+          "total_tokens": 394
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/40",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 124,
+          "total_tokens": 324
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/41",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 190,
+          "completion_tokens": 21,
+          "total_tokens": 211
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/42",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 24,
+          "total_tokens": 173
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/43",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 198,
+          "completion_tokens": 43,
+          "total_tokens": 241
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/44",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 64,
+          "total_tokens": 196
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/45",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 87,
+          "completion_tokens": 56,
+          "total_tokens": 143
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/46",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 109,
+          "total_tokens": 320
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/47",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 72,
+          "total_tokens": 188
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/48",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 81,
+          "total_tokens": 193
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/49",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 146,
+          "completion_tokens": 78,
+          "total_tokens": 224
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/50",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 121,
+          "total_tokens": 252
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/51",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 37,
+          "total_tokens": 192
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/52",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 120,
+          "completion_tokens": 27,
+          "total_tokens": 147
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/53",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 94,
+          "completion_tokens": 61,
+          "total_tokens": 155
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/54",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 31,
+          "total_tokens": 206
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/55",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 93,
+          "completion_tokens": 136,
+          "total_tokens": 229
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/56",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 69,
+          "total_tokens": 202
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/57",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 122,
+          "completion_tokens": 70,
+          "total_tokens": 192
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/58",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 30,
+          "total_tokens": 185
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/59",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 104,
+          "completion_tokens": 101,
+          "total_tokens": 205
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/60",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 27,
+          "total_tokens": 162
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/61",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 69,
+          "total_tokens": 201
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/62",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 31,
+          "total_tokens": 179
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/63",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 188,
+          "completion_tokens": 92,
+          "total_tokens": 280
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/64",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 64,
+          "total_tokens": 229
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/65",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 122,
+          "completion_tokens": 46,
+          "total_tokens": 168
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/66",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 26,
+          "total_tokens": 178
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/67",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 250,
+          "completion_tokens": 51,
+          "total_tokens": 301
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/68",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 354,
+          "completion_tokens": 75,
+          "total_tokens": 429
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/69",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 82,
+          "total_tokens": 287
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/70",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 54,
+          "total_tokens": 218
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/71",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 161,
+          "completion_tokens": 91,
+          "total_tokens": 252
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/72",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 263,
+          "completion_tokens": 29,
+          "total_tokens": 292
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/73",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 69,
+          "total_tokens": 264
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/74",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 233,
+          "completion_tokens": 64,
+          "total_tokens": 297
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/75",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 121,
+          "completion_tokens": 201,
+          "total_tokens": 322
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/76",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 74,
+          "total_tokens": 256
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/77",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_gi12psg.py\", line 38, in <module>\n    check(iscube)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_gi12psg.py\", line 26, in check\n    assert candidate(-1) == True, \"Third test error: \" + str(candidate(-1))\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Third test error: False",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 56,
+          "total_tokens": 206
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 360,
+          "completion_tokens": 48,
+          "total_tokens": 408
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/78",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 339,
+          "completion_tokens": 35,
+          "total_tokens": 374
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/79",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 179,
+          "completion_tokens": 30,
+          "total_tokens": 209
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/80",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 58,
+          "total_tokens": 220
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/81",
+    "final_passed": true,
+    "rounds_to_pass": 2,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjziiud2c.py\", line 58, in <module>\n    check(numerical_letter_grade)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjziiud2c.py\", line 49, in check\n    assert candidate([0.0]) == ['E']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 311,
+          "completion_tokens": 276,
+          "total_tokens": 587
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "index_key_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpee7pqhoq.py\", line 57, in <module>\n    check(numerical_letter_grade)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpee7pqhoq.py\", line 48, in check\n    assert candidate([0.0]) == ['E']\n           ~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpee7pqhoq.py\", line 39, in numerical_letter_grade\n    letter_grades[-1] = 'E'\n    ~~~~~~~~~~~~~^^^^\nIndexError: list assignment ind",
+        "usage": {
+          "prompt_tokens": 729,
+          "completion_tokens": 277,
+          "total_tokens": 1006
+        }
+      },
+      {
+        "round": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 1206,
+          "completion_tokens": 253,
+          "total_tokens": 1459
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/82",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 121,
+          "completion_tokens": 106,
+          "total_tokens": 227
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/83",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 85,
+          "completion_tokens": 73,
+          "total_tokens": 158
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/84",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjuopprhb.py\", line 34, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjuopprhb.py\", line 23, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 34,
+          "total_tokens": 207
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpwy6s5_j2.py\", line 34, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpwy6s5_j2.py\", line 23, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 350,
+          "completion_tokens": 35,
+          "total_tokens": 385
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp013hze2r.py\", line 34, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp013hze2r.py\", line 23, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 532,
+          "completion_tokens": 46,
+          "total_tokens": 578
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxgezesia.py\", line 34, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxgezesia.py\", line 23, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 723,
+          "completion_tokens": 45,
+          "total_tokens": 768
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpq2abx0ap.py\", line 34, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpq2abx0ap.py\", line 23, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 911,
+          "completion_tokens": 32,
+          "total_tokens": 943
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/85",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 95,
+          "completion_tokens": 38,
+          "total_tokens": 133
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/86",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 42,
+          "total_tokens": 214
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/87",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 299,
+          "completion_tokens": 62,
+          "total_tokens": 361
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/88",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 242,
+          "completion_tokens": 59,
+          "total_tokens": 301
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/89",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 74,
+          "total_tokens": 224
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/90",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 53,
+          "total_tokens": 217
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/91",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnhsaj6sm.py\", line 34, in <module>\n    check(is_bored)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnhsaj6sm.py\", line 23, in check\n    assert candidate(\"Is the sky blue?\") == 0, \"Test 2\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 2",
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 46,
+          "total_tokens": 194
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 347,
+          "completion_tokens": 48,
+          "total_tokens": 395
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/92",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 55,
+          "total_tokens": 230
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/93",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdmvt34dp.py\", line 46, in <module>\n    check(encode)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdmvt34dp.py\", line 41, in check\n    assert candidate('This is a message') == 'tHKS KS C MGSSCGG', \"This prints if this assert fails 2 (also good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 2 (also good for debugging!)",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 157,
+          "total_tokens": 304
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpwq75t9qv.py\", line 42, in <module>\n    check(encode)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpwq75t9qv.py\", line 32, in check\n    assert candidate('TEST') == 'tgst', \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 483,
+          "completion_tokens": 103,
+          "total_tokens": 586
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpfe6juwzb.py\", line 42, in <module>\n    check(encode)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpfe6juwzb.py\", line 32, in check\n    assert candidate('TEST') == 'tgst', \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 753,
+          "completion_tokens": 97,
+          "total_tokens": 850
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnn_us5jb.py\", line 40, in <module>\n    check(encode)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnn_us5jb.py\", line 31, in check\n    assert candidate('Mudasir') == 'mWDCSKR', \"This prints if this assert fails 2 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 2 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 1017,
+          "completion_tokens": 83,
+          "total_tokens": 1100
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpb3gqe_49.py\", line 44, in <module>\n    check(encode)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpb3gqe_49.py\", line 34, in check\n    assert candidate('TEST') == 'tgst', \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 1269,
+          "completion_tokens": 108,
+          "total_tokens": 1377
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/94",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 326,
+          "completion_tokens": 111,
+          "total_tokens": 437
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/95",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 76,
+          "total_tokens": 285
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/96",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 185,
+          "completion_tokens": 93,
+          "total_tokens": 278
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/97",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 138,
+          "completion_tokens": 30,
+          "total_tokens": 168
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/98",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 57,
+          "total_tokens": 169
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/99",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 191,
+          "completion_tokens": 91,
+          "total_tokens": 282
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/100",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppgulwjnb.py\", line 39, in <module>\n    check(make_a_pile)\n    ~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppgulwjnb.py\", line 28, in check\n    assert candidate(3) == [3, 5, 7], \"Test 3\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 3",
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 68,
+          "total_tokens": 240
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 395,
+          "completion_tokens": 71,
+          "total_tokens": 466
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/101",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 156,
+          "completion_tokens": 23,
+          "total_tokens": 179
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/102",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 52,
+          "total_tokens": 185
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/103",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 180,
+          "completion_tokens": 79,
+          "total_tokens": 259
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/104",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 141,
+          "completion_tokens": 53,
+          "total_tokens": 194
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/105",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 316,
+          "completion_tokens": 92,
+          "total_tokens": 408
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/106",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 106,
+          "total_tokens": 270
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/107",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 250,
+          "completion_tokens": 88,
+          "total_tokens": 338
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/108",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpb8qw0vvm.py\", line 39, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpb8qw0vvm.py\", line 30, in check\n    assert candidate([12, 23, 34, -45, -56, 0]) == 5\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 66,
+          "total_tokens": 230
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp1e0q7rhi.py\", line 39, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp1e0q7rhi.py\", line 26, in check\n    assert candidate([-1, -2, 0]) == 0\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 384,
+          "completion_tokens": 75,
+          "total_tokens": 459
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpj9uomzlq.py\", line 42, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpj9uomzlq.py\", line 33, in check\n    assert candidate([12, 23, 34, -45, -56, 0]) == 5\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 607,
+          "completion_tokens": 97,
+          "total_tokens": 704
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpx_2e8zsi.py\", line 41, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpx_2e8zsi.py\", line 28, in check\n    assert candidate([-1, -2, 0]) == 0\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 860,
+          "completion_tokens": 69,
+          "total_tokens": 929
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6nregt1i.py\", line 39, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6nregt1i.py\", line 26, in check\n    assert candidate([-1, -2, 0]) == 0\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1077,
+          "completion_tokens": 60,
+          "total_tokens": 1137
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/109",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 339,
+          "completion_tokens": 67,
+          "total_tokens": 406
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/110",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 237,
+          "completion_tokens": 70,
+          "total_tokens": 307
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/111",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 191,
+          "completion_tokens": 90,
+          "total_tokens": 281
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/112",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 204,
+          "completion_tokens": 53,
+          "total_tokens": 257
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/113",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 213,
+          "completion_tokens": 81,
+          "total_tokens": 294
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/114",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 88,
+          "total_tokens": 216
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/115",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 363,
+          "completion_tokens": 44,
+          "total_tokens": 407
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/116",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 210,
+          "completion_tokens": 29,
+          "total_tokens": 239
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/117",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 221,
+          "completion_tokens": 73,
+          "total_tokens": 294
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/118",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 186,
+          "completion_tokens": 77,
+          "total_tokens": 263
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/119",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 204,
+          "completion_tokens": 110,
+          "total_tokens": 314
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/120",
+    "final_passed": true,
+    "rounds_to_pass": 3,
+    "total_rounds": 4,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvksv0xrn.py\", line 37, in <module>\n    check(maximum)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvksv0xrn.py\", line 21, in check\n    assert candidate([-3, -4, 5], 3) == [-4, -3, 5]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 257,
+          "completion_tokens": 22,
+          "total_tokens": 279
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpx742s0f_.py\", line 37, in <module>\n    check(maximum)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpx742s0f_.py\", line 21, in check\n    assert candidate([-3, -4, 5], 3) == [-4, -3, 5]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 437,
+          "completion_tokens": 23,
+          "total_tokens": 460
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpz4yd5cdg.py\", line 37, in <module>\n    check(maximum)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpz4yd5cdg.py\", line 33, in check\n    assert candidate([1, 2, 3, -23, 243, -400, 0], 0) == []\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 618,
+          "completion_tokens": 20,
+          "total_tokens": 638
+        }
+      },
+      {
+        "round": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 801,
+          "completion_tokens": 27,
+          "total_tokens": 828
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/121",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 137,
+          "completion_tokens": 38,
+          "total_tokens": 175
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/122",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 32,
+          "total_tokens": 200
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/123",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 270,
+          "completion_tokens": 94,
+          "total_tokens": 364
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/124",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 125,
+          "total_tokens": 428
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/125",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 67,
+          "total_tokens": 249
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/126",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 289,
+          "completion_tokens": 70,
+          "total_tokens": 359
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/127",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpiag8ycwx.py\", line 54, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpiag8ycwx.py\", line 42, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 293,
+          "completion_tokens": 157,
+          "total_tokens": 450
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpg4sdpe9n.py\", line 53, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpg4sdpe9n.py\", line 41, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 597,
+          "completion_tokens": 154,
+          "total_tokens": 751
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqhr4nzb_.py\", line 54, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqhr4nzb_.py\", line 42, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 902,
+          "completion_tokens": 151,
+          "total_tokens": 1053
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdx3vsoel.py\", line 53, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdx3vsoel.py\", line 41, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1204,
+          "completion_tokens": 154,
+          "total_tokens": 1358
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpl8cbt6u0.py\", line 52, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpl8cbt6u0.py\", line 40, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1507,
+          "completion_tokens": 155,
+          "total_tokens": 1662
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/128",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 161,
+          "completion_tokens": 78,
+          "total_tokens": 239
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/129",
+    "final_passed": true,
+    "rounds_to_pass": 2,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvjkr65xp.py\", line 65, in <module>\n    check(minPath)\n    ~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvjkr65xp.py\", line 51, in check\n    assert candidate([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]], 4) == [1, 2, 1, 2]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 435,
+          "completion_tokens": 293,
+          "total_tokens": 728
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "timeout",
+        "error_message": "Execution timed out after 15s",
+        "usage": {
+          "prompt_tokens": 929,
+          "completion_tokens": 262,
+          "total_tokens": 1191
+        }
+      },
+      {
+        "round": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 1235,
+          "completion_tokens": 272,
+          "total_tokens": 1507
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/130",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "recursion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzv37wl3p.py\", line 47, in <module>\n    check(tri)\n    ~~~~~^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzv37wl3p.py\", line 34, in check\n    assert candidate(4) == [1, 3, 2.0, 8.0, 3.0]\n           ~~~~~~~~~^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzv37wl3p.py\", line 23, in tri\n    next_num += tri(n)[i + 1]\n                ~~~^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzv37wl3p.py\", line 23, in tri\n  ",
+        "usage": {
+          "prompt_tokens": 273,
+          "completion_tokens": 178,
+          "total_tokens": 451
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 768,
+          "completion_tokens": 237,
+          "total_tokens": 1005
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/131",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 111,
+          "completion_tokens": 77,
+          "total_tokens": 188
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/132",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzpya5brm.py\", line 48, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzpya5brm.py\", line 36, in check\n    assert candidate('[[]') == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 178,
+          "completion_tokens": 59,
+          "total_tokens": 237
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcw5j_lb5.py\", line 50, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcw5j_lb5.py\", line 38, in check\n    assert candidate('[[]') == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 375,
+          "completion_tokens": 70,
+          "total_tokens": 445
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6wqpt2pb.py\", line 51, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6wqpt2pb.py\", line 41, in check\n    assert candidate('[[]][[') == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 583,
+          "completion_tokens": 81,
+          "total_tokens": 664
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpfgp8q62t.py\", line 51, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpfgp8q62t.py\", line 39, in check\n    assert candidate('[[]') == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 805,
+          "completion_tokens": 76,
+          "total_tokens": 881
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcbcqb5st.py\", line 51, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcbcqb5st.py\", line 41, in check\n    assert candidate('[[]][[') == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1021,
+          "completion_tokens": 81,
+          "total_tokens": 1102
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/133",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 30,
+          "total_tokens": 229
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/134",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpd5hmdmd0.py\", line 41, in <module>\n    check(check_if_last_char_is_a_letter)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpd5hmdmd0.py\", line 32, in check\n    assert candidate(\"eeeee e \") == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 61,
+          "total_tokens": 238
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpi4g7wni6.py\", line 41, in <module>\n    check(check_if_last_char_is_a_letter)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpi4g7wni6.py\", line 32, in check\n    assert candidate(\"eeeee e \") == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 387,
+          "completion_tokens": 62,
+          "total_tokens": 449
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphshfzszt.py\", line 41, in <module>\n    check(check_if_last_char_is_a_letter)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphshfzszt.py\", line 25, in check\n    assert candidate(\"apple\") == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 598,
+          "completion_tokens": 66,
+          "total_tokens": 664
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpziy6ywq4.py\", line 42, in <module>\n    check(check_if_last_char_is_a_letter)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpziy6ywq4.py\", line 33, in check\n    assert candidate(\"eeeee e \") == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 806,
+          "completion_tokens": 62,
+          "total_tokens": 868
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp24ryz1u9.py\", line 41, in <module>\n    check(check_if_last_char_is_a_letter)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp24ryz1u9.py\", line 32, in check\n    assert candidate(\"eeeee e \") == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1017,
+          "completion_tokens": 57,
+          "total_tokens": 1074
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/135",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 143,
+          "completion_tokens": 51,
+          "total_tokens": 194
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/136",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 67,
+          "total_tokens": 249
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/137",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxta29oca.py\", line 44, in <module>\n    check(compare_one)\n    ~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxta29oca.py\", line 30, in check\n    assert candidate(1, 2) == 2\n           ^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 103,
+          "total_tokens": 284
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 423,
+          "completion_tokens": 99,
+          "total_tokens": 522
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/138",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 117,
+          "completion_tokens": 34,
+          "total_tokens": 151
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/139",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 136,
+          "completion_tokens": 45,
+          "total_tokens": 181
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/140",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdoeucjen.py\", line 33, in <module>\n    check(fix_spaces)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdoeucjen.py\", line 25, in check\n    assert candidate(\"Yellow Yellow  Dirty  Fellow\") == \"Yellow_Yellow__Dirty__Fellow\", \"This prints if this assert fails 3 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if",
+        "usage": {
+          "prompt_tokens": 146,
+          "completion_tokens": 45,
+          "total_tokens": 191
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 375,
+          "completion_tokens": 40,
+          "total_tokens": 415
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/141",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 254,
+          "completion_tokens": 105,
+          "total_tokens": 359
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/142",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 210,
+          "completion_tokens": 55,
+          "total_tokens": 265
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/143",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 187,
+          "completion_tokens": 122,
+          "total_tokens": 309
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/144",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 70,
+          "total_tokens": 265
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/145",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "type_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp55dqtmvi.py\", line 33, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp55dqtmvi.py\", line 21, in check\n    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp55dqtmvi.py\", line 16, in order_by_points\n    return sorted(enumerate(nums), key=lambda x: (sum(",
+        "usage": {
+          "prompt_tokens": 155,
+          "completion_tokens": 47,
+          "total_tokens": 202
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp47m8x079.py\", line 33, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp47m8x079.py\", line 21, in check\n    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 458,
+          "completion_tokens": 52,
+          "total_tokens": 510
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpgkv4h6cp.py\", line 33, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpgkv4h6cp.py\", line 21, in check\n    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 677,
+          "completion_tokens": 48,
+          "total_tokens": 725
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjl3irhsu.py\", line 33, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjl3irhsu.py\", line 21, in check\n    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 894,
+          "completion_tokens": 50,
+          "total_tokens": 944
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpj4mgtejn.py\", line 33, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpj4mgtejn.py\", line 21, in check\n    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1111,
+          "completion_tokens": 51,
+          "total_tokens": 1162
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/146",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 159,
+          "completion_tokens": 73,
+          "total_tokens": 232
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/147",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 171,
+          "total_tokens": 376
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/148",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 251,
+          "completion_tokens": 117,
+          "total_tokens": 368
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/149",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 227,
+          "completion_tokens": 46,
+          "total_tokens": 273
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/150",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 84,
+          "total_tokens": 210
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/151",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 42,
+          "total_tokens": 219
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/152",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 271,
+          "completion_tokens": 28,
+          "total_tokens": 299
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/153",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 314,
+          "completion_tokens": 86,
+          "total_tokens": 400
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/154",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 62,
+          "total_tokens": 236
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/155",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 108,
+          "completion_tokens": 70,
+          "total_tokens": 178
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/156",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 151,
+          "total_tokens": 296
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/157",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 46,
+          "total_tokens": 194
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/158",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 159,
+          "completion_tokens": 64,
+          "total_tokens": 223
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/159",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 316,
+          "completion_tokens": 36,
+          "total_tokens": 352
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/160",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5q1xwr_8.py\", line 42, in <module>\n    check(do_algebra)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5q1xwr_8.py\", line 34, in check\n    assert candidate(['+', '*', '-'], [2, 3, 4, 5]) == 9\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 244,
+          "completion_tokens": 119,
+          "total_tokens": 363
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 523,
+          "completion_tokens": 50,
+          "total_tokens": 573
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/161",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 146,
+          "completion_tokens": 49,
+          "total_tokens": 195
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/162",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 35,
+          "total_tokens": 151
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/163",
+    "final_passed": true,
+    "rounds_to_pass": 3,
+    "total_rounds": 4,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptsgoqnsw.py\", line 33, in <module>\n    check(generate_integers)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptsgoqnsw.py\", line 23, in check\n    assert candidate(2, 10) == [2, 4, 6, 8], \"Test 1\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 1",
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 54,
+          "total_tokens": 202
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxunb16t6.py\", line 33, in <module>\n    check(generate_integers)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxunb16t6.py\", line 23, in check\n    assert candidate(2, 10) == [2, 4, 6, 8], \"Test 1\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 1",
+        "usage": {
+          "prompt_tokens": 365,
+          "completion_tokens": 59,
+          "total_tokens": 424
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppftscor_.py\", line 33, in <module>\n    check(generate_integers)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppftscor_.py\", line 23, in check\n    assert candidate(2, 10) == [2, 4, 6, 8], \"Test 1\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 1",
+        "usage": {
+          "prompt_tokens": 591,
+          "completion_tokens": 54,
+          "total_tokens": 645
+        }
+      },
+      {
+        "round": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 810,
+          "completion_tokens": 64,
+          "total_tokens": 874
+        }
+      }
+    ],
+    "model": "Llama-4-Maverick-17B"
+  }
+]

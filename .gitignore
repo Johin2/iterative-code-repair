@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+experiments/data/
+*.egg-info/
+.venv/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
