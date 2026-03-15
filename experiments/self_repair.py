@@ -1,8 +1,10 @@
 """Prompt building and code extraction for self-repair experiments."""
+from __future__ import annotations
+
 import re
 
 
-def build_initial_prompt(problem):
+def build_initial_prompt(problem: dict) -> list[dict[str, str]]:
     """Build initial chat messages for code generation."""
     return [
         {
@@ -19,8 +21,8 @@ def build_initial_prompt(problem):
     ]
 
 
-def build_repair_prompt(error_message):
-    """Build repair prompt given an error message."""
+def build_repair_prompt(error_message: str) -> str:
+    """Build minimal repair prompt given an error message."""
     if len(error_message) > 1500:
         error_message = error_message[:1500] + "\n... (truncated)"
 
@@ -32,14 +34,14 @@ def build_repair_prompt(error_message):
     )
 
 
-def extract_code(response, entry_point, prompt):
+def extract_code(response: str, entry_point: str, prompt: str) -> str:
     """Extract Python function code from model response."""
     if not response:
         return prompt + "    pass\n"
 
     code = response.strip()
 
-    # Remove DeepSeek R1 thinking traces
+    # Remove thinking traces (e.g. Qwen3 <think>...</think> tags)
     code = re.sub(r"<think>.*?</think>", "", code, flags=re.DOTALL).strip()
 
     # Extract from markdown code blocks

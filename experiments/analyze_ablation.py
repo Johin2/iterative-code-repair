@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Analyze prompt ablation results and generate comparison figure + LaTeX table."""
+from __future__ import annotations
+
 import json
-import os
-import sys
-from pathlib import Path
 from collections import defaultdict
 
 import numpy as np
@@ -11,8 +10,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-sys.path.insert(0, os.path.dirname(__file__))
-from config import RESULTS_DIR
+from experiments.config import RESULTS_DIR
 
 ABLATION_DIR = RESULTS_DIR / "ablation"
 FIGURES_DIR = RESULTS_DIR.parent / "paper" / "figures"

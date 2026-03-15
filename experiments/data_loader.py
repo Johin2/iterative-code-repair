@@ -1,14 +1,17 @@
 """Load HumanEval and MBPP benchmark datasets."""
-import json
+from __future__ import annotations
+
 import gzip
+import json
 import re
 import urllib.request
-from config import DATA_DIR
+
+from experiments.config import DATA_DIR
 
 HUMANEVAL_URL = "https://github.com/openai/human-eval/raw/master/data/HumanEval.jsonl.gz"
 
 
-def load_humaneval():
+def load_humaneval() -> list[dict]:
     """Load HumanEval dataset, downloading if necessary."""
     jsonl_path = DATA_DIR / "HumanEval.jsonl"
 
@@ -46,18 +49,15 @@ def load_humaneval():
     return problems
 
 
-def _extract_function_signature(code):
-    """Extract function name and arguments from a def statement in reference code.
-
-    Returns (func_name, args_string) or (None, None) if no def found.
-    """
+def _extract_function_signature(code: str) -> tuple[str | None, str | None]:
+    """Extract function name and arguments from a ``def`` statement."""
     match = re.search(r"^def\s+(\w+)\s*\(([^)]*)\)\s*:", code, re.MULTILINE)
     if match:
         return match.group(1), match.group(2).strip()
     return None, None
 
 
-def load_mbpp():
+def load_mbpp() -> list[dict]:
     """Load MBPP sanitized dataset, downloading/caching as JSONL.
 
     Each problem is converted to a HumanEval-compatible dict with keys:
@@ -75,20 +75,17 @@ def load_mbpp():
         for item in ds:
             raw = dict(item)
             task_id = raw["task_id"]
-            description = raw["prompt"]       # natural language description
-            code = raw["code"]                # reference solution
-            test_list = raw["test_list"]      # list of assert strings
-            test_imports = raw.get("test_imports", [])  # optional imports for tests
+            description = raw["prompt"]
+            code = raw["code"]
+            test_list = raw["test_list"]
+            test_imports = raw.get("test_imports", [])
 
             func_name, args_str = _extract_function_signature(code)
             if func_name is None:
-                # Fallback: skip problems without a clear function definition
                 continue
 
-            # Build a HumanEval-style prompt: signature + docstring
             prompt = f'def {func_name}({args_str}):\n    """{description}"""\n'
 
-            # Test code: prepend any required imports, then the assert statements
             test_parts = []
             if test_imports:
                 test_parts.extend(test_imports)
@@ -102,7 +99,6 @@ def load_mbpp():
                 "test": test_code,
             })
 
-        # Cache to disk
         with open(jsonl_path, "w", encoding="utf-8") as f:
             for p in problems:
                 f.write(json.dumps(p) + "\n")
@@ -110,7 +106,6 @@ def load_mbpp():
         print(f"Loaded {len(problems)} MBPP sanitized problems via datasets library")
         return problems
 
-    # Read from cache
     problems = []
     with open(jsonl_path, "r", encoding="utf-8") as f:
         for line in f:

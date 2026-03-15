@@ -6,41 +6,25 @@ Tests three repair prompt variants on a subset of models/problems:
   2. explain   — ask model to explain the bug first, then fix
   3. cot       — chain-of-thought: think step by step before fixing
 """
-import os
-import sys
+from __future__ import annotations
+
+import argparse
 import json
 import time
-import argparse
+from typing import Callable
 
-sys.path.insert(0, os.path.dirname(__file__))
-
-from config import (
-    MODELS, MAX_REPAIR_ROUNDS, REQUEST_DELAY,
-    RESULTS_DIR, GROQ_API_KEY, TEMPERATURE, MAX_TOKENS,
-)
-from data_loader import load_humaneval
-from code_executor import execute_solution
-from self_repair import build_initial_prompt, extract_code
-
-from groq import Groq
+from experiments.config import MODELS, RESULTS_DIR
+from experiments.data_loader import load_humaneval
+from experiments.code_executor import execute_solution
+from experiments.self_repair import build_initial_prompt, build_repair_prompt, extract_code
+from experiments.api_client import create_client, call_model
 
 ABLATION_DIR = RESULTS_DIR / "ablation"
 
-# --- Prompt variants ---
 
-def build_repair_minimal(error_message):
-    """Current approach: just the error message."""
-    if len(error_message) > 1500:
-        error_message = error_message[:1500] + "\n... (truncated)"
-    return (
-        f"Your code produced an error when tested:\n\n"
-        f"{error_message}\n\n"
-        f"Please fix the code. Return ONLY the corrected Python function, "
-        f"no explanations, no markdown formatting."
-    )
+# --- Prompt strategy variants ---
 
-
-def build_repair_explain(error_message):
+def build_repair_explain(error_message: str) -> str:
     """Explain-then-fix: ask model to explain the bug before fixing."""
     if len(error_message) > 1500:
         error_message = error_message[:1500] + "\n... (truncated)"
@@ -55,7 +39,7 @@ def build_repair_explain(error_message):
     )
 
 
-def build_repair_cot(error_message):
+def build_repair_cot(error_message: str) -> str:
     """Chain-of-thought: think step by step."""
     if len(error_message) > 1500:
         error_message = error_message[:1500] + "\n... (truncated)"
@@ -70,14 +54,20 @@ def build_repair_cot(error_message):
     )
 
 
-PROMPT_STRATEGIES = {
-    "minimal": build_repair_minimal,
+PROMPT_STRATEGIES: dict[str, Callable[[str], str]] = {
+    "minimal": build_repair_prompt,      # re-uses the standard minimal prompt
     "explain": build_repair_explain,
     "cot": build_repair_cot,
 }
 
 
-def run_single_problem(client, model_id, problem, max_rounds, strategy_name):
+def run_single_problem(
+    client,
+    model_id: str,
+    problem: dict,
+    max_rounds: int,
+    strategy_name: str,
+) -> dict:
     """Run self-repair loop for one problem with a specific prompt strategy."""
     entry_point = problem["entry_point"]
     test_code = problem["test"]
@@ -92,34 +82,7 @@ def run_single_problem(client, model_id, problem, max_rounds, strategy_name):
     rounds = []
 
     for round_num in range(max_rounds):
-        time.sleep(REQUEST_DELAY)
-
-        raw_response = None
-        usage = {}
-        for attempt in range(6):
-            try:
-                response = client.chat.completions.create(
-                    model=model_id,
-                    messages=messages,
-                    temperature=TEMPERATURE,
-                    max_tokens=MAX_TOKENS,
-                )
-                raw_response = response.choices[0].message.content or ""
-                usage = {
-                    "prompt_tokens": response.usage.prompt_tokens,
-                    "completion_tokens": response.usage.completion_tokens,
-                    "total_tokens": response.usage.total_tokens,
-                }
-                break
-            except Exception as e:
-                err_str = str(e).lower()
-                if "429" in err_str or "rate" in err_str:
-                    wait = 60 * (attempt + 1)
-                    print(f" [rl {wait}s]", end="", flush=True)
-                    time.sleep(wait)
-                else:
-                    print(f" [err: {type(e).__name__}]", end="", flush=True)
-                    time.sleep(10)
+        raw_response, usage = call_model(client, model_id, messages)
 
         if raw_response is None:
             rounds.append({
@@ -165,9 +128,15 @@ def run_single_problem(client, model_id, problem, max_rounds, strategy_name):
     }
 
 
-def run_ablation(model_name, model_id, problems, max_rounds, strategy_name):
+def run_ablation(
+    model_name: str,
+    model_id: str,
+    problems: list[dict],
+    max_rounds: int,
+    strategy_name: str,
+) -> list[dict]:
     """Run ablation for one model + one strategy."""
-    client = Groq(api_key=GROQ_API_KEY)
+    client = create_client()
     results_file = ABLATION_DIR / f"{model_name}_{strategy_name}.json"
 
     existing = {}
@@ -191,7 +160,7 @@ def run_ablation(model_name, model_id, problems, max_rounds, strategy_name):
         result["model"] = model_name
         results.append(result)
 
-        status = f"PASS (R{result['rounds_to_pass']})" if result["final_passed"] else f"FAIL"
+        status = f"PASS (R{result['rounds_to_pass']})" if result["final_passed"] else "FAIL"
         print(f" {status}")
 
         seen = {r["task_id"] for r in results}
@@ -213,7 +182,7 @@ def main():
         help=f"Strategies: {list(PROMPT_STRATEGIES.keys())}",
     )
     parser.add_argument("--max-rounds", type=int, default=3,
-                        help="Max rounds for ablation (default 3, faster)")
+                        help="Max rounds for ablation (default 3)")
     args = parser.parse_args()
 
     ABLATION_DIR.mkdir(parents=True, exist_ok=True)
