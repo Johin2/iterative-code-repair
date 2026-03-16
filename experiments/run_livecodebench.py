@@ -100,41 +100,47 @@ def load_livecodebench(max_problems: int | None = None) -> list[dict]:
         starter = raw.get("starter_code", "")
         difficulty = raw.get("difficulty", "unknown")
 
-        # Parse test cases from input_output field
-        io_raw = raw.get("input_output", "{}")
-        if isinstance(io_raw, str):
+        # Parse test cases — LiveCodeBench uses public_test_cases / private_test_cases
+        # Each is a JSON string containing a list of {input, output, testtype} dicts
+        test_cases_raw = raw.get("public_test_cases", "[]")
+        if isinstance(test_cases_raw, str):
             try:
-                io_data = json.loads(io_raw)
+                test_cases_list = json.loads(test_cases_raw)
             except json.JSONDecodeError:
-                io_data = {}
+                test_cases_list = []
         else:
-            io_data = io_raw if isinstance(io_raw, dict) else {}
+            test_cases_list = test_cases_raw if isinstance(test_cases_raw, list) else []
 
-        inputs = io_data.get("inputs", [])
-        outputs = io_data.get("outputs", [])
+        if not test_cases_list:
+            continue
+
+        # Convert to inputs/outputs lists
+        inputs = [tc.get("input", "") for tc in test_cases_list if isinstance(tc, dict)]
+        outputs = [tc.get("output", "") for tc in test_cases_list if isinstance(tc, dict)]
 
         if not inputs or not outputs:
             continue
 
         # Determine if this is function-based or stdin/stdout
+        import re
         is_function = bool(starter and "def " in starter)
 
         # Build prompt
         if is_function:
             prompt = f"{content}\n\n{starter}"
-            # Extract function name from starter code
-            import re
             match = re.search(r"def\s+(\w+)\s*\(", starter)
             entry_point = match.group(1) if match else "solution"
         else:
+            # Competitive programming: stdin/stdout
             prompt = (
                 f"{content}\n\n"
-                f"Write a Python function called `solution` that solves this problem.\n"
-                f"The function should read from stdin and print to stdout.\n"
+                f"Write a complete Python program that reads from stdin and "
+                f"prints to stdout. Do NOT define a main function — just write "
+                f"the solution code directly.\n"
             )
             if starter:
                 prompt += f"\nStarter code:\n{starter}\n"
-            entry_point = "solution"
+            entry_point = "__main__"  # signals stdin/stdout execution
 
         problems.append({
             "task_id": f"LCB/{question_id}",
@@ -169,9 +175,8 @@ def execute_livecodebench(
 ) -> dict[str, str | bool]:
     """Execute a LiveCodeBench solution against its test cases.
 
-    For function-based problems: call the function with each input and
-    compare against expected output.
-    For stdin/stdout problems: run the code with stdin and compare stdout.
+    For stdin/stdout problems (the vast majority): write code to a temp file,
+    run it with each input via subprocess stdin, compare stdout to expected.
 
     Returns dict with keys: passed, error_message, error_type.
     """
@@ -185,39 +190,53 @@ def execute_livecodebench(
             "error_type": "no_tests",
         }
 
-    # Build a test harness that runs all test cases
-    if is_function:
-        test_harness = _build_function_test_harness(code, entry_point, inputs, outputs)
-    else:
-        test_harness = _build_stdio_test_harness(code, entry_point, inputs, outputs)
-
+    # Write the solution to a temp file
     with tempfile.NamedTemporaryFile(
         mode="w", suffix=".py", delete=False, encoding="utf-8",
     ) as f:
-        f.write(test_harness)
+        f.write(code)
         temp_path = f.name
 
     try:
-        result = subprocess.run(
-            [sys.executable, temp_path],
-            capture_output=True,
-            text=True,
-            timeout=timeout,
-        )
+        for i, (inp, expected) in enumerate(zip(inputs, outputs)):
+            inp_str = inp if isinstance(inp, str) else str(inp)
+            exp_str = expected if isinstance(expected, str) else str(expected)
 
-        passed = result.returncode == 0
-        stderr = result.stderr.strip()
+            try:
+                result = subprocess.run(
+                    [sys.executable, temp_path],
+                    input=inp_str,
+                    capture_output=True,
+                    text=True,
+                    timeout=timeout,
+                )
+            except subprocess.TimeoutExpired:
+                return {
+                    "passed": False,
+                    "error_message": f"Execution timed out on test case {i}",
+                    "error_type": "timeout",
+                }
+
+            if result.returncode != 0:
+                return {
+                    "passed": False,
+                    "error_message": result.stderr.strip()[:500],
+                    "error_type": _classify_error(result.stderr),
+                }
+
+            got = result.stdout.strip()
+            want = exp_str.strip()
+            if got != want:
+                return {
+                    "passed": False,
+                    "error_message": f"Test {i}: expected {want[:200]!r}, got {got[:200]!r}",
+                    "error_type": "assertion",
+                }
 
         return {
-            "passed": passed,
-            "error_message": stderr if stderr else "",
-            "error_type": _classify_error(stderr) if not passed else "none",
-        }
-    except subprocess.TimeoutExpired:
-        return {
-            "passed": False,
-            "error_message": f"Execution timed out after {timeout}s",
-            "error_type": "timeout",
+            "passed": True,
+            "error_message": "",
+            "error_type": "none",
         }
     finally:
         try:
@@ -226,64 +245,6 @@ def execute_livecodebench(
             pass
 
 
-def _build_function_test_harness(
-    code: str, entry_point: str, inputs: list, outputs: list,
-) -> str:
-    """Build test script for function-based problems."""
-    test_cases_json = json.dumps({"inputs": inputs, "outputs": outputs})
-    return f"""\
-import json, sys
-
-{code}
-
-_tc = json.loads('''{test_cases_json}''')
-for _inp, _exp in zip(_tc["inputs"], _tc["outputs"]):
-    if isinstance(_inp, list):
-        _result = {entry_point}(*_inp)
-    else:
-        _result = {entry_point}(_inp)
-    _exp_val = _exp
-    if isinstance(_exp_val, list) and len(_exp_val) == 1:
-        _exp_val = _exp_val[0]
-    assert _result == _exp_val, (
-        f"Expected {{_exp_val!r}}, got {{_result!r}} for input {{_inp!r}}"
-    )
-"""
-
-
-def _build_stdio_test_harness(
-    code: str, entry_point: str, inputs: list, outputs: list,
-) -> str:
-    """Build test script for stdin/stdout problems."""
-    test_cases_json = json.dumps({"inputs": inputs, "outputs": outputs})
-    return f"""\
-import json, sys, io
-
-_code = '''
-{code}
-'''
-
-_tc = json.loads('''{test_cases_json}''')
-for _inp, _exp in zip(_tc["inputs"], _tc["outputs"]):
-    _inp_str = _inp if isinstance(_inp, str) else str(_inp)
-    _exp_str = _exp if isinstance(_exp, str) else str(_exp)
-
-    _old_stdin = sys.stdin
-    _old_stdout = sys.stdout
-    sys.stdin = io.StringIO(_inp_str)
-    sys.stdout = _capture = io.StringIO()
-    try:
-        exec(_code, {{}})
-    finally:
-        sys.stdin = _old_stdin
-        sys.stdout = _old_stdout
-
-    _got = _capture.getvalue().strip()
-    _want = _exp_str.strip()
-    assert _got == _want, (
-        f"Expected {{_want!r}}, got {{_got!r}}"
-    )
-"""
 
 
 def _classify_error(stderr: str) -> str:
