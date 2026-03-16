@@ -411,13 +411,15 @@ A key question is whether the token budget spent on iterative repair could be be
  & Final\,\% & Tokens & pass@5\,\% & Tokens \\
 \midrule
 Llama 3.1 8B    & 76.8 & 195K & \textbf{79.9} & 219K \\
+Llama 3.3 70B$^\dagger$ & \textbf{93.6} & 65K & 91.7 & 147K \\
 Scout 17B (16E) & \textbf{89.6} & 155K & 86.0 & 255K \\
 Qwen3 32B       & 92.7 & 102K & 92.7 & 223K \\
 \bottomrule
+\multicolumn{5}{l}{\footnotesize $^\dagger$Partial: 109/164 problems (Groq rate limits); repair compared on same subset.}
 \end{tabular}
 \end{table}
 
-Table~\ref{tab:resampling} compares self-repair (greedy, 5 rounds) against independent resampling (temperature~$=0.8$, 5 samples) on HumanEval for three models.\footnote{Llama~3.3~70B resampling is in progress (38/164 problems); Maverick was unavailable on Groq at time of writing.} The results reveal a clear, model-dependent pattern:
+Table~\ref{tab:resampling} compares self-repair against independent resampling on HumanEval for four models.\footnote{Maverick was temporarily unavailable on Groq at time of writing.} The results reveal a clear, model-dependent pattern:
 
 \textbf{Self-repair is always more token-efficient.} Across all three models, self-repair uses 45--55\% fewer tokens than resampling to achieve comparable or better pass rates. This is because self-repair generates only the corrected function at each round, while resampling generates a complete solution from scratch each time.
 

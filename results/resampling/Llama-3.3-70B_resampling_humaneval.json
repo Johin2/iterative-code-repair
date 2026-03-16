@@ -2578,5 +2578,4813 @@
         }
       }
     ]
+  },
+  {
+    "task_id": "HumanEval/38",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 0,
+    "pass_at_1": 0.0,
+    "pass_at_2": 0.0,
+    "pass_at_3": 0.0,
+    "pass_at_5": 0.0,
+    "total_tokens": 1553,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpr8d0huk9.py\", line 37, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpr8d0huk9.py\", line 32, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 80,
+          "total_tokens": 298
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0iajrf2q.py\", line 42, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0iajrf2q.py\", line 37, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 135,
+          "total_tokens": 353
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmph7y8hpbf.py\", line 37, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmph7y8hpbf.py\", line 32, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 84,
+          "total_tokens": 302
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcjamrlu7.py\", line 37, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcjamrlu7.py\", line 32, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 80,
+          "total_tokens": 298
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpywuu1gh4.py\", line 37, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpywuu1gh4.py\", line 32, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 84,
+          "total_tokens": 302
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/39",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1516,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 128,
+          "total_tokens": 285
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 128,
+          "total_tokens": 285
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 132,
+          "total_tokens": 289
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 132,
+          "total_tokens": 289
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 211,
+          "total_tokens": 368
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/40",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 0,
+    "pass_at_1": 0.0,
+    "pass_at_2": 0.0,
+    "pass_at_3": 0.0,
+    "pass_at_5": 0.0,
+    "total_tokens": 1791,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5maygphl.py\", line 50, in <module>\n    check(triples_sum_to_zero)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5maygphl.py\", line 40, in check\n    assert candidate([1, 3, -2, 1]) == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 219,
+          "completion_tokens": 135,
+          "total_tokens": 354
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvpv9sb63.py\", line 51, in <module>\n    check(triples_sum_to_zero)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvpv9sb63.py\", line 41, in check\n    assert candidate([1, 3, -2, 1]) == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 219,
+          "completion_tokens": 136,
+          "total_tokens": 355
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp70hml3j1.py\", line 52, in <module>\n    check(triples_sum_to_zero)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp70hml3j1.py\", line 42, in check\n    assert candidate([1, 3, -2, 1]) == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 219,
+          "completion_tokens": 163,
+          "total_tokens": 382
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp32ou97io.py\", line 47, in <module>\n    check(triples_sum_to_zero)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp32ou97io.py\", line 37, in check\n    assert candidate([1, 3, -2, 1]) == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 219,
+          "completion_tokens": 121,
+          "total_tokens": 340
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphjiq4rcc.py\", line 50, in <module>\n    check(triples_sum_to_zero)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphjiq4rcc.py\", line 40, in check\n    assert candidate([1, 3, -2, 1]) == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 219,
+          "completion_tokens": 141,
+          "total_tokens": 360
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/41",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1159,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 22,
+          "total_tokens": 233
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 22,
+          "total_tokens": 233
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 19,
+          "total_tokens": 230
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 19,
+          "total_tokens": 230
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 22,
+          "total_tokens": 233
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/42",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1435,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 119,
+          "total_tokens": 287
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 119,
+          "total_tokens": 287
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 119,
+          "total_tokens": 287
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 119,
+          "total_tokens": 287
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 119,
+          "total_tokens": 287
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/43",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1336,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 217,
+          "completion_tokens": 48,
+          "total_tokens": 265
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 217,
+          "completion_tokens": 48,
+          "total_tokens": 265
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 217,
+          "completion_tokens": 53,
+          "total_tokens": 270
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 217,
+          "completion_tokens": 48,
+          "total_tokens": 265
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 217,
+          "completion_tokens": 54,
+          "total_tokens": 271
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/44",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1271,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 134,
+          "total_tokens": 285
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 131,
+          "total_tokens": 282
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 134,
+          "total_tokens": 285
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 57,
+          "total_tokens": 208
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 60,
+          "total_tokens": 211
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/45",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 810,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 106,
+          "completion_tokens": 56,
+          "total_tokens": 162
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 106,
+          "completion_tokens": 56,
+          "total_tokens": 162
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 106,
+          "completion_tokens": 56,
+          "total_tokens": 162
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 106,
+          "completion_tokens": 56,
+          "total_tokens": 162
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 106,
+          "completion_tokens": 56,
+          "total_tokens": 162
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/46",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1881,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 231,
+          "completion_tokens": 121,
+          "total_tokens": 352
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 231,
+          "completion_tokens": 168,
+          "total_tokens": 399
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 231,
+          "completion_tokens": 156,
+          "total_tokens": 387
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 231,
+          "completion_tokens": 144,
+          "total_tokens": 375
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 231,
+          "completion_tokens": 137,
+          "total_tokens": 368
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/47",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1343,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 135,
+          "total_tokens": 270
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 128,
+          "total_tokens": 263
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 135,
+          "total_tokens": 270
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 135,
+          "total_tokens": 270
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 135,
+          "total_tokens": 270
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/48",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1127,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 95,
+          "total_tokens": 226
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 95,
+          "total_tokens": 226
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 103,
+          "total_tokens": 234
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 95,
+          "total_tokens": 226
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 84,
+          "total_tokens": 215
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/49",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1363,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 114,
+          "total_tokens": 279
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 117,
+          "total_tokens": 282
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 114,
+          "total_tokens": 279
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 114,
+          "total_tokens": 279
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 79,
+          "total_tokens": 244
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/50",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 0,
+    "pass_at_1": 0.0,
+    "pass_at_2": 0.0,
+    "pass_at_3": 0.0,
+    "pass_at_5": 0.0,
+    "total_tokens": 1034,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphoornr22.py\", line 39, in <module>\n    check(decode_shift)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphoornr22.py\", line 34, in check\n    encoded_str = encode_shift(str)\n                  ^^^^^^^^^^^^\nNameError: name 'encode_shift' is not defined. Did you mean: 'decode_shift'?",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 63,
+          "total_tokens": 213
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp99os65ur.py\", line 36, in <module>\n    check(decode_shift)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp99os65ur.py\", line 31, in check\n    encoded_str = encode_shift(str)\n                  ^^^^^^^^^^^^\nNameError: name 'encode_shift' is not defined. Did you mean: 'decode_shift'?",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 40,
+          "total_tokens": 190
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcrfldyux.py\", line 39, in <module>\n    check(decode_shift)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcrfldyux.py\", line 34, in check\n    encoded_str = encode_shift(str)\n                  ^^^^^^^^^^^^\nNameError: name 'encode_shift' is not defined. Did you mean: 'decode_shift'?",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 59,
+          "total_tokens": 209
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpixkgbdqw.py\", line 39, in <module>\n    check(decode_shift)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpixkgbdqw.py\", line 34, in check\n    encoded_str = encode_shift(str)\n                  ^^^^^^^^^^^^\nNameError: name 'encode_shift' is not defined. Did you mean: 'decode_shift'?",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 59,
+          "total_tokens": 209
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmprok82_1w.py\", line 39, in <module>\n    check(decode_shift)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmprok82_1w.py\", line 34, in check\n    encoded_str = encode_shift(str)\n                  ^^^^^^^^^^^^\nNameError: name 'encode_shift' is not defined. Did you mean: 'decode_shift'?",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 63,
+          "total_tokens": 213
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/51",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1100,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 38,
+          "total_tokens": 220
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 38,
+          "total_tokens": 220
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 38,
+          "total_tokens": 220
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 38,
+          "total_tokens": 220
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 38,
+          "total_tokens": 220
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/52",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1140,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 89,
+          "total_tokens": 228
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 89,
+          "total_tokens": 228
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 89,
+          "total_tokens": 228
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 89,
+          "total_tokens": 228
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 89,
+          "total_tokens": 228
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/53",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 858,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 58,
+          "total_tokens": 171
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 61,
+          "total_tokens": 174
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 58,
+          "total_tokens": 171
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 58,
+          "total_tokens": 171
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 58,
+          "total_tokens": 171
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/54",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1145,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 29,
+          "total_tokens": 229
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 29,
+          "total_tokens": 229
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 29,
+          "total_tokens": 229
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 29,
+          "total_tokens": 229
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 29,
+          "total_tokens": 229
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/55",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1220,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 132,
+          "total_tokens": 244
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 132,
+          "total_tokens": 244
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 132,
+          "total_tokens": 244
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 132,
+          "total_tokens": 244
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 132,
+          "total_tokens": 244
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/56",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1217,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 137,
+          "total_tokens": 289
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 61,
+          "total_tokens": 213
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 61,
+          "total_tokens": 213
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 137,
+          "total_tokens": 289
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 61,
+          "total_tokens": 213
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/57",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1386,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 71,
+          "total_tokens": 218
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 145,
+          "total_tokens": 292
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 145,
+          "total_tokens": 292
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 145,
+          "total_tokens": 292
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 145,
+          "total_tokens": 292
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/58",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1497,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 125,
+          "total_tokens": 299
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 125,
+          "total_tokens": 299
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 126,
+          "total_tokens": 300
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 126,
+          "total_tokens": 300
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 125,
+          "total_tokens": 299
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/59",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1435,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 172,
+          "total_tokens": 295
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 100,
+          "total_tokens": 223
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 269,
+          "total_tokens": 392
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 179,
+          "total_tokens": 302
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 100,
+          "total_tokens": 223
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/60",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1330,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 105,
+          "total_tokens": 259
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 119,
+          "total_tokens": 273
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 107,
+          "total_tokens": 261
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 107,
+          "total_tokens": 261
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 122,
+          "total_tokens": 276
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/61",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1123,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 134,
+          "total_tokens": 283
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 61,
+          "total_tokens": 210
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 61,
+          "total_tokens": 210
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 61,
+          "total_tokens": 210
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 61,
+          "total_tokens": 210
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/62",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 4,
+    "pass_at_1": 0.8,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1297,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 31,
+          "total_tokens": 199
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 127,
+          "total_tokens": 295
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpwao6v8o1.py\", line 42, in <module>\n    check(derivative)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpwao6v8o1.py\", line 38, in check\n    assert candidate([1]) == []\n           ^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 141,
+          "total_tokens": 309
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 31,
+          "total_tokens": 199
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 127,
+          "total_tokens": 295
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/63",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1549,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 94,
+          "total_tokens": 303
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 121,
+          "total_tokens": 330
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 94,
+          "total_tokens": 303
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 101,
+          "total_tokens": 310
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 94,
+          "total_tokens": 303
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/64",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 2,
+    "pass_at_1": 0.4,
+    "pass_at_2": 0.7,
+    "pass_at_3": 0.9,
+    "pass_at_5": 1.0,
+    "total_tokens": 1269,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjlfzesbb.py\", line 39, in <module>\n    check(vowels_count)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjlfzesbb.py\", line 26, in check\n    assert candidate(\"abcde\") == 2, \"Test 1\"\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 1",
+        "usage": {
+          "prompt_tokens": 186,
+          "completion_tokens": 63,
+          "total_tokens": 249
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxg1vqmtd.py\", line 38, in <module>\n    check(vowels_count)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxg1vqmtd.py\", line 25, in check\n    assert candidate(\"abcde\") == 2, \"Test 1\"\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 1",
+        "usage": {
+          "prompt_tokens": 186,
+          "completion_tokens": 58,
+          "total_tokens": 244
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp3fbsaev_.py\", line 44, in <module>\n    check(vowels_count)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp3fbsaev_.py\", line 33, in check\n    assert candidate(\"key\") == 2, \"Test 3\"\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 3",
+        "usage": {
+          "prompt_tokens": 186,
+          "completion_tokens": 99,
+          "total_tokens": 285
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 186,
+          "completion_tokens": 69,
+          "total_tokens": 255
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 186,
+          "completion_tokens": 50,
+          "total_tokens": 236
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/65",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 3,
+    "pass_at_1": 0.6,
+    "pass_at_2": 0.9,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1073,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 50,
+          "total_tokens": 192
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp9oy2rzrc.py\", line 36, in <module>\n    check(circular_shift)\n    ~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp9oy2rzrc.py\", line 28, in check\n    assert candidate(97, 8) == \"79\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 69,
+          "total_tokens": 211
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 50,
+          "total_tokens": 192
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpha1w1o_c.py\", line 44, in <module>\n    check(circular_shift)\n    ~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpha1w1o_c.py\", line 36, in check\n    assert candidate(97, 8) == \"79\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 129,
+          "total_tokens": 271
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 142,
+          "completion_tokens": 65,
+          "total_tokens": 207
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/66",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 985,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 25,
+          "total_tokens": 197
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 25,
+          "total_tokens": 197
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 25,
+          "total_tokens": 197
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 25,
+          "total_tokens": 197
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 172,
+          "completion_tokens": 25,
+          "total_tokens": 197
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/67",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 4,
+    "pass_at_1": 0.8,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1638,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 270,
+          "completion_tokens": 54,
+          "total_tokens": 324
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 270,
+          "completion_tokens": 42,
+          "total_tokens": 312
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 270,
+          "completion_tokens": 55,
+          "total_tokens": 325
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "value_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxjvptf1w.py\", line 33, in <module>\n    check(fruit_distribution)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxjvptf1w.py\", line 24, in check\n    assert candidate(\"5 apples and 6 oranges\",19) == 8\n           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxjvptf1w.py\", line 18, in fruit_distribution\n    num_oranges = int(s[3])\nValueError: invalid liter",
+        "usage": {
+          "prompt_tokens": 270,
+          "completion_tokens": 56,
+          "total_tokens": 326
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 270,
+          "completion_tokens": 81,
+          "total_tokens": 351
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/68",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 2258,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 372,
+          "completion_tokens": 83,
+          "total_tokens": 455
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 372,
+          "completion_tokens": 67,
+          "total_tokens": 439
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 372,
+          "completion_tokens": 84,
+          "total_tokens": 456
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 372,
+          "completion_tokens": 80,
+          "total_tokens": 452
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 372,
+          "completion_tokens": 84,
+          "total_tokens": 456
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/69",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1533,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 225,
+          "completion_tokens": 80,
+          "total_tokens": 305
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 225,
+          "completion_tokens": 82,
+          "total_tokens": 307
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 225,
+          "completion_tokens": 82,
+          "total_tokens": 307
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 225,
+          "completion_tokens": 82,
+          "total_tokens": 307
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 225,
+          "completion_tokens": 82,
+          "total_tokens": 307
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/70",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1304,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 71,
+          "total_tokens": 255
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 82,
+          "total_tokens": 266
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 66,
+          "total_tokens": 250
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 105,
+          "total_tokens": 289
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 60,
+          "total_tokens": 244
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/71",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1355,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 91,
+          "total_tokens": 272
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 91,
+          "total_tokens": 272
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 86,
+          "total_tokens": 267
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 91,
+          "total_tokens": 272
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 91,
+          "total_tokens": 272
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/72",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1595,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 290,
+          "completion_tokens": 29,
+          "total_tokens": 319
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 290,
+          "completion_tokens": 29,
+          "total_tokens": 319
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 290,
+          "completion_tokens": 29,
+          "total_tokens": 319
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 290,
+          "completion_tokens": 29,
+          "total_tokens": 319
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 290,
+          "completion_tokens": 29,
+          "total_tokens": 319
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/73",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1415,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 217,
+          "completion_tokens": 68,
+          "total_tokens": 285
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 217,
+          "completion_tokens": 69,
+          "total_tokens": 286
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 217,
+          "completion_tokens": 69,
+          "total_tokens": 286
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 217,
+          "completion_tokens": 68,
+          "total_tokens": 285
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 217,
+          "completion_tokens": 56,
+          "total_tokens": 273
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/74",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1545,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 253,
+          "completion_tokens": 57,
+          "total_tokens": 310
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 253,
+          "completion_tokens": 51,
+          "total_tokens": 304
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 253,
+          "completion_tokens": 58,
+          "total_tokens": 311
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 253,
+          "completion_tokens": 63,
+          "total_tokens": 316
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 253,
+          "completion_tokens": 51,
+          "total_tokens": 304
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/75",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 3,
+    "pass_at_1": 0.6,
+    "pass_at_2": 0.9,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1672,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp3lmm_ff8.py\", line 56, in <module>\n    check(is_multiply_prime)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp3lmm_ff8.py\", line 46, in check\n    assert candidate(10) == False\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 179,
+          "total_tokens": 318
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "timeout",
+        "error_message": "Execution timed out after 15s",
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 189,
+          "total_tokens": 328
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 283,
+          "total_tokens": 422
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 127,
+          "total_tokens": 266
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 199,
+          "total_tokens": 338
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/76",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 1,
+    "pass_at_1": 0.19999999999999996,
+    "pass_at_2": 0.4,
+    "pass_at_3": 0.6,
+    "pass_at_5": 1.0,
+    "total_tokens": 1282,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 202,
+          "completion_tokens": 57,
+          "total_tokens": 259
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "zero_division",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvs8m1mh1.py\", line 40, in <module>\n    check(is_simple_power)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvs8m1mh1.py\", line 35, in check\n    assert candidate(1, 1)==True, \"This prints if this assert fails 2 (also good for debugging!)\"\n           ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvs8m1mh1.py\", line 19, in is_simple_power\n    root = round(math.log(x) / math.log(n)",
+        "usage": {
+          "prompt_tokens": 202,
+          "completion_tokens": 54,
+          "total_tokens": 256
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "zero_division",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0q371436.py\", line 41, in <module>\n    check(is_simple_power)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0q371436.py\", line 36, in check\n    assert candidate(1, 1)==True, \"This prints if this assert fails 2 (also good for debugging!)\"\n           ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0q371436.py\", line 20, in is_simple_power\n    root = round(math.log(x) / math.log(n)",
+        "usage": {
+          "prompt_tokens": 202,
+          "completion_tokens": 53,
+          "total_tokens": 255
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "zero_division",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmprhjrybka.py\", line 41, in <module>\n    check(is_simple_power)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmprhjrybka.py\", line 36, in check\n    assert candidate(1, 1)==True, \"This prints if this assert fails 2 (also good for debugging!)\"\n           ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmprhjrybka.py\", line 20, in is_simple_power\n    log_result = math.log(x, n)\nZeroDivisi",
+        "usage": {
+          "prompt_tokens": 202,
+          "completion_tokens": 54,
+          "total_tokens": 256
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "zero_division",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdz3o0sgb.py\", line 41, in <module>\n    check(is_simple_power)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdz3o0sgb.py\", line 36, in check\n    assert candidate(1, 1)==True, \"This prints if this assert fails 2 (also good for debugging!)\"\n           ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdz3o0sgb.py\", line 20, in is_simple_power\n    log_result = math.log(x, n)\nZeroDivisi",
+        "usage": {
+          "prompt_tokens": 202,
+          "completion_tokens": 54,
+          "total_tokens": 256
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/77",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1050,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 46,
+          "total_tokens": 216
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 33,
+          "total_tokens": 203
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 33,
+          "total_tokens": 203
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 33,
+          "total_tokens": 203
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 55,
+          "total_tokens": 225
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/78",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 2058,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 359,
+          "completion_tokens": 48,
+          "total_tokens": 407
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 359,
+          "completion_tokens": 61,
+          "total_tokens": 420
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 359,
+          "completion_tokens": 46,
+          "total_tokens": 405
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 359,
+          "completion_tokens": 61,
+          "total_tokens": 420
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 359,
+          "completion_tokens": 47,
+          "total_tokens": 406
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/79",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1145,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 30,
+          "total_tokens": 229
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 30,
+          "total_tokens": 229
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 30,
+          "total_tokens": 229
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 30,
+          "total_tokens": 229
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 30,
+          "total_tokens": 229
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/80",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1195,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 58,
+          "total_tokens": 239
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 58,
+          "total_tokens": 239
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 58,
+          "total_tokens": 239
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 58,
+          "total_tokens": 239
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 58,
+          "total_tokens": 239
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/81",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 2885,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 330,
+          "completion_tokens": 253,
+          "total_tokens": 583
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 330,
+          "completion_tokens": 253,
+          "total_tokens": 583
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 330,
+          "completion_tokens": 253,
+          "total_tokens": 583
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 330,
+          "completion_tokens": 223,
+          "total_tokens": 553
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 330,
+          "completion_tokens": 253,
+          "total_tokens": 583
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/82",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1148,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 141,
+          "completion_tokens": 69,
+          "total_tokens": 210
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 141,
+          "completion_tokens": 95,
+          "total_tokens": 236
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 141,
+          "completion_tokens": 115,
+          "total_tokens": 256
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 141,
+          "completion_tokens": 95,
+          "total_tokens": 236
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 141,
+          "completion_tokens": 69,
+          "total_tokens": 210
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/83",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 0,
+    "pass_at_1": 0.0,
+    "pass_at_2": 0.0,
+    "pass_at_3": 0.0,
+    "pass_at_5": 0.0,
+    "total_tokens": 1159,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpc9s6nxzc.py\", line 41, in <module>\n    check(starts_one_ends)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpc9s6nxzc.py\", line 30, in check\n    assert candidate(1) == 1\n           ^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 104,
+          "completion_tokens": 113,
+          "total_tokens": 217
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp9cth92po.py\", line 41, in <module>\n    check(starts_one_ends)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp9cth92po.py\", line 31, in check\n    assert candidate(2) == 18\n           ^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 104,
+          "completion_tokens": 151,
+          "total_tokens": 255
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmph5xoz33g.py\", line 41, in <module>\n    check(starts_one_ends)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmph5xoz33g.py\", line 30, in check\n    assert candidate(1) == 1\n           ^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 104,
+          "completion_tokens": 116,
+          "total_tokens": 220
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqz8jco_m.py\", line 46, in <module>\n    check(starts_one_ends)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqz8jco_m.py\", line 35, in check\n    assert candidate(1) == 1\n           ^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 104,
+          "completion_tokens": 145,
+          "total_tokens": 249
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8fd9ytvh.py\", line 41, in <module>\n    check(starts_one_ends)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8fd9ytvh.py\", line 30, in check\n    assert candidate(1) == 1\n           ^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 104,
+          "completion_tokens": 114,
+          "total_tokens": 218
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/84",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 0,
+    "pass_at_1": 0.0,
+    "pass_at_2": 0.0,
+    "pass_at_3": 0.0,
+    "pass_at_5": 0.0,
+    "total_tokens": 1179,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpmql329pv.py\", line 35, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpmql329pv.py\", line 24, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 193,
+          "completion_tokens": 39,
+          "total_tokens": 232
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpbccsiddk.py\", line 37, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpbccsiddk.py\", line 26, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 193,
+          "completion_tokens": 55,
+          "total_tokens": 248
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp41zzq5y1.py\", line 35, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp41zzq5y1.py\", line 24, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 193,
+          "completion_tokens": 41,
+          "total_tokens": 234
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp38kqfr5c.py\", line 35, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp38kqfr5c.py\", line 24, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 193,
+          "completion_tokens": 39,
+          "total_tokens": 232
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp52itarbq.py\", line 35, in <module>\n    check(solve)\n    ~~~~~^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp52itarbq.py\", line 24, in check\n    assert candidate(1000) == \"1\", \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 193,
+          "completion_tokens": 40,
+          "total_tokens": 233
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/85",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 888,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 115,
+          "completion_tokens": 74,
+          "total_tokens": 189
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 115,
+          "completion_tokens": 59,
+          "total_tokens": 174
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 115,
+          "completion_tokens": 59,
+          "total_tokens": 174
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 115,
+          "completion_tokens": 39,
+          "total_tokens": 154
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 115,
+          "completion_tokens": 82,
+          "total_tokens": 197
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/86",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 1,
+    "pass_at_1": 0.19999999999999996,
+    "pass_at_2": 0.4,
+    "pass_at_3": 0.6,
+    "pass_at_5": 1.0,
+    "total_tokens": 1407,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5efw85i4.py\", line 55, in <module>\n    check(anti_shuffle)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5efw85i4.py\", line 47, in check\n    assert candidate('Hello World!!!') == 'Hello !!!Wdlor'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 190,
+          "completion_tokens": 169,
+          "total_tokens": 359
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 190,
+          "completion_tokens": 80,
+          "total_tokens": 270
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpw6vdr13q.py\", line 41, in <module>\n    check(anti_shuffle)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpw6vdr13q.py\", line 33, in check\n    assert candidate('Hello World!!!') == 'Hello !!!Wdlor'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 190,
+          "completion_tokens": 107,
+          "total_tokens": 297
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6_f81rab.py\", line 33, in <module>\n    check(anti_shuffle)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6_f81rab.py\", line 25, in check\n    assert candidate('Hello World!!!') == 'Hello !!!Wdlor'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 190,
+          "completion_tokens": 52,
+          "total_tokens": 242
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptxk8mgyp.py\", line 38, in <module>\n    check(anti_shuffle)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptxk8mgyp.py\", line 30, in check\n    assert candidate('Hello World!!!') == 'Hello !!!Wdlor'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 190,
+          "completion_tokens": 49,
+          "total_tokens": 239
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/87",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1915,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 319,
+          "completion_tokens": 62,
+          "total_tokens": 381
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 319,
+          "completion_tokens": 60,
+          "total_tokens": 379
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 319,
+          "completion_tokens": 74,
+          "total_tokens": 393
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 319,
+          "completion_tokens": 62,
+          "total_tokens": 381
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 319,
+          "completion_tokens": 62,
+          "total_tokens": 381
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/88",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 2044,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 263,
+          "completion_tokens": 262,
+          "total_tokens": 525
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 263,
+          "completion_tokens": 61,
+          "total_tokens": 324
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 263,
+          "completion_tokens": 70,
+          "total_tokens": 333
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 263,
+          "completion_tokens": 269,
+          "total_tokens": 532
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 263,
+          "completion_tokens": 67,
+          "total_tokens": 330
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/89",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1229,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 76,
+          "total_tokens": 246
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 77,
+          "total_tokens": 247
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 76,
+          "total_tokens": 246
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 74,
+          "total_tokens": 244
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 76,
+          "total_tokens": 246
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/90",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1188,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 45,
+          "total_tokens": 229
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 53,
+          "total_tokens": 237
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 59,
+          "total_tokens": 243
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 58,
+          "total_tokens": 242
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 53,
+          "total_tokens": 237
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/91",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 0,
+    "pass_at_1": 0.0,
+    "pass_at_2": 0.0,
+    "pass_at_3": 0.0,
+    "pass_at_5": 0.0,
+    "total_tokens": 1089,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzponi1mt.py\", line 35, in <module>\n    check(is_bored)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzponi1mt.py\", line 24, in check\n    assert candidate(\"Is the sky blue?\") == 0, \"Test 2\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 2",
+        "usage": {
+          "prompt_tokens": 167,
+          "completion_tokens": 49,
+          "total_tokens": 216
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpfxgt8rqe.py\", line 37, in <module>\n    check(is_bored)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpfxgt8rqe.py\", line 26, in check\n    assert candidate(\"Is the sky blue?\") == 0, \"Test 2\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 2",
+        "usage": {
+          "prompt_tokens": 167,
+          "completion_tokens": 53,
+          "total_tokens": 220
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp2afqgkvv.py\", line 35, in <module>\n    check(is_bored)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp2afqgkvv.py\", line 24, in check\n    assert candidate(\"Is the sky blue?\") == 0, \"Test 2\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 2",
+        "usage": {
+          "prompt_tokens": 167,
+          "completion_tokens": 55,
+          "total_tokens": 222
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpidxcids0.py\", line 35, in <module>\n    check(is_bored)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpidxcids0.py\", line 24, in check\n    assert candidate(\"Is the sky blue?\") == 0, \"Test 2\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 2",
+        "usage": {
+          "prompt_tokens": 167,
+          "completion_tokens": 53,
+          "total_tokens": 220
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpw2ndgcgn.py\", line 34, in <module>\n    check(is_bored)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpw2ndgcgn.py\", line 23, in check\n    assert candidate(\"Is the sky blue?\") == 0, \"Test 2\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 2",
+        "usage": {
+          "prompt_tokens": 167,
+          "completion_tokens": 44,
+          "total_tokens": 211
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/92",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1261,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 60,
+          "total_tokens": 255
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 57,
+          "total_tokens": 252
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 55,
+          "total_tokens": 250
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 57,
+          "total_tokens": 252
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 57,
+          "total_tokens": 252
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/93",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 0,
+    "pass_at_1": 0.0,
+    "pass_at_2": 0.0,
+    "pass_at_3": 0.0,
+    "pass_at_5": 0.0,
+    "total_tokens": 1482,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpp82hised.py\", line 47, in <module>\n    check(encode)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpp82hised.py\", line 37, in check\n    assert candidate('TEST') == 'tgst', \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 169,
+          "total_tokens": 338
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpu0_xq9tb.py\", line 43, in <module>\n    check(encode)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpu0_xq9tb.py\", line 33, in check\n    assert candidate('TEST') == 'tgst', \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 100,
+          "total_tokens": 269
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_yu_0b8w.py\", line 47, in <module>\n    check(encode)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_yu_0b8w.py\", line 37, in check\n    assert candidate('TEST') == 'tgst', \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 138,
+          "total_tokens": 307
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpl0ep__x1.py\", line 42, in <module>\n    check(encode)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpl0ep__x1.py\", line 32, in check\n    assert candidate('TEST') == 'tgst', \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 122,
+          "total_tokens": 291
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpr3lrs8hv.py\", line 41, in <module>\n    check(encode)\n    ~~~~~^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpr3lrs8hv.py\", line 31, in check\n    assert candidate('TEST') == 'tgst', \"This prints if this assert fails 1 (good for debugging!)\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: This prints if this assert fails 1 (good for debugging!)",
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 108,
+          "total_tokens": 277
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/94",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 2560,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 346,
+          "completion_tokens": 126,
+          "total_tokens": 472
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 346,
+          "completion_tokens": 364,
+          "total_tokens": 710
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 346,
+          "completion_tokens": 114,
+          "total_tokens": 460
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 346,
+          "completion_tokens": 127,
+          "total_tokens": 473
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 346,
+          "completion_tokens": 99,
+          "total_tokens": 445
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/95",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1491,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 229,
+          "completion_tokens": 70,
+          "total_tokens": 299
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 229,
+          "completion_tokens": 70,
+          "total_tokens": 299
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 229,
+          "completion_tokens": 70,
+          "total_tokens": 299
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 229,
+          "completion_tokens": 68,
+          "total_tokens": 297
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 229,
+          "completion_tokens": 68,
+          "total_tokens": 297
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/96",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1521,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 94,
+          "total_tokens": 299
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 93,
+          "total_tokens": 298
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 108,
+          "total_tokens": 313
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 108,
+          "total_tokens": 313
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 93,
+          "total_tokens": 298
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/97",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 940,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 30,
+          "total_tokens": 188
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 30,
+          "total_tokens": 188
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 30,
+          "total_tokens": 188
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 30,
+          "total_tokens": 188
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 30,
+          "total_tokens": 188
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/98",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 952,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 58,
+          "total_tokens": 190
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 58,
+          "total_tokens": 190
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 60,
+          "total_tokens": 192
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 58,
+          "total_tokens": 190
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 58,
+          "total_tokens": 190
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/99",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1364,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 216,
+          "completion_tokens": 62,
+          "total_tokens": 278
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 216,
+          "completion_tokens": 54,
+          "total_tokens": 270
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 216,
+          "completion_tokens": 54,
+          "total_tokens": 270
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 216,
+          "completion_tokens": 54,
+          "total_tokens": 270
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 216,
+          "completion_tokens": 60,
+          "total_tokens": 276
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/100",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 3,
+    "pass_at_1": 0.6,
+    "pass_at_2": 0.9,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1391,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpw46_jfj9.py\", line 39, in <module>\n    check(make_a_pile)\n    ~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpw46_jfj9.py\", line 29, in check\n    assert candidate(4) == [4,6,8,10], \"Test 4\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 4",
+        "usage": {
+          "prompt_tokens": 192,
+          "completion_tokens": 62,
+          "total_tokens": 254
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 192,
+          "completion_tokens": 71,
+          "total_tokens": 263
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 192,
+          "completion_tokens": 164,
+          "total_tokens": 356
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 192,
+          "completion_tokens": 72,
+          "total_tokens": 264
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpbl00xbq7.py\", line 39, in <module>\n    check(make_a_pile)\n    ~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpbl00xbq7.py\", line 29, in check\n    assert candidate(4) == [4,6,8,10], \"Test 4\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 4",
+        "usage": {
+          "prompt_tokens": 192,
+          "completion_tokens": 62,
+          "total_tokens": 254
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/101",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 975,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 176,
+          "completion_tokens": 23,
+          "total_tokens": 199
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 176,
+          "completion_tokens": 15,
+          "total_tokens": 191
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 176,
+          "completion_tokens": 23,
+          "total_tokens": 199
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 176,
+          "completion_tokens": 19,
+          "total_tokens": 195
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 176,
+          "completion_tokens": 15,
+          "total_tokens": 191
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/102",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1320,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 144,
+          "total_tokens": 298
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 141,
+          "total_tokens": 295
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 143,
+          "total_tokens": 297
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 59,
+          "total_tokens": 213
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 63,
+          "total_tokens": 217
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/103",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 4,
+    "pass_at_1": 0.8,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1286,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 54,
+          "total_tokens": 254
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 62,
+          "total_tokens": 262
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpyc03bl4z.py\", line 43, in <module>\n    check(rounded_avg)\n    ~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpyc03bl4z.py\", line 29, in check\n    assert candidate(560,851) == \"0b1011000010\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 54,
+          "total_tokens": 254
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 55,
+          "total_tokens": 255
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 61,
+          "total_tokens": 261
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/104",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 4,
+    "pass_at_1": 0.8,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 841,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 51,
+          "total_tokens": 213
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 37,
+          "total_tokens": 199
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 53,
+          "total_tokens": 215
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 52,
+          "total_tokens": 214
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/105",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 3,
+    "pass_at_1": 0.6,
+    "pass_at_2": 0.9,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1386,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 336,
+          "completion_tokens": 129,
+          "total_tokens": 465
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 336,
+          "completion_tokens": 129,
+          "total_tokens": 465
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 336,
+          "completion_tokens": 120,
+          "total_tokens": 456
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/106",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 5,
+    "pass_at_1": 1.0,
+    "pass_at_2": 1.0,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1384,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 108,
+          "total_tokens": 292
+        }
+      },
+      {
+        "sample": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 80,
+          "total_tokens": 264
+        }
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 94,
+          "total_tokens": 278
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 96,
+          "total_tokens": 280
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 86,
+          "total_tokens": 270
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/107",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 3,
+    "pass_at_1": 0.6,
+    "pass_at_2": 0.9,
+    "pass_at_3": 1.0,
+    "pass_at_5": 1.0,
+    "total_tokens": 1095,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      },
+      {
+        "sample": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 271,
+          "completion_tokens": 87,
+          "total_tokens": 358
+        }
+      },
+      {
+        "sample": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 271,
+          "completion_tokens": 108,
+          "total_tokens": 379
+        }
+      },
+      {
+        "sample": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 271,
+          "completion_tokens": 87,
+          "total_tokens": 358
+        }
+      }
+    ]
+  },
+  {
+    "task_id": "HumanEval/108",
+    "model": "Llama-3.3-70B",
+    "num_samples": 5,
+    "num_correct": 0,
+    "pass_at_1": 0.0,
+    "pass_at_2": 0.0,
+    "pass_at_3": 0.0,
+    "pass_at_5": 0.0,
+    "total_tokens": 1243,
+    "samples": [
+      {
+        "sample": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpeobbijlx.py\", line 44, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpeobbijlx.py\", line 35, in check\n    assert candidate([12, 23, 34, -45, -56, 0]) == 5\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 87,
+          "total_tokens": 271
+        }
+      },
+      {
+        "sample": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp1clywuyk.py\", line 38, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp1clywuyk.py\", line 25, in check\n    assert candidate([-1, -2, 0]) == 0\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 53,
+          "total_tokens": 237
+        }
+      },
+      {
+        "sample": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpulg75o67.py\", line 38, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpulg75o67.py\", line 25, in check\n    assert candidate([-1, -2, 0]) == 0\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 52,
+          "total_tokens": 236
+        }
+      },
+      {
+        "sample": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5plugy4z.py\", line 38, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5plugy4z.py\", line 25, in check\n    assert candidate([-1, -2, 0]) == 0\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 47,
+          "total_tokens": 231
+        }
+      },
+      {
+        "sample": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp4xcmr4ja.py\", line 44, in <module>\n    check(count_nums)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp4xcmr4ja.py\", line 35, in check\n    assert candidate([12, 23, 34, -45, -56, 0]) == 5\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 184,
+          "completion_tokens": 84,
+          "total_tokens": 268
+        }
+      }
+    ]
   }
 ]
