@@ -1,28 +1,28 @@
 {
-  "Llama-3.1-8B": {
-    "r0_passed": 5,
-    "final_passed": 6,
+  "Qwen3-32B": {
+    "r0_passed": 4,
+    "final_passed": 5,
     "total": 50,
-    "r0_rate": 10.0,
-    "final_rate": 12.0,
+    "r0_rate": 8.0,
+    "final_rate": 10.0,
     "gain_pp": 2.0,
     "by_difficulty": {
       "easy": {
         "total": 18,
         "r0_rate": 16.7,
-        "final_rate": 16.7
+        "final_rate": 22.2
       },
       "medium": {
         "total": 23,
-        "r0_rate": 4.3,
-        "final_rate": 4.3
+        "r0_rate": 0.0,
+        "final_rate": 0.0
       },
       "hard": {
         "total": 9,
         "r0_rate": 11.1,
-        "final_rate": 22.2
+        "final_rate": 11.1
       }
     },
-    "time_seconds": 2281.6
+    "time_seconds": 2289.5
   }
 }

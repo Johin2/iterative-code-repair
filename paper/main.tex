@@ -460,11 +460,26 @@ To complement our quantitative findings, we examine representative cases from Hu
 
 \subsection{Self-Repair on Harder Benchmarks}
 
-To assess whether self-repair generalizes beyond the relatively easy HumanEval and MBPP benchmarks, we conducted a preliminary evaluation on LiveCodeBench~\cite{jain2024livecodebench}, a contamination-free benchmark of competitive programming problems. We evaluated Llama~4~Scout on 50 LiveCodeBench problems (18 easy, 23 medium, 9 hard) with the same 5-round self-repair protocol.
+To assess whether self-repair generalizes beyond the relatively easy HumanEval and MBPP benchmarks, we conducted a preliminary evaluation on LiveCodeBench~\cite{jain2024livecodebench}, a contamination-free benchmark of competitive programming problems. We evaluated three models on 50 LiveCodeBench problems (18 easy, 23 medium, 9 hard) with the same 5-round self-repair protocol.
 
-The results confirm that self-repair remains effective on harder problems: the initial pass rate of 6.0\% improved to 14.0\% after repair (+8.0\,pp), more than doubling the number of solved problems. Repair occurred across all rounds ($R_1$ through~$R_4$), demonstrating that even late repair rounds contribute on harder problems---in contrast to HumanEval, where most gains are concentrated in $R_1$. By difficulty level, repair improved easy problems from 11.1\% to 22.2\%, medium from 0\% to 4.3\%, and hard from 11.1\% to 22.2\%.
+\begin{table}[t]
+\centering
+\caption{LiveCodeBench results (50 problems). Self-repair improves all three models, with Scout showing the largest gain.}
+\label{tab:livecodebench}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Model} & $R_0$ & \textbf{Final} & $\Delta$ \\
+\midrule
+Llama 3.1 8B    & 10.0 & 12.0 & +2.0 \\
+Scout 17B (16E) &  6.0 & 14.0 & +8.0 \\
+Qwen3 32B       &  8.0 & 10.0 & +2.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-While the absolute pass rates are much lower than on HumanEval (as expected for competitive programming), the relative repair gain (+133\% improvement over baseline) is actually larger than on HumanEval (+18\% for Scout). This suggests that self-repair's effectiveness scales to harder benchmarks, where the lower baseline leaves more room for improvement through iterative error correction.
+Table~\ref{tab:livecodebench} shows that self-repair improves all three models on LiveCodeBench. Scout achieves the largest gain (+8.0\,pp), more than doubling its pass rate from 6\% to 14\%, with repairs occurring across rounds $R_1$ through~$R_4$---in contrast to HumanEval, where most gains concentrate in $R_1$. The 8B model and Qwen3 show more modest gains (+2.0\,pp each), consistent with the pattern observed on HumanEval.
+
+While the absolute pass rates are much lower than on HumanEval (as expected for competitive programming), self-repair remains effective. The relative repair gain for Scout (+133\% improvement over baseline) is actually larger than on HumanEval (+18\%), suggesting that self-repair scales to harder benchmarks where the lower baseline leaves more room for improvement.
 
 \subsection{Practical Implications}
 
