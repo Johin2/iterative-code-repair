@@ -458,6 +458,14 @@ To complement our quantitative findings, we examine representative cases from Hu
 
 \textbf{Persistent failures.} On HumanEval/10, Llama~3.1~8B produced assertion errors on all five attempts, never resolving the underlying logic error. On HumanEval/32, Maverick exhibited error \emph{thrashing}: assertion $\rightarrow$ name error $\rightarrow$ assertion $\rightarrow$ assertion $\rightarrow$ timeout---the failure mode described by Olausson et al.~\cite{olausson2024selfrepair}. We identified several ``universally hard'' problems (e.g., HumanEval/132, HumanEval/145) that defeated all five models even with four repair rounds.
 
+\subsection{Self-Repair on Harder Benchmarks}
+
+To assess whether self-repair generalizes beyond the relatively easy HumanEval and MBPP benchmarks, we conducted a preliminary evaluation on LiveCodeBench~\cite{jain2024livecodebench}, a contamination-free benchmark of competitive programming problems. We evaluated Llama~4~Scout on 50 LiveCodeBench problems (18 easy, 23 medium, 9 hard) with the same 5-round self-repair protocol.
+
+The results confirm that self-repair remains effective on harder problems: the initial pass rate of 6.0\% improved to 14.0\% after repair (+8.0\,pp), more than doubling the number of solved problems. Repair occurred across all rounds ($R_1$ through~$R_4$), demonstrating that even late repair rounds contribute on harder problems---in contrast to HumanEval, where most gains are concentrated in $R_1$. By difficulty level, repair improved easy problems from 11.1\% to 22.2\%, medium from 0\% to 4.3\%, and hard from 11.1\% to 22.2\%.
+
+While the absolute pass rates are much lower than on HumanEval (as expected for competitive programming), the relative repair gain (+133\% improvement over baseline) is actually larger than on HumanEval (+18\% for Scout). This suggests that self-repair's effectiveness scales to harder benchmarks, where the lower baseline leaves more room for improvement through iterative error correction.
+
 \subsection{Practical Implications}
 
 Our findings suggest several practical guidelines for deploying LLM code generation systems:
@@ -478,11 +486,11 @@ Our findings suggest several practical guidelines for deploying LLM code generat
 
 We identify several limitations of this study that suggest directions for future work.
 
-\textbf{No comparison with resampling.}
-The most important missing baseline is \emph{independent resampling}: for the same token budget spent on $N$ repair rounds, one could instead draw $N$ independent samples at a higher temperature and select the first passing solution. Prior work~\cite{chen2021evaluating} has shown that pass@$k$ with $k > 1$ can substantially improve success rates. It is an open question whether self-repair or resampling is more token-efficient, and the answer likely depends on error type: repair should dominate for syntax/runtime errors (where the error message is highly informative), while resampling may be preferable for assertion errors (where the model must independently discover a different algorithmic approach). A rigorous comparison controlling for token budget is an important direction for future work.
+\textbf{Resampling comparison scope.}
+Our resampling comparison (Section~\ref{sec:results}, Table~\ref{tab:resampling}) covers four of five models on HumanEval only. While the results clearly show that self-repair is more token-efficient and increasingly advantageous for stronger models, extending this comparison to MBPP and controlling for token budget more precisely (e.g., allocating the exact same number of tokens to each strategy) would strengthen the analysis. Additionally, we compare greedy repair against stochastic resampling (temperature~$=0.8$), which conflates two differences---error feedback vs.\ diversity, and greedy vs.\ stochastic decoding. A fairer comparison might use stochastic repair as well.
 
-\textbf{Benchmark saturation.}
-We evaluate on HumanEval and MBPP, which are considered relatively easy by 2025 standards---our strongest models achieve $>$90\% pass rates even before repair. Self-repair dynamics may differ substantially on harder benchmarks such as LiveCodeBench~\cite{jain2024livecodebench}, BigCodeBench~\cite{zhuo2024bigcodebench}, or SWE-Bench~\cite{jimenez2024swebench}, where errors more often reflect deep algorithmic misunderstandings. We chose HumanEval and MBPP because they remain the most widely used benchmarks for self-repair studies, enabling direct comparison with prior work~\cite{olausson2024selfrepair, chen2024teaching}. Extending to harder benchmarks is a clear next step.
+\textbf{Benchmark scope.}
+Our main evaluation uses HumanEval and MBPP, which are considered relatively easy by 2025 standards. Our preliminary LiveCodeBench evaluation (Section~\ref{sec:discussion}) shows that self-repair remains effective on harder competitive programming problems, but covers only one model on 50 problems. A comprehensive evaluation across all models on LiveCodeBench~\cite{jain2024livecodebench}, BigCodeBench~\cite{zhuo2024bigcodebench}, or SWE-Bench~\cite{jimenez2024swebench} would more fully characterize self-repair on problems requiring deep algorithmic reasoning.
 
 \textbf{Greedy decoding only.}
 Our use of temperature~$=0.0$ ensures deterministic, reproducible results but eliminates sampling variance, precluding confidence intervals or statistical significance tests. On HumanEval (164 problems), a single problem corresponds to $\pm$0.6\,pp, meaning differences smaller than $\sim$1.2\,pp (e.g., Maverick at 93.9\% vs.\ Qwen3 at 92.7\%) should not be over-interpreted. Experiments with stochastic decoding across multiple seeds would provide more robust estimates and enable statistical analysis.
