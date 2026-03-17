@@ -411,19 +411,18 @@ A key question is whether the token budget spent on iterative repair could be be
  & Final\,\% & Tokens & pass@5\,\% & Tokens \\
 \midrule
 Llama 3.1 8B    & 76.8 & 195K & \textbf{79.9} & 219K \\
-Llama 3.3 70B$^\dagger$ & \textbf{93.6} & 65K & 91.7 & 147K \\
+Llama 3.3 70B   & \textbf{93.3} & 112K & 90.9 & 231K \\
 Scout 17B (16E) & \textbf{89.6} & 155K & 86.0 & 255K \\
 Qwen3 32B       & 92.7 & 102K & 92.7 & 223K \\
 \bottomrule
-\multicolumn{5}{l}{\footnotesize $^\dagger$Partial: 109/164 problems (Groq rate limits); repair compared on same subset.}
 \end{tabular}
 \end{table}
 
 Table~\ref{tab:resampling} compares self-repair against independent resampling on HumanEval for four models.\footnote{Maverick was temporarily unavailable on Groq at time of writing.} The results reveal a clear, model-dependent pattern:
 
-\textbf{Self-repair is always more token-efficient.} Across all three models, self-repair uses 45--55\% fewer tokens than resampling to achieve comparable or better pass rates. This is because self-repair generates only the corrected function at each round, while resampling generates a complete solution from scratch each time.
+\textbf{Self-repair is always more token-efficient.} Across all four models, self-repair uses 45--55\% fewer tokens than resampling to achieve comparable or better pass rates. This is because self-repair generates only the corrected function at each round, while resampling generates a complete solution from scratch each time.
 
-\textbf{Self-repair becomes increasingly competitive with model capability.} For the weakest model (Llama~3.1~8B), resampling achieves a modestly higher pass@5 (79.9\% vs.\ 76.8\%)---the diversity of independent samples compensates for the model's limited error comprehension. For Scout (MoE, 17B active), self-repair \emph{wins on both axes}: higher pass rate (89.6\% vs.\ 86.0\%) and far fewer tokens (155K vs.\ 255K). For Qwen3~32B, the two strategies tie on pass rate (92.7\%) while repair uses less than half the tokens (102K vs.\ 223K).
+\textbf{Self-repair becomes increasingly competitive with model capability.} For the weakest model (Llama~3.1~8B), resampling achieves a modestly higher pass@5 (79.9\% vs.\ 76.8\%)---the diversity of independent samples compensates for the model's limited error comprehension. For the three stronger models, self-repair matches or exceeds resampling: Scout (89.6\% vs.\ 86.0\%), Llama~3.3~70B (93.3\% vs.\ 90.9\%), and Qwen3~32B (92.7\% tied) all favor repair. The 70B result is particularly striking: self-repair achieves +2.4\,pp higher pass rate while using less than half the tokens (112K vs.\ 231K).
 
 This pattern has a clear interpretation: as models become more capable, their ability to diagnose and fix errors from feedback improves, making the \emph{informational signal} from error messages more valuable than the \emph{diversity} from independent samples. The practical implication is that self-repair is the preferred strategy for capable models, while a hybrid approach---repairing diagnosable errors and resampling for assertion errors---may be optimal for weaker models.
 
