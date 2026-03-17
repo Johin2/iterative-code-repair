@@ -1,0 +1,3010 @@
+[
+  {
+    "task_id": "LCB/1873_A",
+    "difficulty": "easy",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 445,
+          "completion_tokens": 50,
+          "total_tokens": 495
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/1873_B",
+    "difficulty": "easy",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 379,
+          "completion_tokens": 70,
+          "total_tokens": 449
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/1873_D",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n1\\n2\\n1\\n4\\n3\\n4\\n0', got '0\\n0\\n0\\n1\\n4\\n3\\n5\\n0'",
+        "usage": {
+          "prompt_tokens": 575,
+          "completion_tokens": 119,
+          "total_tokens": 694
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n1\\n2\\n1\\n4\\n3\\n4\\n0', got '0\\n0\\n0\\n1\\n4\\n3\\n5\\n0'",
+        "usage": {
+          "prompt_tokens": 770,
+          "completion_tokens": 122,
+          "total_tokens": 892
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n1\\n2\\n1\\n4\\n3\\n4\\n0', got '0\\n0\\n0\\n1\\n4\\n3\\n5\\n0'",
+        "usage": {
+          "prompt_tokens": 968,
+          "completion_tokens": 122,
+          "total_tokens": 1090
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n1\\n2\\n1\\n4\\n3\\n4\\n0', got '0\\n0\\n0\\n1\\n4\\n3\\n5\\n0'",
+        "usage": {
+          "prompt_tokens": 1166,
+          "completion_tokens": 122,
+          "total_tokens": 1288
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n1\\n2\\n1\\n4\\n3\\n4\\n0', got '0\\n0\\n0\\n1\\n2\\n3\\n4\\n0'",
+        "usage": {
+          "prompt_tokens": 1364,
+          "completion_tokens": 116,
+          "total_tokens": 1480
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/1883_B",
+    "difficulty": "medium",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 775,
+          "completion_tokens": 82,
+          "total_tokens": 857
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/1883_C",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n2\\n1\\n0\\n2\\n0\\n1\\n2\\n0\\n1\\n1\\n4\\n0\\n4\\n3', got '0\\n0\\n0\\n1\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n0'",
+        "usage": {
+          "prompt_tokens": 725,
+          "completion_tokens": 276,
+          "total_tokens": 1001
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n2\\n1\\n0\\n2\\n0\\n1\\n2\\n0\\n1\\n1\\n4\\n0\\n4\\n3', got '0\\n0\\n0\\n1\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n1\\n0\\n0'",
+        "usage": {
+          "prompt_tokens": 1105,
+          "completion_tokens": 319,
+          "total_tokens": 1424
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n2\\n1\\n0\\n2\\n0\\n1\\n2\\n0\\n1\\n1\\n4\\n0\\n4\\n3', got '0\\n0\\n0\\n1\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n1\\n0\\n0'",
+        "usage": {
+          "prompt_tokens": 1528,
+          "completion_tokens": 319,
+          "total_tokens": 1847
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n2\\n1\\n0\\n2\\n0\\n1\\n2\\n0\\n1\\n1\\n4\\n0\\n4\\n3', got '0\\n0\\n0\\n1\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n1\\n0\\n0'",
+        "usage": {
+          "prompt_tokens": 1951,
+          "completion_tokens": 321,
+          "total_tokens": 2272
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n2\\n1\\n0\\n2\\n0\\n1\\n2\\n0\\n1\\n1\\n4\\n0\\n4\\n3', got '0\\n0\\n0\\n1\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n0\\n1\\n0\\n0'",
+        "usage": {
+          "prompt_tokens": 2376,
+          "completion_tokens": 321,
+          "total_tokens": 2697
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/1899_A",
+    "difficulty": "easy",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 331,
+          "completion_tokens": 45,
+          "total_tokens": 376
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/1899_B",
+    "difficulty": "hard",
+    "final_passed": true,
+    "rounds_to_pass": 2,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1\\n9\\n0\\n189114\\n112141', got '3\\n25\\n4000000000\\n729412\\n336643'",
+        "usage": {
+          "prompt_tokens": 764,
+          "completion_tokens": 164,
+          "total_tokens": 928
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1\\n9\\n0\\n189114\\n112141', got '0\\n0\\n0\\n0\\n0'",
+        "usage": {
+          "prompt_tokens": 999,
+          "completion_tokens": 204,
+          "total_tokens": 1203
+        }
+      },
+      {
+        "round": 2,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 1269,
+          "completion_tokens": 212,
+          "total_tokens": 1481
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/1899_C",
+    "difficulty": "hard",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 529,
+          "completion_tokens": 141,
+          "total_tokens": 670
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/1899_D",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0\\n2\\n1\\n3\\n19', got '0\\n1\\n1\\n3\\n15'",
+        "usage": {
+          "prompt_tokens": 752,
+          "completion_tokens": 215,
+          "total_tokens": 967
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0\\n2\\n1\\n3\\n19', got '0\\n1\\n1\\n3\\n15'",
+        "usage": {
+          "prompt_tokens": 1031,
+          "completion_tokens": 274,
+          "total_tokens": 1305
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0\\n2\\n1\\n3\\n19', got '0\\n1\\n1\\n3\\n15'",
+        "usage": {
+          "prompt_tokens": 1369,
+          "completion_tokens": 274,
+          "total_tokens": 1643
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0\\n2\\n1\\n3\\n19', got '0\\n1\\n1\\n3\\n15'",
+        "usage": {
+          "prompt_tokens": 1707,
+          "completion_tokens": 274,
+          "total_tokens": 1981
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0\\n2\\n1\\n3\\n19', got '0\\n1\\n1\\n3\\n15'",
+        "usage": {
+          "prompt_tokens": 2045,
+          "completion_tokens": 274,
+          "total_tokens": 2319
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2727",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 396,
+          "completion_tokens": 157,
+          "total_tokens": 553
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 599,
+          "completion_tokens": 67,
+          "total_tokens": 666
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 712,
+          "completion_tokens": 67,
+          "total_tokens": 779
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 825,
+          "completion_tokens": 67,
+          "total_tokens": 892
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 938,
+          "completion_tokens": 67,
+          "total_tokens": 1005
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2728",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15', got ''",
+        "usage": {
+          "prompt_tokens": 405,
+          "completion_tokens": 541,
+          "total_tokens": 946
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15', got ''",
+        "usage": {
+          "prompt_tokens": 992,
+          "completion_tokens": 89,
+          "total_tokens": 1081
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15', got ''",
+        "usage": {
+          "prompt_tokens": 1127,
+          "completion_tokens": 86,
+          "total_tokens": 1213
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15', got ''",
+        "usage": {
+          "prompt_tokens": 1259,
+          "completion_tokens": 89,
+          "total_tokens": 1348
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15', got ''",
+        "usage": {
+          "prompt_tokens": 1394,
+          "completion_tokens": 86,
+          "total_tokens": 1480
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2730",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '30', got ''",
+        "usage": {
+          "prompt_tokens": 366,
+          "completion_tokens": 196,
+          "total_tokens": 562
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '30', got ''",
+        "usage": {
+          "prompt_tokens": 608,
+          "completion_tokens": 91,
+          "total_tokens": 699
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '30', got ''",
+        "usage": {
+          "prompt_tokens": 745,
+          "completion_tokens": 109,
+          "total_tokens": 854
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '30', got ''",
+        "usage": {
+          "prompt_tokens": 900,
+          "completion_tokens": 117,
+          "total_tokens": 1017
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '30', got ''",
+        "usage": {
+          "prompt_tokens": 1063,
+          "completion_tokens": 117,
+          "total_tokens": 1180
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2754",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1350', got ''",
+        "usage": {
+          "prompt_tokens": 371,
+          "completion_tokens": 230,
+          "total_tokens": 601
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1350', got ''",
+        "usage": {
+          "prompt_tokens": 648,
+          "completion_tokens": 207,
+          "total_tokens": 855
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1350', got ''",
+        "usage": {
+          "prompt_tokens": 902,
+          "completion_tokens": 170,
+          "total_tokens": 1072
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1350', got ''",
+        "usage": {
+          "prompt_tokens": 1119,
+          "completion_tokens": 170,
+          "total_tokens": 1289
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1350', got ''",
+        "usage": {
+          "prompt_tokens": 1336,
+          "completion_tokens": 185,
+          "total_tokens": 1521
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2755",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 406,
+          "completion_tokens": 139,
+          "total_tokens": 545
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 591,
+          "completion_tokens": 165,
+          "total_tokens": 756
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 802,
+          "completion_tokens": 161,
+          "total_tokens": 963
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 1009,
+          "completion_tokens": 161,
+          "total_tokens": 1170
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 1216,
+          "completion_tokens": 160,
+          "total_tokens": 1376
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2756",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0', got ''",
+        "usage": {
+          "prompt_tokens": 363,
+          "completion_tokens": 159,
+          "total_tokens": 522
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0', got ''",
+        "usage": {
+          "prompt_tokens": 568,
+          "completion_tokens": 90,
+          "total_tokens": 658
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0', got ''",
+        "usage": {
+          "prompt_tokens": 704,
+          "completion_tokens": 90,
+          "total_tokens": 794
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0', got ''",
+        "usage": {
+          "prompt_tokens": 840,
+          "completion_tokens": 90,
+          "total_tokens": 930
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0', got ''",
+        "usage": {
+          "prompt_tokens": 976,
+          "completion_tokens": 90,
+          "total_tokens": 1066
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2757",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '11', got ''",
+        "usage": {
+          "prompt_tokens": 398,
+          "completion_tokens": 186,
+          "total_tokens": 584
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '11', got ''",
+        "usage": {
+          "prompt_tokens": 630,
+          "completion_tokens": 172,
+          "total_tokens": 802
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '11', got ''",
+        "usage": {
+          "prompt_tokens": 848,
+          "completion_tokens": 172,
+          "total_tokens": 1020
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '11', got ''",
+        "usage": {
+          "prompt_tokens": 1066,
+          "completion_tokens": 170,
+          "total_tokens": 1236
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '11', got ''",
+        "usage": {
+          "prompt_tokens": 1282,
+          "completion_tokens": 172,
+          "total_tokens": 1454
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2777",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[-3, -1, 1, 3, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 730,
+          "completion_tokens": 87,
+          "total_tokens": 817
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[-3, -1, 1, 3, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 876,
+          "completion_tokens": 92,
+          "total_tokens": 968
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[-3, -1, 1, 3, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 1027,
+          "completion_tokens": 86,
+          "total_tokens": 1113
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[-3, -1, 1, 3, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 1172,
+          "completion_tokens": 100,
+          "total_tokens": 1272
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[-3, -1, 1, 3, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 1331,
+          "completion_tokens": 95,
+          "total_tokens": 1426
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2779",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[0, 1, 1, 0, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 624,
+          "completion_tokens": 162,
+          "total_tokens": 786
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[0, 1, 1, 0, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 844,
+          "completion_tokens": 177,
+          "total_tokens": 1021
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[0, 1, 1, 0, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 1079,
+          "completion_tokens": 197,
+          "total_tokens": 1276
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[0, 1, 1, 0, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 1334,
+          "completion_tokens": 178,
+          "total_tokens": 1512
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[0, 1, 1, 0, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 1570,
+          "completion_tokens": 178,
+          "total_tokens": 1748
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2784",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '141', got ''",
+        "usage": {
+          "prompt_tokens": 556,
+          "completion_tokens": 134,
+          "total_tokens": 690
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '141', got ''",
+        "usage": {
+          "prompt_tokens": 736,
+          "completion_tokens": 134,
+          "total_tokens": 870
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '141', got ''",
+        "usage": {
+          "prompt_tokens": 916,
+          "completion_tokens": 130,
+          "total_tokens": 1046
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '141', got ''",
+        "usage": {
+          "prompt_tokens": 1092,
+          "completion_tokens": 130,
+          "total_tokens": 1222
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '141', got ''",
+        "usage": {
+          "prompt_tokens": 1268,
+          "completion_tokens": 117,
+          "total_tokens": 1385
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2785",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 527,
+          "completion_tokens": 174,
+          "total_tokens": 701
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 747,
+          "completion_tokens": 93,
+          "total_tokens": 840
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 886,
+          "completion_tokens": 93,
+          "total_tokens": 979
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1025,
+          "completion_tokens": 93,
+          "total_tokens": 1118
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1164,
+          "completion_tokens": 104,
+          "total_tokens": 1268
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2786",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 380,
+          "completion_tokens": 194,
+          "total_tokens": 574
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 620,
+          "completion_tokens": 109,
+          "total_tokens": 729
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 775,
+          "completion_tokens": 124,
+          "total_tokens": 899
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 945,
+          "completion_tokens": 113,
+          "total_tokens": 1058
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 1104,
+          "completion_tokens": 124,
+          "total_tokens": 1228
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2791",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[4, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 635,
+          "completion_tokens": 279,
+          "total_tokens": 914
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[4, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 963,
+          "completion_tokens": 285,
+          "total_tokens": 1248
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[4, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 1297,
+          "completion_tokens": 290,
+          "total_tokens": 1587
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[4, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 1636,
+          "completion_tokens": 301,
+          "total_tokens": 1937
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[4, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 1986,
+          "completion_tokens": 286,
+          "total_tokens": 2272
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2792",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 496,
+          "completion_tokens": 157,
+          "total_tokens": 653
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 699,
+          "completion_tokens": 207,
+          "total_tokens": 906
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 952,
+          "completion_tokens": 255,
+          "total_tokens": 1207
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 1253,
+          "completion_tokens": 205,
+          "total_tokens": 1458
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 1504,
+          "completion_tokens": 207,
+          "total_tokens": 1711
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2800",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 349,
+          "completion_tokens": 87,
+          "total_tokens": 436
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 482,
+          "completion_tokens": 93,
+          "total_tokens": 575
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 621,
+          "completion_tokens": 93,
+          "total_tokens": 714
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 760,
+          "completion_tokens": 94,
+          "total_tokens": 854
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 900,
+          "completion_tokens": 100,
+          "total_tokens": 1000
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2802",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '182', got ''",
+        "usage": {
+          "prompt_tokens": 468,
+          "completion_tokens": 144,
+          "total_tokens": 612
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '182', got ''",
+        "usage": {
+          "prompt_tokens": 658,
+          "completion_tokens": 148,
+          "total_tokens": 806
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '182', got ''",
+        "usage": {
+          "prompt_tokens": 852,
+          "completion_tokens": 161,
+          "total_tokens": 1013
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '182', got ''",
+        "usage": {
+          "prompt_tokens": 1059,
+          "completion_tokens": 161,
+          "total_tokens": 1220
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '182', got ''",
+        "usage": {
+          "prompt_tokens": 1266,
+          "completion_tokens": 161,
+          "total_tokens": 1427
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2808",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 473,
+          "completion_tokens": 273,
+          "total_tokens": 746
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 792,
+          "completion_tokens": 172,
+          "total_tokens": 964
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1010,
+          "completion_tokens": 181,
+          "total_tokens": 1191
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1237,
+          "completion_tokens": 166,
+          "total_tokens": 1403
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1449,
+          "completion_tokens": 186,
+          "total_tokens": 1635
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2810",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '13', got ''",
+        "usage": {
+          "prompt_tokens": 520,
+          "completion_tokens": 211,
+          "total_tokens": 731
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '13', got ''",
+        "usage": {
+          "prompt_tokens": 777,
+          "completion_tokens": 215,
+          "total_tokens": 992
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '13', got ''",
+        "usage": {
+          "prompt_tokens": 1038,
+          "completion_tokens": 218,
+          "total_tokens": 1256
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '13', got ''",
+        "usage": {
+          "prompt_tokens": 1302,
+          "completion_tokens": 205,
+          "total_tokens": 1507
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '13', got ''",
+        "usage": {
+          "prompt_tokens": 1553,
+          "completion_tokens": 213,
+          "total_tokens": 1766
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2811",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '18', got ''",
+        "usage": {
+          "prompt_tokens": 311,
+          "completion_tokens": 169,
+          "total_tokens": 480
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '18', got ''",
+        "usage": {
+          "prompt_tokens": 526,
+          "completion_tokens": 134,
+          "total_tokens": 660
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '18', got ''",
+        "usage": {
+          "prompt_tokens": 706,
+          "completion_tokens": 115,
+          "total_tokens": 821
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '18', got ''",
+        "usage": {
+          "prompt_tokens": 867,
+          "completion_tokens": 118,
+          "total_tokens": 985
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '18', got ''",
+        "usage": {
+          "prompt_tokens": 1031,
+          "completion_tokens": 135,
+          "total_tokens": 1166
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2812",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '6', got ''",
+        "usage": {
+          "prompt_tokens": 402,
+          "completion_tokens": 37,
+          "total_tokens": 439
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '6', got ''",
+        "usage": {
+          "prompt_tokens": 485,
+          "completion_tokens": 37,
+          "total_tokens": 522
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '6', got ''",
+        "usage": {
+          "prompt_tokens": 568,
+          "completion_tokens": 41,
+          "total_tokens": 609
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '6', got ''",
+        "usage": {
+          "prompt_tokens": 655,
+          "completion_tokens": 44,
+          "total_tokens": 699
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '6', got ''",
+        "usage": {
+          "prompt_tokens": 745,
+          "completion_tokens": 44,
+          "total_tokens": 789
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2816",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"efcfe\"', got ''",
+        "usage": {
+          "prompt_tokens": 441,
+          "completion_tokens": 289,
+          "total_tokens": 730
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"efcfe\"', got ''",
+        "usage": {
+          "prompt_tokens": 778,
+          "completion_tokens": 289,
+          "total_tokens": 1067
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"efcfe\"', got ''",
+        "usage": {
+          "prompt_tokens": 1115,
+          "completion_tokens": 321,
+          "total_tokens": 1436
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"efcfe\"', got ''",
+        "usage": {
+          "prompt_tokens": 1484,
+          "completion_tokens": 366,
+          "total_tokens": 1850
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"efcfe\"', got ''",
+        "usage": {
+          "prompt_tokens": 1898,
+          "completion_tokens": 356,
+          "total_tokens": 2254
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2817",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 482,
+          "completion_tokens": 130,
+          "total_tokens": 612
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 658,
+          "completion_tokens": 118,
+          "total_tokens": 776
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 822,
+          "completion_tokens": 118,
+          "total_tokens": 940
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 986,
+          "completion_tokens": 126,
+          "total_tokens": 1112
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1158,
+          "completion_tokens": 123,
+          "total_tokens": 1281
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2819",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"512301\"', got ''",
+        "usage": {
+          "prompt_tokens": 234,
+          "completion_tokens": 119,
+          "total_tokens": 353
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"512301\"', got ''",
+        "usage": {
+          "prompt_tokens": 400,
+          "completion_tokens": 70,
+          "total_tokens": 470
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"512301\"', got ''",
+        "usage": {
+          "prompt_tokens": 517,
+          "completion_tokens": 70,
+          "total_tokens": 587
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"512301\"', got ''",
+        "usage": {
+          "prompt_tokens": 634,
+          "completion_tokens": 70,
+          "total_tokens": 704
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"512301\"', got ''",
+        "usage": {
+          "prompt_tokens": 751,
+          "completion_tokens": 70,
+          "total_tokens": 821
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2824",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 352,
+          "completion_tokens": 83,
+          "total_tokens": 435
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 481,
+          "completion_tokens": 83,
+          "total_tokens": 564
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 610,
+          "completion_tokens": 83,
+          "total_tokens": 693
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 739,
+          "completion_tokens": 92,
+          "total_tokens": 831
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 877,
+          "completion_tokens": 93,
+          "total_tokens": 970
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2825",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 616,
+          "completion_tokens": 79,
+          "total_tokens": 695
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 741,
+          "completion_tokens": 78,
+          "total_tokens": 819
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 865,
+          "completion_tokens": 77,
+          "total_tokens": 942
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 988,
+          "completion_tokens": 57,
+          "total_tokens": 1045
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1091,
+          "completion_tokens": 74,
+          "total_tokens": 1165
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2827",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 624,
+          "completion_tokens": 260,
+          "total_tokens": 884
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 930,
+          "completion_tokens": 262,
+          "total_tokens": 1192
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 1238,
+          "completion_tokens": 262,
+          "total_tokens": 1500
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 1546,
+          "completion_tokens": 262,
+          "total_tokens": 1808
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 1854,
+          "completion_tokens": 262,
+          "total_tokens": 2116
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2828",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"baabc\"', got ''",
+        "usage": {
+          "prompt_tokens": 442,
+          "completion_tokens": 171,
+          "total_tokens": 613
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"baabc\"', got ''",
+        "usage": {
+          "prompt_tokens": 660,
+          "completion_tokens": 219,
+          "total_tokens": 879
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"baabc\"', got ''",
+        "usage": {
+          "prompt_tokens": 926,
+          "completion_tokens": 219,
+          "total_tokens": 1145
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"baabc\"', got ''",
+        "usage": {
+          "prompt_tokens": 1192,
+          "completion_tokens": 225,
+          "total_tokens": 1417
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"baabc\"', got ''",
+        "usage": {
+          "prompt_tokens": 1464,
+          "completion_tokens": 225,
+          "total_tokens": 1689
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2831",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '5', got ''",
+        "usage": {
+          "prompt_tokens": 690,
+          "completion_tokens": 236,
+          "total_tokens": 926
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '5', got ''",
+        "usage": {
+          "prompt_tokens": 972,
+          "completion_tokens": 238,
+          "total_tokens": 1210
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '5', got ''",
+        "usage": {
+          "prompt_tokens": 1256,
+          "completion_tokens": 238,
+          "total_tokens": 1494
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '5', got ''",
+        "usage": {
+          "prompt_tokens": 1540,
+          "completion_tokens": 238,
+          "total_tokens": 1778
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '5', got ''",
+        "usage": {
+          "prompt_tokens": 1824,
+          "completion_tokens": 238,
+          "total_tokens": 2062
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2832",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 428,
+          "completion_tokens": 198,
+          "total_tokens": 626
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 672,
+          "completion_tokens": 153,
+          "total_tokens": 825
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 871,
+          "completion_tokens": 149,
+          "total_tokens": 1020
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1066,
+          "completion_tokens": 238,
+          "total_tokens": 1304
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1350,
+          "completion_tokens": 167,
+          "total_tokens": 1517
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2833",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[1, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 557,
+          "completion_tokens": 266,
+          "total_tokens": 823
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[1, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 872,
+          "completion_tokens": 264,
+          "total_tokens": 1136
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[1, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 1185,
+          "completion_tokens": 217,
+          "total_tokens": 1402
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[1, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 1451,
+          "completion_tokens": 218,
+          "total_tokens": 1669
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[1, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 1718,
+          "completion_tokens": 218,
+          "total_tokens": 1936
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2834",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[5, 6, 8, 9]', got ''",
+        "usage": {
+          "prompt_tokens": 676,
+          "completion_tokens": 117,
+          "total_tokens": 793
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[5, 6, 8, 9]', got ''",
+        "usage": {
+          "prompt_tokens": 848,
+          "completion_tokens": 117,
+          "total_tokens": 965
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[5, 6, 8, 9]', got ''",
+        "usage": {
+          "prompt_tokens": 1020,
+          "completion_tokens": 87,
+          "total_tokens": 1107
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[5, 6, 8, 9]', got ''",
+        "usage": {
+          "prompt_tokens": 1162,
+          "completion_tokens": 115,
+          "total_tokens": 1277
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[5, 6, 8, 9]', got ''",
+        "usage": {
+          "prompt_tokens": 1332,
+          "completion_tokens": 119,
+          "total_tokens": 1451
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2837",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 433,
+          "completion_tokens": 143,
+          "total_tokens": 576
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 622,
+          "completion_tokens": 159,
+          "total_tokens": 781
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 827,
+          "completion_tokens": 156,
+          "total_tokens": 983
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1029,
+          "completion_tokens": 147,
+          "total_tokens": 1176
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1222,
+          "completion_tokens": 147,
+          "total_tokens": 1369
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2839",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[6, 10, 7]', got ''",
+        "usage": {
+          "prompt_tokens": 785,
+          "completion_tokens": 372,
+          "total_tokens": 1157
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[6, 10, 7]', got ''",
+        "usage": {
+          "prompt_tokens": 1209,
+          "completion_tokens": 363,
+          "total_tokens": 1572
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[6, 10, 7]', got ''",
+        "usage": {
+          "prompt_tokens": 1624,
+          "completion_tokens": 366,
+          "total_tokens": 1990
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[6, 10, 7]', got ''",
+        "usage": {
+          "prompt_tokens": 2042,
+          "completion_tokens": 378,
+          "total_tokens": 2420
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[6, 10, 7]', got ''",
+        "usage": {
+          "prompt_tokens": 2472,
+          "completion_tokens": 383,
+          "total_tokens": 2855
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2844",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '21', got ''",
+        "usage": {
+          "prompt_tokens": 489,
+          "completion_tokens": 153,
+          "total_tokens": 642
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '21', got ''",
+        "usage": {
+          "prompt_tokens": 688,
+          "completion_tokens": 62,
+          "total_tokens": 750
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '21', got ''",
+        "usage": {
+          "prompt_tokens": 796,
+          "completion_tokens": 61,
+          "total_tokens": 857
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '21', got ''",
+        "usage": {
+          "prompt_tokens": 903,
+          "completion_tokens": 61,
+          "total_tokens": 964
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '21', got ''",
+        "usage": {
+          "prompt_tokens": 1010,
+          "completion_tokens": 65,
+          "total_tokens": 1075
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2845",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 468,
+          "completion_tokens": 107,
+          "total_tokens": 575
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 621,
+          "completion_tokens": 118,
+          "total_tokens": 739
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 785,
+          "completion_tokens": 111,
+          "total_tokens": 896
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 942,
+          "completion_tokens": 85,
+          "total_tokens": 1027
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 1073,
+          "completion_tokens": 88,
+          "total_tokens": 1161
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2847",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 493,
+          "completion_tokens": 156,
+          "total_tokens": 649
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 695,
+          "completion_tokens": 87,
+          "total_tokens": 782
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 828,
+          "completion_tokens": 87,
+          "total_tokens": 915
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 961,
+          "completion_tokens": 87,
+          "total_tokens": 1048
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1094,
+          "completion_tokens": 87,
+          "total_tokens": 1181
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2848",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 313,
+          "completion_tokens": 367,
+          "total_tokens": 680
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 726,
+          "completion_tokens": 171,
+          "total_tokens": 897
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 943,
+          "completion_tokens": 171,
+          "total_tokens": 1114
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1160,
+          "completion_tokens": 173,
+          "total_tokens": 1333
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1379,
+          "completion_tokens": 171,
+          "total_tokens": 1550
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2849",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 580,
+          "completion_tokens": 130,
+          "total_tokens": 710
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 756,
+          "completion_tokens": 133,
+          "total_tokens": 889
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 935,
+          "completion_tokens": 169,
+          "total_tokens": 1104
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1150,
+          "completion_tokens": 111,
+          "total_tokens": 1261
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1307,
+          "completion_tokens": 123,
+          "total_tokens": 1430
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2850",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '12', got ''",
+        "usage": {
+          "prompt_tokens": 429,
+          "completion_tokens": 255,
+          "total_tokens": 684
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '12', got ''",
+        "usage": {
+          "prompt_tokens": 730,
+          "completion_tokens": 65,
+          "total_tokens": 795
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '12', got ''",
+        "usage": {
+          "prompt_tokens": 841,
+          "completion_tokens": 47,
+          "total_tokens": 888
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '12', got ''",
+        "usage": {
+          "prompt_tokens": 934,
+          "completion_tokens": 60,
+          "total_tokens": 994
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '12', got ''",
+        "usage": {
+          "prompt_tokens": 1040,
+          "completion_tokens": 78,
+          "total_tokens": 1118
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2854",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 637,
+          "completion_tokens": 246,
+          "total_tokens": 883
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 929,
+          "completion_tokens": 254,
+          "total_tokens": 1183
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 1229,
+          "completion_tokens": 274,
+          "total_tokens": 1503
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 1549,
+          "completion_tokens": 284,
+          "total_tokens": 1833
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 1879,
+          "completion_tokens": 361,
+          "total_tokens": 2240
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  },
+  {
+    "task_id": "LCB/2855",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 598,
+          "completion_tokens": 496,
+          "total_tokens": 1094
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1140,
+          "completion_tokens": 315,
+          "total_tokens": 1455
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1501,
+          "completion_tokens": 315,
+          "total_tokens": 1816
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1862,
+          "completion_tokens": 307,
+          "total_tokens": 2169
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 2215,
+          "completion_tokens": 294,
+          "total_tokens": 2509
+        }
+      }
+    ],
+    "model": "Llama-3.1-8B"
+  }
+]
