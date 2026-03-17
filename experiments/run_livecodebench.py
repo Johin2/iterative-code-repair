@@ -272,19 +272,81 @@ def _classify_error(stderr: str) -> str:
 # Prompts
 # ---------------------------------------------------------------------------
 
+def _clean_problem_text(text: str) -> str:
+    """Strip LaTeX math notation and clean up problem description."""
+    import re
+    # Remove $\texttt{...}$ -> just the content
+    text = re.sub(r'\$\\texttt\{([^}]*)\}\$', r'\1', text)
+    # Remove $\text{...}$ -> content
+    text = re.sub(r'\$\\text\{([^}]*)\}\$', r'\1', text)
+    # Remove remaining simple $...$ math
+    text = re.sub(r'\$([^$]+)\$', r'\1', text)
+    # Remove \leq, \geq etc
+    text = text.replace(r'\leq', '<=').replace(r'\geq', '>=')
+    text = text.replace(r'\cdot', '*').replace(r'\ldots', '...')
+    return text
+
+
+def _extract_code_lcb(response: str) -> str:
+    """Extract Python code from a LiveCodeBench model response.
+
+    Unlike HumanEval (function completion), LiveCodeBench expects complete
+    programs. We extract from markdown code blocks, or fall back to the
+    full response if no blocks are found.
+    """
+    import re
+
+    if not response:
+        return "pass\n"
+
+    code = response.strip()
+
+    # Remove thinking traces
+    code = re.sub(r"<think>.*?</think>", "", code, flags=re.DOTALL).strip()
+
+    # Extract from markdown code blocks
+    blocks = re.findall(r"```(?:python)?\s*\n(.*?)```", code, flags=re.DOTALL)
+    if blocks:
+        return max(blocks, key=len).strip()
+
+    # If no code blocks, try to find lines that look like Python code
+    # (skip lines that look like natural language)
+    lines = code.split("\n")
+    code_lines = []
+    in_code = False
+    for line in lines:
+        stripped = line.strip()
+        # Heuristic: Python code lines start with keywords, indentation, or common patterns
+        if stripped.startswith(("import ", "from ", "def ", "class ", "if ", "for ",
+                                "while ", "try:", "except", "with ", "print(",
+                                "n =", "t =", "s =", "#")) or stripped == "" or in_code:
+            code_lines.append(line)
+            in_code = True
+        elif in_code and (line.startswith(" ") or line.startswith("\t")):
+            code_lines.append(line)
+
+    if code_lines:
+        return "\n".join(code_lines).strip()
+
+    # Last resort: return the whole response
+    return code
+
+
 def build_initial_prompt_lcb(problem: dict) -> list[dict[str, str]]:
     """Build initial chat messages for a LiveCodeBench problem."""
+    cleaned = _clean_problem_text(problem['prompt'])
     return [
         {
             "role": "system",
             "content": (
-                "You are an expert Python programmer. Solve the given problem. "
-                "Return ONLY the Python code, no explanations, no markdown formatting."
+                "You are an expert Python programmer solving competitive programming problems. "
+                "Write a complete Python program that reads input from stdin and prints output to stdout. "
+                "Return ONLY the Python code inside a ```python code block."
             ),
         },
         {
             "role": "user",
-            "content": f"Solve the following problem:\n\n{problem['prompt']}",
+            "content": f"Solve the following problem. Return ONLY Python code in a ```python block.\n\n{cleaned}",
         },
     ]
 
@@ -338,7 +400,7 @@ def run_single_problem(
             })
             break
 
-        code = extract_code(raw_response, entry_point, prompt_text)
+        code = _extract_code_lcb(raw_response)
         exec_result = execute_livecodebench(
             code, test_cases, is_function, entry_point,
         )
