@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3-32B",
+  "benchmark": "humaneval",
+  "thinking_enabled": true,
+  "r0_passed": 127,
+  "final_passed": 150,
+  "total": 164,
+  "r0_rate": 77.4,
+  "final_rate": 91.5,
+  "gain_pp": 14.0,
+  "total_tokens": 561757,
+  "time_seconds": 13400.4
+}
