@@ -524,7 +524,7 @@ Our prompt ablation covers four of five models (8B, 70B, Scout, Qwen3) with two 
 All models were accessed via the Groq free-tier API, which may serve quantized or otherwise optimized model variants. We did not verify that the served weights exactly match the canonical model releases. Pass rates may differ slightly on official weights. A spot-check on locally-hosted canonical weights would strengthen reproducibility claims.
 
 \textbf{Qwen3 reasoning mode.}
-Qwen3's thinking mode was disabled via \texttt{/no\_think} to ensure fair comparison with non-reasoning models. However, this may understate Qwen3's full capability, as reasoning mode could improve both initial generation and repair quality. Evaluating Qwen3 with thinking enabled would characterize this effect.
+We conducted a preliminary evaluation of Qwen3 with thinking mode enabled on 117 HumanEval problems. Thinking mode achieves a slightly higher final pass rate after repair (96.6\% vs.\ 95.8\% for no-think on the same subset), but with a substantially \emph{lower} initial pass rate (78.0\% vs.\ 90.7\%). The gap reflects thinking-trace contamination of code output: all 4 failures are syntax errors caused by reasoning text leaking into the extracted code. Self-repair compensates by fixing these extraction artifacts, but the net benefit of thinking mode is modest (+0.8\,pp). A more robust thinking-trace extraction pipeline could potentially unlock larger gains. Thinking mode was disabled in the main experiments to ensure fair comparison with non-reasoning models.
 
 % ============================================================
 \section{Threats to Validity}

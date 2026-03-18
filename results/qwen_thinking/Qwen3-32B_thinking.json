@@ -2518,5 +2518,306 @@
     ],
     "thinking_enabled": true,
     "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/105",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpic1dk1qk.py\", line 16\n    Okay, I need to solve this Python function called by_length. Let's read the problem carefully.\n                                                                    ^\nSyntaxError: unterminated string literal (detected at line 16)",
+        "usage": {
+          "prompt_tokens": 317,
+          "completion_tokens": 4096,
+          "total_tokens": 4413
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/106",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 2179,
+          "total_tokens": 2343
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/107",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 252,
+          "completion_tokens": 1161,
+          "total_tokens": 1413
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/108",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 2645,
+          "total_tokens": 2811
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/109",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6fn6uckc.py\", line 16\n    Okay, let's see. I need to write a Python function called move_one_ball that checks if an array can be sorted into non-decreasing order by performing any number of right shift operations. Right shift means moving the last element to the front. \n             ^\nSyntaxError: unterminated string literal (detected at line 16)",
+        "usage": {
+          "prompt_tokens": 337,
+          "completion_tokens": 4096,
+          "total_tokens": 4433
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/110",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 235,
+          "completion_tokens": 1603,
+          "total_tokens": 1838
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/111",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 189,
+          "completion_tokens": 3446,
+          "total_tokens": 3635
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/112",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 1907,
+          "total_tokens": 2107
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/113",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp72ny2jpi.py\", line 68\n    Wait, let's take the template as:\n             ^\nSyntaxError: unterminated string literal (detected at line 68)",
+        "usage": {
+          "prompt_tokens": 220,
+          "completion_tokens": 4096,
+          "total_tokens": 4316
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/114",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 2069,
+          "total_tokens": 2195
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/115",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 364,
+          "completion_tokens": 1021,
+          "total_tokens": 1385
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/116",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpeg2ot4_e.py\", line 34\n    1 is 1 in binary \\u2192 1 one.\n                     ^\nSyntaxError: invalid character '\\u2192' (U+2192)",
+        "usage": {
+          "prompt_tokens": 208,
+          "completion_tokens": 4096,
+          "total_tokens": 4304
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/117",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 219,
+          "completion_tokens": 2448,
+          "total_tokens": 2667
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
   }
 ]
