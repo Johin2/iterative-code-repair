@@ -33,7 +33,7 @@ johinjohny144@gmail.com}}
 \maketitle
 
 \begin{abstract}
-Large language models frequently fail to produce correct code on their first attempt, yet most benchmarks evaluate them in a single-shot setting. We investigate \emph{iterative self-repair}---feeding execution errors back to the model for correction---across five open-weight models (8B--70B parameters, dense and mixture-of-experts): Llama~3.1~8B, Llama~3.3~70B, Llama~4~Scout (MoE, 16 experts), Llama~4~Maverick (MoE, 128 experts), and Qwen3~32B. On HumanEval (164 problems) and MBPP Sanitized (257 problems) with up to five attempts, self-repair universally improves pass rates: +4.9 to +14.0\,pp on HumanEval and +16.0 to +23.0\,pp on MBPP. Most gains concentrate in the first two rounds. Error-type analysis shows syntax and runtime errors are repaired at $>$80\% rates, while assertion errors (logical mistakes) succeed at only $\sim$41\%, connecting to broader findings on the limits of LLM self-correction. A prompt ablation reveals chain-of-thought repair yields up to +5.4\,pp over minimal prompting for capable models.
+Large language models frequently fail to produce correct code on their first attempt, yet most benchmarks evaluate them in a single-shot setting. We investigate \emph{iterative self-repair}---feeding execution errors back to the model for correction---across five open-weight models (8B--70B parameters, dense and mixture-of-experts): Llama~3.1~8B, Llama~3.3~70B, Llama~4~Scout (MoE, 16 experts), Llama~4~Maverick (MoE, 128 experts), and Qwen3~32B. On HumanEval (164 problems) and MBPP Sanitized (257 problems) with up to five attempts, self-repair universally improves pass rates: +4.9 to +14.0\,pp on HumanEval and +16.0 to +23.0\,pp on MBPP. Most gains concentrate in the first two rounds. Error-type analysis shows syntax and runtime errors are repaired at $>$80\% rates, while assertion errors (logical mistakes) succeed at only $\sim$41\%, connecting to broader findings on the limits of LLM self-correction. To our knowledge, this is the first systematic comparison of self-repair across dense and MoE architectures, and the first token-efficiency comparison against independent resampling. A prompt ablation reveals chain-of-thought repair yields up to +5.4\,pp over minimal prompting for capable models.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -48,7 +48,7 @@ The ability of large language models (LLMs) to generate functionally correct cod
 
 \emph{Iterative self-repair} replicates this workflow within an LLM pipeline. When a generated program fails its test suite, the model receives the error traceback and is asked to produce a corrected version. This cycle can repeat for a fixed number of rounds. Prior work has explored self-repair with proprietary models such as GPT-3.5 and GPT-4~\cite{olausson2024selfrepair, chen2024teaching}, yielding mixed conclusions about its effectiveness. Olausson et al.~\cite{olausson2024selfrepair} notably argued that self-repair is ``not a silver bullet,'' observing that weaker models may introduce new errors during repair attempts.
 
-However, the landscape has changed significantly since those studies. A new generation of open-weight models (2024--2025) exhibits substantially stronger instruction-following and error-comprehension capabilities, and novel architectures such as mixture-of-experts (MoE) have become prevalent. These developments motivate a fresh empirical investigation: \emph{does self-repair now work universally, even for smaller models? How do dense and MoE architectures differ in their repair dynamics? And what practical guidelines can we derive for deployment?}
+However, the landscape has changed significantly since those studies. A new generation of open-weight models (2024--2025) exhibits substantially stronger instruction-following and error-comprehension capabilities, and novel architectures such as mixture-of-experts (MoE) have become prevalent. No prior work has evaluated self-repair on these modern models or compared dense vs.\ MoE architectures for repair. These developments motivate a fresh empirical investigation: \emph{does self-repair now work universally, even for smaller models? How do dense and MoE architectures differ in their repair dynamics? And what practical guidelines can we derive for deployment?}
 
 In this paper, we address these questions with a systematic evaluation across five modern open-weight models: Llama~3.1~8B (8B dense)~\cite{grubisic2024llama3}, Llama~3.3~70B (70B dense)~\cite{llama33}, Llama~4~Scout~17B (17B active, MoE with 16 experts)~\cite{llama4}, Llama~4~Maverick~17B (17B active, MoE with 128 experts)~\cite{llama4}, and Qwen3~32B (32B dense)~\cite{qwen3}. All experiments are conducted via the Groq free-tier API at zero monetary cost, with greedy decoding (temperature~$=0.0$) for reproducibility. We evaluate on two benchmarks---HumanEval (164 problems) and MBPP Sanitized (257 problems)---with up to five attempts per problem.
 
@@ -119,7 +119,7 @@ When a solution fails, we classify the error into one of the following categorie
 
 \subsection{Metrics}
 
-Our primary metric is \emph{cumulative pass@1} at each round~$R_i$, defined as the fraction of problems solved by round~$R_i$ (inclusive of all preceding rounds). Because each problem receives exactly one attempt per round with greedy decoding (temperature~$=0.0$), pass@1 is deterministic and does not require the unbiased estimator used for stochastic sampling~\cite{chen2021evaluating}. We also report the \emph{self-repair gain}~$\Delta$, defined as the difference between the final cumulative pass@1 (at~$R_4$) and the initial pass@1 (at~$R_0$), measured in percentage points~(pp).
+Our primary metric is \emph{cumulative pass@1} at each round~$R_i$, defined as the fraction of problems solved by round~$R_i$ (inclusive of all preceding rounds). Because each problem receives exactly one attempt per round with greedy decoding (temperature~$=0.0$), pass@1 is deterministic and does not require the unbiased estimator used for stochastic sampling~\cite{chen2021evaluating}. We also report the \emph{self-repair gain}~$\Delta$, defined as the difference between the final cumulative pass@1 (at~$R_4$) and the initial pass@1 (at~$R_0$), measured in percentage points~(pp). We note that on HumanEval ($n=164$), a single problem corresponds to $\approx$0.6\,pp; differences smaller than $\sim$2\,pp (3 problems) should be interpreted cautiously.
 
 % ============================================================
 \section{Experimental Setup}
@@ -186,7 +186,7 @@ Table~\ref{tab:humaneval} presents the cumulative pass@1 rates on HumanEval acro
 
 \textbf{Universal improvement.} Self-repair improves pass rates for every model tested, confirming its effectiveness across model scales and architectures. Every model gains at least +4.9\,pp, and the best-performing model (Scout) gains +14.0\,pp.
 
-\textbf{Highest final rates.} Maverick (93.9\%) and Llama~3.3~70B (93.3\%) achieve the highest final pass rates, followed closely by Qwen3~32B (92.7\%). Despite different architectures and parameter counts, these three models converge to similar final performance levels.
+\textbf{Highest final rates.} Maverick (93.9\%) and Llama~3.3~70B (93.3\%) achieve the highest final pass rates, followed closely by Qwen3~32B (92.7\%). Despite different architectures and parameter counts, these three models converge to similar final performance levels (though the 1.2\,pp difference between Maverick and Qwen3 corresponds to just two problems and should not be over-interpreted).
 
 \textbf{Diminishing returns from higher baselines.} Models with higher initial pass rates tend to gain less from repair. Qwen3~32B starts at 87.8\% and gains only +4.9\,pp, while Maverick starts at 87.2\% and gains +6.7\,pp. In contrast, Scout starts lower at 75.6\% and gains the most (+14.0\,pp). This pattern suggests diminishing returns: as the initial pass rate increases, the remaining failures are increasingly composed of hard problems where self-repair is less effective.
 
@@ -224,7 +224,7 @@ Table~\ref{tab:mbpp} presents results on MBPP Sanitized. The MBPP results reinfo
 
 \textbf{Larger absolute gains.} Self-repair gains on MBPP are substantially larger than on HumanEval, ranging from +16.0\,pp to +23.0\,pp (compared to +4.9\,pp to +14.0\,pp on HumanEval). This is consistent with MBPP having lower initial pass rates, leaving more room for improvement through repair.
 
-\textbf{Consistent model ranking.} The relative ordering of models is consistent across benchmarks. Maverick (92.6\%) and Llama~3.3~70B (90.7\%) achieve the highest final rates on MBPP, while Llama~3.1~8B has the lowest final rate on both benchmarks. This cross-benchmark consistency strengthens confidence in the findings.
+\textbf{Consistent model ranking.} The relative ordering of models is consistent across benchmarks. Maverick (92.6\%) and Llama~3.3~70B (90.7\%) achieve the highest final rates on MBPP, while Llama~3.1~8B has the lowest final rate on both benchmarks. This cross-benchmark consistency strengthens confidence in the findings. On MBPP ($n=257$), one problem corresponds to $\sim$0.4\,pp, providing finer resolution for ranking comparisons.
 
 \textbf{70B achieves largest repair gain.} Llama~3.3~70B achieves the largest self-repair gain on MBPP at +23.0\,pp, improving from 67.7\% to 90.7\%.
 
@@ -366,7 +366,7 @@ Our main experiments use a minimal repair prompt that provides only the error me
 
 \begin{table}[t]
 \centering
-\caption{Repair prompt ablation on HumanEval. Cumulative pass@1 (\%) at each round for three prompt strategies on two models. Deltas computed from raw problem counts before rounding.}
+\caption{Repair prompt ablation on HumanEval. Cumulative pass@1 (\%) at each round for three prompt strategies on two models. Deltas computed from raw problem counts before rounding. $R_0$ varies slightly across runs due to API-level non-determinism; $\Delta$ computed from each run's own $R_0$.}
 \label{tab:ablation}
 \begin{tabular}{llcccc}
 \toprule
@@ -397,7 +397,9 @@ Qwen3 32B & Chain-of-thought & 89.6 & 97.0 & \textbf{97.0} & +7.3 \\
     \label{fig:ablation}
 \end{figure}
 
-Table~\ref{tab:ablation} and Figure~\ref{fig:ablation} present the results across four models. Note that because ablation runs were conducted at different times using the Groq API, minor $R_0$ variation is observed. This likely reflects differences in served model quantization across API sessions rather than prompt effects, since the repair strategy does not affect initial generation.
+Table~\ref{tab:ablation} and Figure~\ref{fig:ablation} present the results across four models.
+
+Note that each ablation configuration involves a complete re-execution of all 164 problems, including initial generation at $R_0$. Since the repair strategy does not affect the initial generation prompt, any $R_0$ variation across strategies for the same model reflects non-determinism in the Groq API's served model weights across sessions. For example, Llama~3.3~70B shows $R_0$ values of 84.1\%, 82.9\%, and 81.1\% across the three strategies. The $\Delta$ column is computed relative to each run's own $R_0$, making repair gain measurements independent of this baseline variation. Crucially, the key finding---that CoT achieves the highest final $R_2$ rate for every model---holds regardless of which $R_0$ baseline is used.
 
 \textbf{CoT consistently wins across all models.} Chain-of-thought achieves the highest final pass rate for every model: 77.4\% (8B), 96.3\% (70B), 89.6\% (Scout), and 97.0\% (Qwen3). Qwen3 with CoT achieves the highest pass rate of any model-strategy combination in our study.
 
@@ -407,11 +409,11 @@ The practical implication is clear: for capable models ($\geq$32B), chain-of-tho
 
 \subsection{Self-Repair vs.\ Independent Resampling}
 
-A key question is whether the token budget spent on iterative repair could be better used by simply drawing multiple independent samples. To address this, we compare self-repair (greedy decoding, up to 5 sequential attempts) against independent resampling (temperature~$=0.8$, 5 independent samples per problem) on HumanEval. For resampling, we report the unbiased pass@$k$ estimator from Chen et al.~\cite{chen2021evaluating}.
+A key question is whether the token budget spent on iterative repair could be better used by simply drawing multiple independent samples. To address this, we compare self-repair (greedy decoding, $T\!=\!0$, up to 5 sequential attempts with error feedback) against independent resampling ($T\!=\!0.8$, 5 independent samples) on HumanEval. This comparison involves two differences: error feedback (present in repair, absent in resampling) and decoding temperature ($T\!=\!0$ vs.\ $T\!=\!0.8$). A fully controlled study would also require stochastic repair ($T\!>\!0$ with feedback); we leave this to future work. Nevertheless, this comparison addresses the practical question: given a token budget, should one invest in sequential repair or parallel resampling? For resampling, we report the unbiased pass@$k$ estimator~\cite{chen2021evaluating}.
 
 \begin{table}[t]
 \centering
-\caption{Self-repair (greedy, 5 rounds) vs.\ independent resampling (temperature 0.8, 5 samples) on HumanEval (164 problems). Bold indicates higher pass rate.}
+\caption{Self-repair (greedy, 5 rounds) vs.\ independent resampling (temperature 0.8, 5 samples) on HumanEval (164 problems). Bold indicates higher pass rate. Note: repair uses greedy decoding ($T\!=\!0$) while resampling uses $T\!=\!0.8$; see text.}
 \label{tab:resampling}
 \begin{tabular}{lcccc}
 \toprule
@@ -427,13 +429,13 @@ Qwen3 32B       & 92.7 & 102K & 92.7 & 223K \\
 \end{tabular}
 \end{table}
 
-Table~\ref{tab:resampling} compares self-repair against independent resampling on HumanEval for four models.\footnote{Maverick was temporarily unavailable on Groq at time of writing.} The results reveal a clear, model-dependent pattern:
+Table~\ref{tab:resampling} compares self-repair against independent resampling on HumanEval for four models.\footnote{Maverick was unavailable on the Groq free-tier API during the resampling experiments. The four evaluated models span the full capability range (8B--70B) and both architecture types (dense and MoE), providing sufficient evidence for the observed patterns.} The results reveal a clear, model-dependent pattern:
 
 \textbf{Self-repair is always more token-efficient.} Across all four models, self-repair uses 45--55\% fewer tokens than resampling to achieve comparable or better pass rates. This is because self-repair generates only the corrected function at each round, while resampling generates a complete solution from scratch each time.
 
-\textbf{Self-repair becomes increasingly competitive with model capability.} For the weakest model (Llama~3.1~8B), resampling achieves a modestly higher pass@5 (79.9\% vs.\ 76.8\%)---the diversity of independent samples compensates for the model's limited error comprehension. For the three stronger models, self-repair matches or exceeds resampling: Scout (89.6\% vs.\ 86.0\%), Llama~3.3~70B (93.3\% vs.\ 90.9\%), and Qwen3~32B (92.7\% tied) all favor repair. The 70B result is particularly striking: self-repair achieves +2.4\,pp higher pass rate while using less than half the tokens (112K vs.\ 231K).
+\textbf{Self-repair becomes increasingly competitive with model capability.} For the weakest model (Llama~3.1~8B), resampling achieves a modestly higher pass@5 (79.9\% vs.\ 76.8\%)---the diversity of independent samples compensates for the model's limited error comprehension. For the three stronger models, self-repair matches or exceeds resampling: Scout (89.6\% vs.\ 86.0\%), Llama~3.3~70B (93.3\% vs.\ 90.9\%, a difference of 4 problems), and Qwen3~32B (92.7\% tied) all favor repair. The 70B result is particularly striking: self-repair achieves +2.4\,pp higher pass rate while using less than half the tokens (112K vs.\ 231K).
 
-This pattern has a clear interpretation: as models become more capable, their ability to diagnose and fix errors from feedback improves, making the \emph{informational signal} from error messages more valuable than the \emph{diversity} from independent samples. The practical implication is that self-repair is the preferred strategy for capable models, while a hybrid approach---repairing diagnosable errors and resampling for assertion errors---may be optimal for weaker models.
+This pattern has a clear interpretation: as models become more capable, their ability to diagnose and fix errors from feedback improves, making the \emph{informational signal} from error messages more valuable than the \emph{diversity} from independent samples. We note that this comparison does not fully disentangle the value of error feedback from the effect of decoding temperature; a stochastic repair condition would be needed to isolate these factors. The practical implication is that self-repair is the preferred strategy for capable models, while a hybrid approach---repairing diagnosable errors and resampling for assertion errors---may be optimal for weaker models.
 
 % ============================================================
 \section{Discussion}
@@ -441,7 +443,7 @@ This pattern has a clear interpretation: as models become more capable, their ab
 
 \subsection{Self-Repair as a Universal Improvement Strategy}
 
-Our results demonstrate that iterative self-repair with error feedback is a universally effective strategy for improving LLM code generation across all five models tested, spanning 8B to 70B parameters and both dense and MoE architectures. This finding updates the conclusions of Olausson et al.~\cite{olausson2024selfrepair}, who found that weaker models could be harmed by self-repair. The discrepancy likely reflects improvements in instruction-following capabilities of recent model generations: all five models in our study demonstrate competent error comprehension, even at the 8B scale.
+Our results demonstrate that iterative self-repair with error feedback is a universally effective strategy for improving LLM code generation across all five models tested, spanning 8B to 70B parameters and both dense and MoE architectures. This finding updates the conclusions of Olausson et al.~\cite{olausson2024selfrepair}, who found that weaker models could be harmed by self-repair. The discrepancy likely reflects improvements in instruction-following capabilities of recent model generations: all five models in our study demonstrate competent error comprehension, even at the 8B scale. All models in Olausson et al.'s study were released in 2022--2023; our evaluation covers 2024--2025 models, a period that saw significant improvements in instruction-following and error comprehension capabilities.
 
 The cross-benchmark consistency of our findings strengthens this conclusion. Self-repair improves every model on both HumanEval and MBPP, with consistent model rankings across benchmarks. This suggests that self-repair effectiveness is a robust property of these models rather than an artifact of a particular benchmark.
 
@@ -467,9 +469,9 @@ To complement our quantitative findings, we examine representative cases from Hu
 
 \textbf{Persistent failures.} On HumanEval/10, Llama~3.1~8B produced assertion errors on all five attempts, never resolving the underlying logic error. On HumanEval/32, Maverick exhibited error \emph{thrashing}: assertion $\rightarrow$ name error $\rightarrow$ assertion $\rightarrow$ assertion $\rightarrow$ timeout---the failure mode described by Olausson et al.~\cite{olausson2024selfrepair}. We identified several ``universally hard'' problems (e.g., HumanEval/132, HumanEval/145) that defeated all five models even with four repair rounds.
 
-\subsection{Self-Repair on Harder Benchmarks}
+\subsection{Preliminary Evaluation on Harder Benchmarks}
 
-To assess whether self-repair generalizes beyond the relatively easy HumanEval and MBPP benchmarks, we conducted a preliminary evaluation on LiveCodeBench~\cite{jain2024livecodebench}, a contamination-free benchmark of competitive programming problems. We evaluated three models on 50 LiveCodeBench problems (18 easy, 23 medium, 9 hard) with the same 5-round self-repair protocol.
+To assess whether self-repair generalizes beyond the relatively easy HumanEval and MBPP benchmarks, we conducted a preliminary evaluation on LiveCodeBench~\cite{jain2024livecodebench}, a contamination-free benchmark of competitive programming problems. We evaluated three models on 50 LiveCodeBench problems (18 easy, 23 medium, 9 hard) with the same 5-round self-repair protocol. We emphasize that this evaluation is exploratory: the small sample size (50 problems) limits statistical power, and only three of five models were evaluated.
 
 \begin{table}[t]
 \centering
@@ -488,7 +490,7 @@ Qwen3 32B       &  8.0 & 10.0 & +2.0 \\
 
 Table~\ref{tab:livecodebench} shows that self-repair improves all three models on LiveCodeBench. Scout achieves the largest gain (+8.0\,pp), more than doubling its pass rate from 6\% to 14\%, with repairs occurring across rounds $R_1$ through~$R_4$---in contrast to HumanEval, where most gains concentrate in $R_1$. The 8B model and Qwen3 show more modest gains (+2.0\,pp each), consistent with the pattern observed on HumanEval.
 
-While the absolute pass rates are much lower than on HumanEval (as expected for competitive programming), self-repair remains effective. The relative repair gain for Scout (+133\% improvement over baseline) is actually larger than on HumanEval (+18\%), suggesting that self-repair scales to harder benchmarks where the lower baseline leaves more room for improvement.
+While the absolute pass rates are much lower than on HumanEval (as expected for competitive programming), self-repair remains effective. The relative repair gain for Scout (+133\% improvement over baseline) is actually larger than on HumanEval (+18\%), suggesting that self-repair \emph{may} scale to harder benchmarks where the lower baseline leaves more room for improvement. At $n=50$, each problem corresponds to 2\,pp, so differences smaller than $\sim$4\,pp should be interpreted cautiously.
 
 \subsection{Practical Implications}
 
@@ -524,6 +526,8 @@ Our prompt ablation covers four of five models (8B, 70B, Scout, Qwen3) with two 
 
 \textbf{API-served model weights.}
 All models were accessed via the Groq free-tier API, which may serve quantized or otherwise optimized model variants. We did not verify that the served weights exactly match the canonical model releases. Pass rates may differ slightly on official weights. A spot-check on locally-hosted canonical weights would strengthen reproducibility claims.
+
+\textbf{Model family diversity.} Our evaluation covers two model families (Llama and Qwen) accessed through a single inference provider. Code-specialized models (e.g., DeepSeek-Coder~\cite{guo2024deepseek}) may exhibit different repair dynamics due to code-focused pre-training. Proprietary models with larger parameter counts could push beyond the $\sim$94\% ceiling observed. This scope reflects our zero-cost experimental protocol, which ensures full reproducibility but limits the model set to those available on Groq's free tier.
 
 \textbf{Qwen3 reasoning mode.}
 We evaluated Qwen3 with thinking mode enabled on all 164 HumanEval problems. Thinking mode achieves a slightly \emph{lower} final pass rate (91.5\% vs.\ 92.7\% for no-think), despite a much larger repair gain (+14.0\,pp vs.\ +4.9\,pp). The explanation lies in the initial pass rate: thinking mode's $R_0$ drops to 77.4\% (vs.\ 87.8\% for no-think) because long reasoning traces contaminate the code output, causing syntax errors. Self-repair compensates by fixing 23 additional problems, but 14 problems fail due to API errors or persistent extraction issues. Our decision to disable thinking mode in the main experiments is validated: with the current code extraction pipeline, thinking mode reduces net performance. A more robust extraction approach (or native tool-use integration) could potentially unlock the reasoning benefits without the extraction overhead.
