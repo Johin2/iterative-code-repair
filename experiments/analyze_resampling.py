@@ -8,6 +8,8 @@ from pathlib import Path
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
+matplotlib.rcParams['pdf.fonttype'] = 42  # TrueType fonts in PDF
+matplotlib.rcParams['ps.fonttype'] = 42   # TrueType fonts in PS
 import matplotlib.pyplot as plt
 
 from experiments.config import MODELS, RESULTS_DIR
