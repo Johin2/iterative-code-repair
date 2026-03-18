@@ -1,0 +1,3688 @@
+[
+  {
+    "task_id": "HumanEval/0",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 70,
+          "total_tokens": 235
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/1",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 156,
+          "completion_tokens": 121,
+          "total_tokens": 277
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/2",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 126,
+          "completion_tokens": 30,
+          "total_tokens": 156
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/3",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 160,
+          "completion_tokens": 58,
+          "total_tokens": 218
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/4",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 71,
+          "total_tokens": 229
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/5",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 78,
+          "total_tokens": 211
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/6",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 153,
+          "completion_tokens": 112,
+          "total_tokens": 265
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/7",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 134,
+          "completion_tokens": 45,
+          "total_tokens": 179
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/8",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 153,
+          "completion_tokens": 65,
+          "total_tokens": 218
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/9",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 141,
+          "completion_tokens": 64,
+          "total_tokens": 205
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/10",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp2ry7l1qp.py\", line 40, in <module>\n    check(make_palindrome)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp2ry7l1qp.py\", line 34, in check\n    assert candidate('x') == 'x'\n           ~~~~~~~~~^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp2ry7l1qp.py\", line 20, in make_palindrome\n    if is_palindrome(string[i:]):\n       ^^^^^^^^^^^^^\nNameError: name 'is_palindrome' is not defined. Did y",
+        "usage": {
+          "prompt_tokens": 183,
+          "completion_tokens": 65,
+          "total_tokens": 248
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 493,
+          "completion_tokens": 234,
+          "total_tokens": 727
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/11",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 123,
+          "completion_tokens": 108,
+          "total_tokens": 231
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/12",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 143,
+          "completion_tokens": 44,
+          "total_tokens": 187
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/13",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 44,
+          "total_tokens": 157
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/14",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 100,
+          "completion_tokens": 47,
+          "total_tokens": 147
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/15",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 109,
+          "completion_tokens": 36,
+          "total_tokens": 145
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/16",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 111,
+          "completion_tokens": 28,
+          "total_tokens": 139
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/17",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 213,
+          "completion_tokens": 88,
+          "total_tokens": 301
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/18",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 75,
+          "total_tokens": 204
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/19",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "index_key_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpniwix6d_.py\", line 57, in <module>\n    check(sort_numbers)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpniwix6d_.py\", line 51, in check\n    assert candidate('three') == 'three'\n           ~~~~~~~~~^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpniwix6d_.py\", line 35, in sort_numbers\n    nums = [word_to_num[word] for word in words]\n            ~~~~~~~~~~~^^^^^^\nKeyError: 'three'",
+        "usage": {
+          "prompt_tokens": 146,
+          "completion_tokens": 185,
+          "total_tokens": 331
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 563,
+          "completion_tokens": 245,
+          "total_tokens": 808
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/20",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 207,
+          "completion_tokens": 115,
+          "total_tokens": 322
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/21",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 63,
+          "total_tokens": 229
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/22",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 43,
+          "total_tokens": 176
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/23",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 84,
+          "completion_tokens": 51,
+          "total_tokens": 135
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/24",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 94,
+          "completion_tokens": 54,
+          "total_tokens": 148
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/25",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 95,
+          "total_tokens": 264
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/26",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 60,
+          "total_tokens": 185
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/27",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 89,
+          "completion_tokens": 40,
+          "total_tokens": 129
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/28",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 98,
+          "completion_tokens": 30,
+          "total_tokens": 128
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/29",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 44,
+          "total_tokens": 172
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/30",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 159,
+          "completion_tokens": 135,
+          "total_tokens": 294
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/31",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 107,
+          "total_tokens": 254
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/32",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 302,
+          "completion_tokens": 354,
+          "total_tokens": 656
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/33",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 191,
+          "completion_tokens": 89,
+          "total_tokens": 280
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/34",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 86,
+          "total_tokens": 204
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/35",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 95,
+          "total_tokens": 223
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/36",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 64,
+          "total_tokens": 189
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/37",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 103,
+          "total_tokens": 267
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/38",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpch7f73w2.py\", line 42, in <module>\n    check(decode_cyclic)\n    ~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpch7f73w2.py\", line 37, in check\n    encoded_str = encode_cyclic(str)\n                  ^^^^^^^^^^^^^\nNameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'?",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 135,
+          "total_tokens": 334
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 531,
+          "completion_tokens": 387,
+          "total_tokens": 918
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/39",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 205,
+          "total_tokens": 345
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/40",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 130,
+          "total_tokens": 330
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/41",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 192,
+          "completion_tokens": 160,
+          "total_tokens": 352
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/42",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 128,
+          "total_tokens": 282
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/43",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 198,
+          "completion_tokens": 47,
+          "total_tokens": 245
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/44",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 138,
+          "completion_tokens": 141,
+          "total_tokens": 279
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/45",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 87,
+          "completion_tokens": 60,
+          "total_tokens": 147
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/46",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 213,
+          "completion_tokens": 111,
+          "total_tokens": 324
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/47",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 122,
+          "completion_tokens": 144,
+          "total_tokens": 266
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/48",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 82,
+          "total_tokens": 194
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/49",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 129,
+          "total_tokens": 286
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/50",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjitnbr47.py\", line 39, in <module>\n    check(decode_shift)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjitnbr47.py\", line 34, in check\n    encoded_str = encode_shift(str)\n                  ^^^^^^^^^^^^\nNameError: name 'encode_shift' is not defined. Did you mean: 'decode_shift'?",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 68,
+          "total_tokens": 200
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 387,
+          "completion_tokens": 223,
+          "total_tokens": 610
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/51",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 41,
+          "total_tokens": 204
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/52",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 125,
+          "completion_tokens": 98,
+          "total_tokens": 223
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/53",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 95,
+          "completion_tokens": 66,
+          "total_tokens": 161
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/54",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8lesnsys.py\", line 36, in <module>\n    check(same_chars)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8lesnsys.py\", line 26, in check\n    assert candidate('eabcdzzzz', 'dddzzzzzzzddeddabc') == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 38,
+          "total_tokens": 219
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 411,
+          "completion_tokens": 121,
+          "total_tokens": 532
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/55",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 96,
+          "completion_tokens": 108,
+          "total_tokens": 204
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/56",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 133,
+          "completion_tokens": 149,
+          "total_tokens": 282
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/57",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 132,
+          "completion_tokens": 110,
+          "total_tokens": 242
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/58",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 138,
+          "total_tokens": 302
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/59",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 110,
+          "completion_tokens": 110,
+          "total_tokens": 220
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/60",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 145,
+          "completion_tokens": 121,
+          "total_tokens": 266
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/61",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 73,
+          "total_tokens": 203
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/62",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 33,
+          "total_tokens": 184
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/63",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 191,
+          "completion_tokens": 95,
+          "total_tokens": 286
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/64",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 167,
+          "completion_tokens": 198,
+          "total_tokens": 365
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/65",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpw0k5x8ru.py\", line 36, in <module>\n    check(circular_shift)\n    ~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpw0k5x8ru.py\", line 27, in check\n    assert candidate(12, 2) == \"12\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 63,
+          "total_tokens": 190
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 375,
+          "completion_tokens": 200,
+          "total_tokens": 575
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/66",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 161,
+          "completion_tokens": 29,
+          "total_tokens": 190
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/67",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 267,
+          "completion_tokens": 42,
+          "total_tokens": 309
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/68",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 356,
+          "completion_tokens": 95,
+          "total_tokens": 451
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/69",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 206,
+          "completion_tokens": 62,
+          "total_tokens": 268
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/70",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 74,
+          "total_tokens": 239
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/71",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 164,
+          "completion_tokens": 95,
+          "total_tokens": 259
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/72",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 271,
+          "completion_tokens": 33,
+          "total_tokens": 304
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/73",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 198,
+          "completion_tokens": 72,
+          "total_tokens": 270
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/74",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 234,
+          "completion_tokens": 72,
+          "total_tokens": 306
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/75",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 124,
+          "completion_tokens": 214,
+          "total_tokens": 338
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/76",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 183,
+          "completion_tokens": 62,
+          "total_tokens": 245
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/77",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 175,
+          "total_tokens": 329
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/78",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 356,
+          "completion_tokens": 53,
+          "total_tokens": 409
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/79",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 188,
+          "completion_tokens": 168,
+          "total_tokens": 356
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/80",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 81,
+          "total_tokens": 243
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/81",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 311,
+          "completion_tokens": 270,
+          "total_tokens": 581
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/82",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 122,
+          "completion_tokens": 138,
+          "total_tokens": 260
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/83",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp3v8hbc7c.py\", line 39, in <module>\n    check(starts_one_ends)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp3v8hbc7c.py\", line 29, in check\n    assert candidate(2) == 18\n           ^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 85,
+          "completion_tokens": 87,
+          "total_tokens": 172
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 353,
+          "completion_tokens": 704,
+          "total_tokens": 1057
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/84",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 188,
+          "completion_tokens": 37,
+          "total_tokens": 225
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/85",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 96,
+          "completion_tokens": 45,
+          "total_tokens": 141
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/86",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 171,
+          "completion_tokens": 43,
+          "total_tokens": 214
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/87",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 300,
+          "completion_tokens": 73,
+          "total_tokens": 373
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/88",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 244,
+          "completion_tokens": 66,
+          "total_tokens": 310
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/89",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 151,
+          "completion_tokens": 96,
+          "total_tokens": 247
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/90",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 41,
+          "total_tokens": 206
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/91",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpyue1dec1.py\", line 40, in <module>\n    check(is_bored)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpyue1dec1.py\", line 29, in check\n    assert candidate(\"Is the sky blue?\") == 0, \"Test 2\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 2",
+        "usage": {
+          "prompt_tokens": 148,
+          "completion_tokens": 61,
+          "total_tokens": 209
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 399,
+          "completion_tokens": 230,
+          "total_tokens": 629
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/92",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 176,
+          "completion_tokens": 60,
+          "total_tokens": 236
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/93",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 143,
+          "total_tokens": 293
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/94",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 368,
+          "completion_tokens": 116,
+          "total_tokens": 484
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/95",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 214,
+          "completion_tokens": 74,
+          "total_tokens": 288
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/96",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 196,
+          "completion_tokens": 98,
+          "total_tokens": 294
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/97",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 154,
+          "completion_tokens": 36,
+          "total_tokens": 190
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/98",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 70,
+          "total_tokens": 183
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/99",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 50,
+          "total_tokens": 255
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/100",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 47,
+          "total_tokens": 220
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/101",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 30,
+          "total_tokens": 187
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/102",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 73,
+          "total_tokens": 213
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/103",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 191,
+          "completion_tokens": 67,
+          "total_tokens": 258
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/104",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 156,
+          "completion_tokens": 62,
+          "total_tokens": 218
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/105",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 320,
+          "completion_tokens": 124,
+          "total_tokens": 444
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/106",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 167,
+          "completion_tokens": 99,
+          "total_tokens": 266
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/107",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 255,
+          "completion_tokens": 105,
+          "total_tokens": 360
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/108",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 109,
+          "total_tokens": 278
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/109",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 340,
+          "completion_tokens": 66,
+          "total_tokens": 406
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/110",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 238,
+          "completion_tokens": 86,
+          "total_tokens": 324
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/111",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 192,
+          "completion_tokens": 63,
+          "total_tokens": 255
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/112",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 203,
+          "completion_tokens": 52,
+          "total_tokens": 255
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/113",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 223,
+          "completion_tokens": 93,
+          "total_tokens": 316
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/114",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 129,
+          "completion_tokens": 65,
+          "total_tokens": 194
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/115",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcvgwmu38.py\", line 38, in <module>\n    check(max_fill)\n    ~~~~~^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcvgwmu38.py\", line 34, in check\n    assert candidate([[1,1,1,1], [1,1,1,1]], 9) == 2, \"Error\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Error",
+        "usage": {
+          "prompt_tokens": 367,
+          "completion_tokens": 50,
+          "total_tokens": 417
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 619,
+          "completion_tokens": 235,
+          "total_tokens": 854
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/116",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 211,
+          "completion_tokens": 33,
+          "total_tokens": 244
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/117",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 222,
+          "completion_tokens": 84,
+          "total_tokens": 306
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/118",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 190,
+          "completion_tokens": 103,
+          "total_tokens": 293
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/119",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 118,
+          "total_tokens": 327
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/120",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 264,
+          "completion_tokens": 39,
+          "total_tokens": 303
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/121",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 42,
+          "total_tokens": 186
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/122",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 178,
+          "completion_tokens": 39,
+          "total_tokens": 217
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/123",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 273,
+          "completion_tokens": 115,
+          "total_tokens": 388
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/124",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 330,
+          "completion_tokens": 196,
+          "total_tokens": 526
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/125",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphysl7jab.py\", line 35, in <module>\n    check(split_words)\n    ~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphysl7jab.py\", line 30, in check\n    assert candidate(\"aaabb\") == 2\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 65,
+          "total_tokens": 247
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 420,
+          "completion_tokens": 244,
+          "total_tokens": 664
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/126",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 290,
+          "completion_tokens": 50,
+          "total_tokens": 340
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/127",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpg_ojo8rx.py\", line 53, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpg_ojo8rx.py\", line 41, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 295,
+          "completion_tokens": 163,
+          "total_tokens": 458
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpo62use_z.py\", line 53, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpo62use_z.py\", line 41, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 644,
+          "completion_tokens": 342,
+          "total_tokens": 986
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_njksm0k.py\", line 53, in <module>\n    check(intersection)\n    ~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_njksm0k.py\", line 41, in check\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1172,
+          "completion_tokens": 373,
+          "total_tokens": 1545
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/128",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 108,
+          "total_tokens": 271
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/129",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 437,
+          "completion_tokens": 316,
+          "total_tokens": 753
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/130",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpv4wnwgds.py\", line 49, in <module>\n    check(tri)\n    ~~~~~^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpv4wnwgds.py\", line 35, in check\n    assert candidate(3) == [1, 3, 2.0, 8.0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 276,
+          "completion_tokens": 128,
+          "total_tokens": 404
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptqp9_8bv.py\", line 49, in <module>\n    check(tri)\n    ~~~~~^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptqp9_8bv.py\", line 35, in check\n    assert candidate(3) == [1, 3, 2.0, 8.0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 592,
+          "completion_tokens": 278,
+          "total_tokens": 870
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp7qmz0vjt.py\", line 49, in <module>\n    check(tri)\n    ~~~~~^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp7qmz0vjt.py\", line 35, in check\n    assert candidate(3) == [1, 3, 2.0, 8.0]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 1060,
+          "completion_tokens": 273,
+          "total_tokens": 1333
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/131",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 115,
+          "completion_tokens": 70,
+          "total_tokens": 185
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/132",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpb30cbztf.py\", line 48, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpb30cbztf.py\", line 36, in check\n    assert candidate('[[]') == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 75,
+          "total_tokens": 249
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdp8sggwi.py\", line 49, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdp8sggwi.py\", line 37, in check\n    assert candidate('[[]') == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 424,
+          "completion_tokens": 180,
+          "total_tokens": 604
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp745y_p29.py\", line 50, in <module>\n    check(is_nested)\n    ~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp745y_p29.py\", line 40, in check\n    assert candidate('[[]][[') == True\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 777,
+          "completion_tokens": 222,
+          "total_tokens": 999
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/133",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 202,
+          "completion_tokens": 33,
+          "total_tokens": 235
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/134",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdshljtqk.py\", line 60, in <module>\n    check(check_if_last_char_is_a_letter)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdshljtqk.py\", line 51, in check\n    assert candidate(\"eeeee e \") == False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 178,
+          "completion_tokens": 210,
+          "total_tokens": 388
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 576,
+          "completion_tokens": 260,
+          "total_tokens": 836
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/135",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 144,
+          "total_tokens": 288
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/136",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 179,
+          "completion_tokens": 84,
+          "total_tokens": 263
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/137",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 182,
+          "completion_tokens": 121,
+          "total_tokens": 303
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/138",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 118,
+          "completion_tokens": 54,
+          "total_tokens": 172
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/139",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 138,
+          "completion_tokens": 67,
+          "total_tokens": 205
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/140",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 121,
+          "total_tokens": 268
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/141",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 255,
+          "completion_tokens": 112,
+          "total_tokens": 367
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/142",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 213,
+          "completion_tokens": 82,
+          "total_tokens": 295
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/143",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 190,
+          "completion_tokens": 97,
+          "total_tokens": 287
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/144",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 198,
+          "completion_tokens": 78,
+          "total_tokens": 276
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/145",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmprpd2prz8.py\", line 36, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmprpd2prz8.py\", line 24, in check\n    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 162,
+          "completion_tokens": 45,
+          "total_tokens": 207
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxcu2kuj1.py\", line 19\n    return [num for _, num in sorted((digit_sum(num), i, num) for i, num in enumerate(nums)), key=lambda x: (x[0], x[1]))]\n                                                                                                                        ^\nSyntaxError: closing parenthesis ')' does not match opening parenthesis '['",
+        "usage": {
+          "prompt_tokens": 421,
+          "completion_tokens": 227,
+          "total_tokens": 648
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpstqy_cp5.py\", line 36, in <module>\n    check(order_by_points)\n    ~~~~~^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpstqy_cp5.py\", line 24, in check\n    assert candidate([1, 11, -1, -11, -12]) == [-1, -11, 1, -12, 11]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 799,
+          "completion_tokens": 150,
+          "total_tokens": 949
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/146",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 114,
+          "total_tokens": 284
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/147",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 209,
+          "completion_tokens": 108,
+          "total_tokens": 317
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/148",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 252,
+          "completion_tokens": 117,
+          "total_tokens": 369
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/149",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 228,
+          "completion_tokens": 45,
+          "total_tokens": 273
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/150",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 131,
+          "completion_tokens": 97,
+          "total_tokens": 228
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/151",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 180,
+          "completion_tokens": 45,
+          "total_tokens": 225
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/152",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 271,
+          "completion_tokens": 33,
+          "total_tokens": 304
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/153",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 318,
+          "completion_tokens": 104,
+          "total_tokens": 422
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/154",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 170,
+          "completion_tokens": 77,
+          "total_tokens": 247
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/155",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 109,
+          "completion_tokens": 75,
+          "total_tokens": 184
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/156",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 170,
+          "total_tokens": 319
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/157",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 150,
+          "completion_tokens": 59,
+          "total_tokens": 209
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/158",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 161,
+          "completion_tokens": 74,
+          "total_tokens": 235
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/159",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 331,
+          "completion_tokens": 47,
+          "total_tokens": 378
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/160",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmplpaewig0.py\", line 42, in <module>\n    check(do_algebra)\n    ~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmplpaewig0.py\", line 34, in check\n    assert candidate(['+', '*', '-'], [2, 3, 4, 5]) == 9\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError",
+        "usage": {
+          "prompt_tokens": 248,
+          "completion_tokens": 122,
+          "total_tokens": 370
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 561,
+          "completion_tokens": 391,
+          "total_tokens": 952
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/161",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 152,
+          "completion_tokens": 67,
+          "total_tokens": 219
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/162",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 127,
+          "completion_tokens": 38,
+          "total_tokens": 165
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/163",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 3,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpafxs7lw7.py\", line 33, in <module>\n    check(generate_integers)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpafxs7lw7.py\", line 23, in check\n    assert candidate(2, 10) == [2, 4, 6, 8], \"Test 1\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 1",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 57,
+          "total_tokens": 204
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppzurfohz.py\", line 38, in <module>\n    check(generate_integers)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppzurfohz.py\", line 31, in check\n    assert candidate(17,89) == [], \"Test 4\"\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 4",
+        "usage": {
+          "prompt_tokens": 407,
+          "completion_tokens": 321,
+          "total_tokens": 728
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpmaojn9gi.py\", line 33, in <module>\n    check(generate_integers)\n    ~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpmaojn9gi.py\", line 23, in check\n    assert candidate(2, 10) == [2, 4, 6, 8], \"Test 1\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Test 1",
+        "usage": {
+          "prompt_tokens": 915,
+          "completion_tokens": 237,
+          "total_tokens": 1152
+        }
+      }
+    ],
+    "strategy": "cot",
+    "model": "Qwen3-32B"
+  }
+]
