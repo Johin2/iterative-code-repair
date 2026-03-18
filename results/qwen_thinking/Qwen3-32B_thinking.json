@@ -2781,7 +2781,7 @@
         "round": 0,
         "passed": false,
         "error_type": "syntax",
-        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpeg2ot4_e.py\", line 34\n    1 is 1 in binary \\u2192 1 one.\n                     ^\nSyntaxError: invalid character '\\u2192' (U+2192)",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp9k9atyfz.py\", line 34\n    1 is 1 in binary \\u2192 1 one.\n                     ^\nSyntaxError: invalid character '\\u2192' (U+2192)",
         "usage": {
           "prompt_tokens": 208,
           "completion_tokens": 4096,
@@ -2812,8 +2812,1048 @@
         "error_message": "",
         "usage": {
           "prompt_tokens": 219,
-          "completion_tokens": 2448,
-          "total_tokens": 2667
+          "completion_tokens": 2351,
+          "total_tokens": 2570
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/118",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmprim_joji.py\", line 18\n    First, let's understand the problem. The vowels are A, E, I, O, U, and their lowercase counterparts. But the problem is case-sensitive. So, the vowels are considered as per their case. For example, in the example given, \"FULL\" returns \"U\" because the U is between F and L (both consonants). \n              ^\nSyntaxError: unterminated string literal (detected at line 18)",
+        "usage": {
+          "prompt_tokens": 187,
+          "completion_tokens": 4096,
+          "total_tokens": 4283
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/119",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpndlxv_hf.py\", line 16\n    Okay, I need to solve this problem where I have to check if two given strings of parentheses can be concatenated in some order to form a balanced string. Let's think about how to approach this.\n                                                                                                                                                                 ^\nSyntaxError: unterminated string literal (detected at line 16)",
+        "usage": {
+          "prompt_tokens": 206,
+          "completion_tokens": 4096,
+          "total_tokens": 4302
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/120",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 261,
+          "completion_tokens": 2540,
+          "total_tokens": 2801
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/121",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 141,
+          "completion_tokens": 1391,
+          "total_tokens": 1532
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/122",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 1290,
+          "total_tokens": 1465
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/123",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 270,
+          "completion_tokens": 3349,
+          "total_tokens": 3619
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/124",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp2a500620.py\", line 24\n    def check(candidate):\nIndentationError: expected an indented block after 'if' statement on line 22",
+        "usage": {
+          "prompt_tokens": 327,
+          "completion_tokens": 4096,
+          "total_tokens": 4423
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 466,
+          "completion_tokens": 1555,
+          "total_tokens": 2021
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/125",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 179,
+          "completion_tokens": 3936,
+          "total_tokens": 4115
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/126",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 287,
+          "completion_tokens": 3278,
+          "total_tokens": 3565
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/127",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 292,
+          "completion_tokens": 3259,
+          "total_tokens": 3551
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/128",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 160,
+          "completion_tokens": 2286,
+          "total_tokens": 2446
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/129",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpiqnod86d.py\", line 18\n    First, the problem says that the grid is N x N, and each cell has a unique value from 1 to N\u00b2. The path has to be of length k, meaning exactly k cells. Each step can move up, down, left, or right. The path's list of values must be lexicographically smallest possible. And the answer is unique.\n                                                                                                ^\nSyntaxError: invalid character '\u00b2' (U+0",
+        "usage": {
+          "prompt_tokens": 434,
+          "completion_tokens": 4096,
+          "total_tokens": 4530
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/130",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0y38cttd.py\", line 34\n    Okay, let's see. I need to write a Python function called tri(n) that returns the first n+1 numbers of the Tribonacci sequence based on the given definition. Hmm, the problem statement says that the Tribonacci sequence here is defined differently than the standard one. Let me read the definition again carefully.\n             ^\nSyntaxError: unterminated string literal (detected at line 34)",
+        "usage": {
+          "prompt_tokens": 273,
+          "completion_tokens": 4096,
+          "total_tokens": 4369
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/131",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 3761,
+          "total_tokens": 3873
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/132",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpojcqskmf.py\", line 36\n    The first example is '[[]]' which returns True. That's because the two inner brackets are nested. The second example is '[]]]]]]][[[[[]' which returns False. Probably because there's no valid subsequence with nesting. The third example is '[][]' which returns False because even though it's valid, there's no nesting. The fourth example is '[]' which returns False for the same reason. Then there's '[[][]]' which returns True. Let",
+        "usage": {
+          "prompt_tokens": 171,
+          "completion_tokens": 4096,
+          "total_tokens": 4267
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/133",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 199,
+          "completion_tokens": 1490,
+          "total_tokens": 1689
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/134",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqw_w_2kh.py\", line 16\n    Okay, let's see. I need to write a Python function called check_if_last_char_is_a_letter. The goal is to return True if the last character of the string is an alphabetical character and it's not part of a word. Wait, the note says that a word is a group separated by spaces. So, the last character should be a single letter that's not attached to a word. \n                                                                           ",
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 4096,
+          "total_tokens": 4271
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/135",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 141,
+          "completion_tokens": 1056,
+          "total_tokens": 1197
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/136",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 176,
+          "completion_tokens": 1150,
+          "total_tokens": 1326
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/137",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 179,
+          "completion_tokens": 2830,
+          "total_tokens": 3009
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/138",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 115,
+          "completion_tokens": 1767,
+          "total_tokens": 1882
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/139",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 135,
+          "completion_tokens": 2101,
+          "total_tokens": 2236
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/140",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 4014,
+          "total_tokens": 4158
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/141",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 252,
+          "completion_tokens": 3989,
+          "total_tokens": 4241
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/142",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 210,
+          "completion_tokens": 1885,
+          "total_tokens": 2095
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/143",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 187,
+          "completion_tokens": 1814,
+          "total_tokens": 2001
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/144",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 195,
+          "completion_tokens": 2483,
+          "total_tokens": 2678
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/145",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpofcljn_b.py\", line 32\n    For 1: sum is 1. 11 is 1+1=2. -1: the digits are 1 (since negative sign isn't a digit?), so sum is 1. -11: digits 1 and 1, sum 2. -12: 1+2=3. Wait, but how do negatives work here? The problem says sum of their digits. So the negative sign is not considered. So for any number, take absolute value first, then sum the digits. Oh right, because digits are the numbers in the value, regardless of sign. So for -12, digits are 1 and 2.",
+        "usage": {
+          "prompt_tokens": 159,
+          "completion_tokens": 4096,
+          "total_tokens": 4255
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/146",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 167,
+          "completion_tokens": 2834,
+          "total_tokens": 3001
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/147",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpyngipuhq.py\", line 31\n    Okay, let's see. I need to solve this problem where I have to find the number of triples in an array that satisfy certain conditions. Let me think through this step by step.\n             ^\nSyntaxError: unterminated string literal (detected at line 31)",
+        "usage": {
+          "prompt_tokens": 206,
+          "completion_tokens": 4096,
+          "total_tokens": 4302
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/148",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 249,
+          "completion_tokens": 2258,
+          "total_tokens": 2507
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/149",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 225,
+          "completion_tokens": 2784,
+          "total_tokens": 3009
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/150",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 128,
+          "completion_tokens": 1466,
+          "total_tokens": 1594
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/151",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp_r_alfhu.py\", line 24\n    So first, for each element in the list, check if it is an integer. How to check that in Python? Well, in Python, 2 is an integer, 2.0 is a float. So how do I check if the element is an integer? Like, if the type is int. But what about if the element is a float that is whole number, like 3.0? The problem says to ignore it because it's not an integer (as in, the type is not int). So for example, 3.0 is considered not an integer h",
+        "usage": {
+          "prompt_tokens": 177,
+          "completion_tokens": 4096,
+          "total_tokens": 4273
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/152",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 268,
+          "completion_tokens": 785,
+          "total_tokens": 1053
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/153",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 315,
+          "completion_tokens": 2115,
+          "total_tokens": 2430
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/154",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 167,
+          "completion_tokens": 3659,
+          "total_tokens": 3826
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/155",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 106,
+          "completion_tokens": 1109,
+          "total_tokens": 1215
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/156",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 146,
+          "completion_tokens": 2410,
+          "total_tokens": 2556
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/157",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 147,
+          "completion_tokens": 901,
+          "total_tokens": 1048
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/158",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 158,
+          "completion_tokens": 2303,
+          "total_tokens": 2461
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/159",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 328,
+          "completion_tokens": 1179,
+          "total_tokens": 1507
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/160",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 245,
+          "completion_tokens": 2642,
+          "total_tokens": 2887
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/161",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 149,
+          "completion_tokens": 1707,
+          "total_tokens": 1856
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/162",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 124,
+          "completion_tokens": 1850,
+          "total_tokens": 1974
+        }
+      }
+    ],
+    "thinking_enabled": true,
+    "model": "Qwen3-32B"
+  },
+  {
+    "task_id": "HumanEval/163",
+    "final_passed": true,
+    "rounds_to_pass": 0,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 144,
+          "completion_tokens": 3279,
+          "total_tokens": 3423
         }
       }
     ],
