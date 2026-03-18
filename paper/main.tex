@@ -356,7 +356,7 @@ Table~\ref{tab:perround} provides a fine-grained breakdown of when problems are 
 
 \subsection{Repair Prompt Ablation}
 
-Our main experiments use a minimal repair prompt that provides only the error message and asks for a corrected function. To assess sensitivity to prompt design, we compare three repair prompt strategies on two models---Llama~3.3~70B (dense, 70B) and Llama~4~Scout (MoE, 17B active)---across all 164 HumanEval problems with up to two repair rounds ($R_0$--$R_2$):
+Our main experiments use a minimal repair prompt that provides only the error message and asks for a corrected function. To assess sensitivity to prompt design, we compare three repair prompt strategies on four models---Llama~3.1~8B (dense, 8B), Llama~3.3~70B (dense, 70B), Llama~4~Scout (MoE, 17B active), and Qwen3~32B (dense, 32B)---across all 164 HumanEval problems with up to two repair rounds ($R_0$--$R_2$):
 
 \begin{enumerate}
     \item \textbf{Minimal}: The baseline strategy used throughout this paper. The repair prompt presents the error message and requests a corrected function.
@@ -366,7 +366,7 @@ Our main experiments use a minimal repair prompt that provides only the error me
 
 \begin{table}[t]
 \centering
-\caption{Repair prompt ablation on HumanEval. Cumulative pass@1 (\%) at each round for three prompt strategies on two models. Deltas computed from raw problem counts before rounding. $R_0$ varies slightly across runs due to API-level non-determinism; $\Delta$ computed from each run's own $R_0$.}
+\caption{Repair prompt ablation on HumanEval. Cumulative pass@1 (\%) at each round for three prompt strategies on four models. Deltas computed from raw problem counts before rounding. $R_0$ varies slightly across runs due to API-level non-determinism; $\Delta$ computed from each run's own $R_0$.}
 \label{tab:ablation}
 \begin{tabular}{llcccc}
 \toprule
@@ -403,7 +403,7 @@ Note that each ablation configuration involves a complete re-execution of all 16
 
 \textbf{CoT consistently wins across all models.} Chain-of-thought achieves the highest final pass rate for every model: 77.4\% (8B), 96.3\% (70B), 89.6\% (Scout), and 97.0\% (Qwen3). Qwen3 with CoT achieves the highest pass rate of any model-strategy combination in our study.
 
-\textbf{The benefit of richer prompts scales with model capability.} For the 8B model, the gap between CoT and minimal is modest (+1.8\,pp at~$R_2$). For stronger models, the gap widens substantially: +8.5\,pp for the 70B model and +5.5\,pp for Qwen3. This confirms the interaction between model capability and prompt strategy observed in the original two-model ablation, now across four models spanning 8B to 70B parameters.
+\textbf{The benefit of richer prompts scales with model capability.} For the 8B model, the gap between CoT and minimal is modest (+1.8\,pp at~$R_2$). For stronger models, the gap widens substantially: +8.5\,pp for the 70B model and +5.5\,pp for Qwen3. This confirms the interaction between model capability and prompt strategy across all four ablation models spanning 8B to 70B parameters.
 
 The practical implication is clear: for capable models ($\geq$32B), chain-of-thought repair prompting is strongly recommended and can yield gains comparable to an additional 1--2 repair rounds. For smaller models, the benefit is present but modest, and the simpler minimal prompt remains a competitive choice.
 
@@ -530,7 +530,7 @@ All models were accessed via the Groq free-tier API, which may serve quantized o
 \textbf{Model family diversity.} Our evaluation covers two model families (Llama and Qwen) accessed through a single inference provider. Code-specialized models (e.g., DeepSeek-Coder~\cite{guo2024deepseek}) may exhibit different repair dynamics due to code-focused pre-training. Proprietary models with larger parameter counts could push beyond the $\sim$94\% ceiling observed. This scope reflects our zero-cost experimental protocol, which ensures full reproducibility but limits the model set to those available on Groq's free tier.
 
 \textbf{Qwen3 reasoning mode.}
-We evaluated Qwen3 with thinking mode enabled on all 164 HumanEval problems. Thinking mode achieves a slightly \emph{lower} final pass rate (91.5\% vs.\ 92.7\% for no-think), despite a much larger repair gain (+14.0\,pp vs.\ +4.9\,pp). The explanation lies in the initial pass rate: thinking mode's $R_0$ drops to 77.4\% (vs.\ 87.8\% for no-think) because long reasoning traces contaminate the code output, causing syntax errors. Self-repair compensates by fixing 23 additional problems, but 14 problems fail due to API errors or persistent extraction issues. Our decision to disable thinking mode in the main experiments is validated: with the current code extraction pipeline, thinking mode reduces net performance. A more robust extraction approach (or native tool-use integration) could potentially unlock the reasoning benefits without the extraction overhead.
+We evaluated Qwen3 with thinking mode enabled on all 164 HumanEval problems. Thinking mode achieves a \emph{lower} final pass rate (89.0\% vs.\ 92.7\% for no-think), despite a much larger repair gain (+14.0\,pp vs.\ +4.9\,pp). The explanation lies in the initial pass rate: thinking mode's $R_0$ drops to 75.0\% (vs.\ 87.8\% for no-think) because long reasoning traces contaminate the code output, causing syntax errors. Self-repair compensates by fixing 23 additional problems, but 18 problems fail due to API errors or persistent extraction issues. Our decision to disable thinking mode in the main experiments is validated: with the current code extraction pipeline, thinking mode reduces net performance. A more robust extraction approach (or native tool-use integration) could potentially unlock the reasoning benefits without the extraction overhead.
 
 % ============================================================
 \section{Threats to Validity}
