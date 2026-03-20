@@ -1,0 +1,2790 @@
+[
+  {
+    "task_id": "HumanEval/0",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/1",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/2",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/3",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/4",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/5",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/6",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/7",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/8",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/9",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/10",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/11",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/12",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/13",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/14",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/15",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/16",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/17",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/18",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/19",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/20",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/21",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/22",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/23",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/24",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/25",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/26",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/27",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/28",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/29",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/30",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/31",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/32",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/33",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/34",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/35",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/36",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/37",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/38",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/39",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/40",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/41",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/42",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/43",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/44",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/45",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/46",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/47",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/48",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/49",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/50",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/51",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/52",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/53",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/54",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/55",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/56",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/57",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/58",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/59",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/60",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/61",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/62",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/63",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/64",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/65",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/66",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/67",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/68",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/69",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/70",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/71",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/72",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/73",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/74",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/75",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/76",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/77",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/78",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/79",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/80",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/81",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/82",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/83",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/84",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/85",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/86",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/87",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/88",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/89",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/90",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/91",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/92",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/93",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/94",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/95",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/96",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/97",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/98",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/99",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/100",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/101",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/102",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/103",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/104",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/105",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/106",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/107",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/108",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/109",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/110",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/111",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/112",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/113",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/114",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/115",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/116",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/117",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/118",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/119",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/120",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/121",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/122",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/123",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/124",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/125",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/126",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/127",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/128",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/129",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/130",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/131",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/132",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/133",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/134",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/135",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/136",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/137",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/138",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/139",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/140",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/141",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/142",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/143",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/144",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/145",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/146",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/147",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/148",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/149",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/150",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/151",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/152",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/153",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/154",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/155",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/156",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/157",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/158",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/159",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/160",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/161",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/162",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  },
+  {
+    "task_id": "HumanEval/163",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 1,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "api_error",
+        "error_message": "API call failed after retries",
+        "usage": {}
+      }
+    ],
+    "strategy": "cot",
+    "model": "Llama-4-Maverick-17B"
+  }
+]

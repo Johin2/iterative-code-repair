@@ -1,0 +1,74 @@
+{
+  "Llama-3.1-8B_minimal": {
+    "model": "Llama-3.1-8B",
+    "strategy": "minimal",
+    "passed": 124,
+    "total": 164,
+    "rate": 75.6,
+    "time_seconds": 40733.1
+  },
+  "Llama-3.1-8B_explain": {
+    "model": "Llama-3.1-8B",
+    "strategy": "explain",
+    "passed": 125,
+    "total": 164,
+    "rate": 76.2,
+    "time_seconds": 1523.1
+  },
+  "Llama-3.1-8B_cot": {
+    "model": "Llama-3.1-8B",
+    "strategy": "cot",
+    "passed": 127,
+    "total": 164,
+    "rate": 77.4,
+    "time_seconds": 1526.3
+  },
+  "Qwen3-32B_minimal": {
+    "model": "Qwen3-32B",
+    "strategy": "minimal",
+    "passed": 150,
+    "total": 164,
+    "rate": 91.5,
+    "time_seconds": 1112.3
+  },
+  "Qwen3-32B_explain": {
+    "model": "Qwen3-32B",
+    "strategy": "explain",
+    "passed": 155,
+    "total": 164,
+    "rate": 94.5,
+    "time_seconds": 1079.8
+  },
+  "Qwen3-32B_cot": {
+    "model": "Qwen3-32B",
+    "strategy": "cot",
+    "passed": 159,
+    "total": 164,
+    "rate": 97.0,
+    "time_seconds": 1033.1
+  },
+  "Llama-4-Maverick-17B_minimal": {
+    "model": "Llama-4-Maverick-17B",
+    "strategy": "minimal",
+    "passed": 0,
+    "total": 164,
+    "rate": 0.0,
+    "time_seconds": 10838.5
+  },
+  "Llama-4-Maverick-17B_explain": {
+    "model": "Llama-4-Maverick-17B",
+    "strategy": "explain",
+    "passed": 0,
+    "total": 164,
+    "rate": 0.0,
+    "time_seconds": 10817.9
+  },
+  "Llama-4-Maverick-17B_cot": {
+    "model": "Llama-4-Maverick-17B",
+    "strategy": "cot",
+    "passed": 0,
+    "total": 164,
+    "rate": 0.0,
+    "time_seconds": 10854.3
+  }
+}
