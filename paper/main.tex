@@ -204,7 +204,7 @@ Table~\ref{tab:humaneval} presents the cumulative pass@1 rates on HumanEval acro
 
 \textbf{Universal improvement.} Self-repair improves pass rates for every model tested, across all three families and both open-weight and proprietary models. Every model gains at least +4.9\,pp.
 
-\textbf{Gemini~2.5~Flash achieves the highest final rate.} At 96.3\%, Flash surpasses all open-weight models, including Maverick (93.9\%) and Llama~3.3~70B (93.3\%). Its R1 jump from 86.6\% to 95.7\% (+9.1\,pp in a single round) is the largest single-round gain of any model, suggesting exceptionally strong error comprehension.
+\textbf{Gemini~2.5~Flash achieves the highest final rate.} At 96.3\%, Flash surpasses all open-weight models, including Maverick (93.9\%) and Llama~3.3~70B (93.3\%). Its R1 jump from 86.6\% to 95.7\% (+9.1\,pp in a single round) is among the largest single-round gains, suggesting exceptionally strong error comprehension.
 
 \textbf{Gemini~2.5~Pro shows the largest repair gain.} Pro achieves +17.1\,pp, the highest $\Delta$ on HumanEval. However, its lower initial pass rate (73.2\%) reflects overhead from its reasoning traces, which occasionally interfere with code extraction. Its final rate (90.2\%) is competitive but below Flash, illustrating that stronger reasoning does not always translate to better code generation in a simple prompt-completion paradigm.
 
@@ -247,7 +247,7 @@ Table~\ref{tab:mbpp} presents results on MBPP Sanitized. The MBPP results reinfo
 
 \textbf{Larger absolute gains.} Self-repair gains on MBPP are substantially larger than on HumanEval for every model. Among open-weight models, gains range from +16.0\,pp to +23.0\,pp. The Gemini models show even larger gains: Flash achieves +30.0\,pp and Pro +25.7\,pp, the two highest in our study.
 
-\textbf{Flash dominates on MBPP.} Gemini~2.5~Flash achieves the highest final pass rate (93.8\%), despite starting at only 63.8\%---lower than four of the five open-weight models. Its +30.0\,pp repair gain is nearly double that of the best open-weight model on MBPP, suggesting qualitatively different repair behavior. Flash's R1 jump (+23.0\,pp in a single round) accounts for the majority of its gain.
+\textbf{Flash dominates on MBPP.} Gemini~2.5~Flash achieves the highest final pass rate (93.8\%), despite starting at only 63.8\%---lower than four of the five open-weight models. Its +30.0\,pp repair gain exceeds the best open-weight model on MBPP (+23.0\,pp) by 7\,pp, suggesting qualitatively different repair behavior. Flash's R1 jump (+23.0\,pp in a single round) accounts for the majority of its gain.
 
 \textbf{Consistent model ranking.} The relative ordering of models is largely consistent across benchmarks. Llama~3.1~8B has the lowest final rate on both benchmarks, while Flash leads on both. On MBPP ($n=257$), one problem corresponds to $\sim$0.4\,pp, providing finer resolution for ranking comparisons.
 
@@ -329,7 +329,7 @@ This finding is consistent with Huang et al.'s observation~\cite{huang2024large}
 Figure~\ref{fig:per_round} shows the marginal improvement at each repair round on HumanEval. The pattern of diminishing returns is consistent across all models:
 
 \begin{itemize}
-    \item \textbf{$R_0 \to R_1$ (first repair)}: The largest single-round gain for all seven models. Gemini~2.5~Flash gains +9.1\,pp (the largest first-round gain among all models), while Qwen3 gains +2.4\,pp (the smallest, reflecting its high baseline).
+    \item \textbf{$R_0 \to R_1$ (first repair)}: The largest single-round gain for all seven models. Gemini~2.5~Pro gains +9.8\,pp (the largest first-round gain), followed by Flash and Scout at +9.1\,pp each, while Qwen3 gains +2.4\,pp (the smallest, reflecting its high baseline).
 
     \item \textbf{$R_1 \to R_2$ (second repair)}: Still meaningful but reduced for all models.
 
@@ -342,7 +342,7 @@ The concentration of gains in early rounds has practical implications: for most 
 
 \begin{table}[t]
 \centering
-\caption{Total token usage and self-repair gain on HumanEval (164 problems).}
+\caption{Total token usage (prompt $+$ completion) and self-repair gain on HumanEval (164 problems). Gemini models' internal reasoning tokens are excluded for comparability; see text.}
 \label{tab:tokens}
 \begin{tabular}{lccc}
 \toprule
@@ -360,7 +360,7 @@ Gemini 2.5 Pro   & 162K & +17.1 & 9.5K \\
 \end{tabular}
 \end{table}
 
-Table~\ref{tab:tokens} reports total token usage for each model on HumanEval. Gemini~2.5~Pro achieves the best cost-effectiveness at 9.5K tokens per percentage point of improvement, followed by Llama~3.3~70B at 10.8K tokens/pp. Open-weight model experiments were conducted at zero monetary cost using the Groq free-tier API.
+Table~\ref{tab:tokens} reports total token usage for each model on HumanEval. Token counts reflect prompt and completion tokens only. For Gemini models, internal reasoning (``thinking'') tokens are excluded from this count; including them would increase Flash's total to $\sim$489K and Pro's to $\sim$994K. Since thinking tokens are not directly comparable to standard input/output tokens, we report prompt+completion for fair cross-model comparison. Gemini~2.5~Pro achieves the best cost-effectiveness at 9.5K tokens per percentage point of improvement, followed by Llama~3.3~70B at 10.8K tokens/pp.
 
 \begin{table}[t]
 \centering
@@ -543,7 +543,7 @@ Our findings suggest several practical guidelines for deploying LLM code generat
 
     \item \textbf{Two rounds capture most gains}: For cost-sensitive applications, two repair rounds ($R_0$ through~$R_2$) capture the majority (76--94\%) of the total achievable improvement.
 
-    \item \textbf{Consider error type for routing}: If the initial error is a syntax or type error, repair is very likely to succeed. If the error is an assertion error, alternative strategies (e.g., sampling multiple independent solutions) may be more cost-effective.
+    \item \textbf{Consider error type for routing}: Name errors are repaired at the highest rates ($\sim$77\%), while assertion errors are the hardest ($\sim$45\%). For assertion-dominated failures, alternative strategies (e.g., sampling multiple independent solutions) may be more cost-effective.
 
     \item \textbf{Model selection matters}: For applications where final pass rate is paramount, Gemini~2.5~Flash (96.3\%) or Maverick (93.9\%) should be preferred. For self-repair gain per token, Gemini~2.5~Pro and Llama~3.3~70B offer the best efficiency.
 \end{enumerate}
