@@ -376,12 +376,15 @@ Llama 3.3 70B    & 136 & 11 & 2 & 3 & 1 & 11 & 60.7 \\
 Scout 17B (16E)  & 124 & 15 & 4 & 3 & 1 & 17 & 57.5 \\
 Maverick 17B (128E) & 143 &  7 & 2 & 2 & 0 & 10 & 52.4 \\
 Qwen3 32B        & 144 &  4 & 3 & 1 & 0 & 12 & 40.0 \\
+\midrule
+Gemini 2.5 Flash & 142 & 15 & 0 & 1 & 0 &  6 & 72.7 \\
+Gemini 2.5 Pro   & 120 & 16 & 6 & 5 & 1 & 16 & 63.6 \\
 \bottomrule
 \end{tabular}%
 }
 \end{table}
 
-Table~\ref{tab:perround} provides a fine-grained breakdown of when problems are first solved. The first repair round ($R_1$) accounts for the majority of all repairs across every model. Repair success rate---the fraction of initially-failed problems that are eventually fixed---correlates positively with model capability: Llama~3.3~70B repairs 60.7\% of its failures, while Llama~3.1~8B repairs only 29.6\%.
+Table~\ref{tab:perround} provides a fine-grained breakdown of when problems are first solved. The first repair round ($R_1$) accounts for the majority of all repairs across every model. Repair success rate---the fraction of initially-failed problems that are eventually fixed---correlates positively with model capability: Gemini~2.5~Flash repairs 72.7\% of its failures (the highest), followed by Gemini~2.5~Pro at 63.6\% and Llama~3.3~70B at 60.7\%, while Llama~3.1~8B repairs only 29.6\%.
 
 \subsection{Repair Prompt Ablation}
 
@@ -505,7 +508,7 @@ To complement our quantitative findings, we examine representative cases from Hu
 
 \textbf{Successful repairs.} On HumanEval/38, Llama~3.3~70B produced code that failed at $R_0$ with a \texttt{NameError} and repaired it in a single round. More interestingly, on HumanEval/26, Llama~3.1~8B failed with assertion errors for three consecutive rounds before finally producing a correct solution at~$R_3$, demonstrating that persistence can resolve even logical errors. On HumanEval/77, Scout exhibited error-type mutation across rounds (type error $\rightarrow$ assertion $\rightarrow$ type error $\rightarrow$ pass), showing the model genuinely restructuring its approach rather than making superficial edits.
 
-\textbf{Persistent failures.} On HumanEval/10, Llama~3.1~8B produced assertion errors on all five attempts, never resolving the underlying logic error. On HumanEval/32, Maverick exhibited error \emph{thrashing}: assertion $\rightarrow$ name error $\rightarrow$ assertion $\rightarrow$ assertion $\rightarrow$ timeout---the failure mode described by Olausson et al.~\cite{olausson2024selfrepair}. We identified several ``universally hard'' problems (e.g., HumanEval/132, HumanEval/145) that defeated all five models even with four repair rounds.
+\textbf{Persistent failures.} On HumanEval/10, Llama~3.1~8B produced assertion errors on all five attempts, never resolving the underlying logic error. On HumanEval/32, Maverick exhibited error \emph{thrashing}: assertion $\rightarrow$ name error $\rightarrow$ assertion $\rightarrow$ assertion $\rightarrow$ timeout---the failure mode described by Olausson et al.~\cite{olausson2024selfrepair}. We identified several ``universally hard'' problems (e.g., HumanEval/132, HumanEval/145) that defeated all models even with four repair rounds.
 
 \subsection{Preliminary Evaluation on Harder Benchmarks}
 
@@ -552,16 +555,16 @@ Our findings suggest several practical guidelines for deploying LLM code generat
 We identify several limitations of this study that suggest directions for future work.
 
 \textbf{Resampling comparison scope.}
-Our resampling comparison (Section~\ref{sec:results}, Table~\ref{tab:resampling}) covers four of five models on HumanEval only. While the results clearly show that self-repair is more token-efficient and increasingly advantageous for stronger models, extending this comparison to MBPP and controlling for token budget more precisely (e.g., allocating the exact same number of tokens to each strategy) would strengthen the analysis. Additionally, we compare greedy repair against stochastic resampling (temperature~$=0.8$), which conflates two differences---error feedback vs.\ diversity, and greedy vs.\ stochastic decoding. A fairer comparison might use stochastic repair as well.
+Our resampling comparison (Section~\ref{sec:results}, Table~\ref{tab:resampling}) covers four of seven models on HumanEval only. While the results clearly show that self-repair is more token-efficient and increasingly advantageous for stronger models, extending this comparison to MBPP and controlling for token budget more precisely (e.g., allocating the exact same number of tokens to each strategy) would strengthen the analysis. Additionally, we compare greedy repair against stochastic resampling (temperature~$=0.8$), which conflates two differences---error feedback vs.\ diversity, and greedy vs.\ stochastic decoding. A fairer comparison might use stochastic repair as well.
 
 \textbf{Benchmark scope.}
-Our main evaluation uses HumanEval and MBPP, which are considered relatively easy by 2025 standards. Our preliminary LiveCodeBench evaluation (Section~\ref{sec:discussion}) shows that self-repair remains effective on harder competitive programming problems, but covers only three models on 50 problems. A comprehensive evaluation across all models on LiveCodeBench~\cite{jain2024livecodebench}, BigCodeBench~\cite{zhuo2024bigcodebench}, or SWE-Bench~\cite{jimenez2024swebench} would more fully characterize self-repair on problems requiring deep algorithmic reasoning.
+Our main evaluation uses HumanEval and MBPP, which are considered relatively easy by 2025 standards. Our preliminary LiveCodeBench evaluation (Section~\ref{sec:discussion}) shows that self-repair remains effective on harder competitive programming problems, but covers only four models on 50 problems. A comprehensive evaluation across all models on LiveCodeBench~\cite{jain2024livecodebench}, BigCodeBench~\cite{zhuo2024bigcodebench}, or SWE-Bench~\cite{jimenez2024swebench} would more fully characterize self-repair on problems requiring deep algorithmic reasoning.
 
 \textbf{Greedy decoding only.}
 Our use of temperature~$=0.0$ ensures deterministic, reproducible results but eliminates sampling variance, precluding confidence intervals or statistical significance tests. On HumanEval (164 problems), a single problem corresponds to $\pm$0.6\,pp, meaning differences of $\sim$1.2\,pp or less (e.g., Maverick at 93.9\% vs.\ Qwen3 at 92.7\%, a gap of just two problems) should not be over-interpreted. Experiments with stochastic decoding across multiple seeds would provide more robust estimates and enable statistical analysis.
 
 \textbf{Ablation scope.}
-Our prompt ablation covers four of five models (8B, 70B, Scout, Qwen3) with two repair rounds ($R_0$--$R_2$). Extending to all five repair rounds would characterize whether CoT's advantage persists or converges in later rounds. The ablation uses HumanEval only; prompt sensitivity on MBPP or LiveCodeBench may differ.
+Our prompt ablation covers four of seven models (8B, 70B, Scout, Qwen3) with two repair rounds ($R_0$--$R_2$). Extending to all five repair rounds would characterize whether CoT's advantage persists or converges in later rounds. The ablation uses HumanEval only; prompt sensitivity on MBPP or LiveCodeBench may differ.
 
 \textbf{API-served model weights.}
 Open-weight models were accessed via the Groq free-tier API, which may serve quantized or otherwise optimized model variants. We did not verify that the served weights exactly match the canonical model releases. Gemini models were accessed via Google Cloud Vertex AI, where the served model versions are controlled by Google. Pass rates may differ slightly across API versions or on locally-hosted weights.
