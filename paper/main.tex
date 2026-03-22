@@ -56,7 +56,7 @@ Our contributions are as follows:
 \begin{enumerate}
     \item We demonstrate that self-repair is now \emph{universally} effective across seven models from three families---even at 8B scale---updating the finding by Olausson et al.~\cite{olausson2024selfrepair} that weaker models are harmed by self-repair. This is, to our knowledge, the first systematic study of self-repair spanning open-weight and proprietary models across three families (Meta, Alibaba, Google), including MoE architectures.
 
-    \item We present the first direct comparison of dense and mixture-of-experts architectures for self-repair across multiple model families, revealing distinct interaction patterns: Scout (16 experts) achieves the highest repair gain among open-weight models (+14.0\,pp), while the Gemini models establish new ceiling performance levels.
+    \item We present the first direct comparison of dense and mixture-of-experts architectures for self-repair across multiple model families, revealing distinct interaction patterns: on HumanEval, Scout (16 experts) achieves the highest repair gain among open-weight models (+14.0\,pp), while the Gemini models establish new ceiling performance levels.
 
     \item We provide cross-benchmark validation on both HumanEval and MBPP Sanitized, showing consistent model rankings and diminishing-returns patterns, strengthening generalizability beyond single-benchmark studies.
 
@@ -204,7 +204,7 @@ Table~\ref{tab:humaneval} presents the cumulative pass@1 rates on HumanEval acro
 
 \textbf{Universal improvement.} Self-repair improves pass rates for every model tested, across all three families and both open-weight and proprietary models. Every model gains at least +4.9\,pp.
 
-\textbf{Gemini~2.5~Flash achieves the highest final rate.} At 96.3\%, Flash surpasses all open-weight models, including Maverick (93.9\%) and Llama~3.3~70B (93.3\%). Its R1 jump from 86.6\% to 95.7\% (+9.1\,pp in a single round) is among the largest single-round gains, suggesting exceptionally strong error comprehension.
+\textbf{Gemini~2.5~Flash achieves the highest final rate.} At 96.3\%, Flash surpasses all open-weight models, including Maverick (93.9\%) and Llama~3.3~70B (93.3\%). Its R1 jump from 86.6\% to 95.7\% (+9.1\,pp in a single round) is among the largest first-round gains (comparable to Pro's +9.7\,pp and Scout's +9.2\,pp), suggesting strong error comprehension.
 
 \textbf{Gemini~2.5~Pro shows the largest repair gain.} Pro achieves +17.1\,pp, the highest $\Delta$ on HumanEval. However, its lower initial pass rate (73.2\%) reflects overhead from its reasoning traces, which occasionally interfere with code extraction. Its final rate (90.2\%) is competitive but below Flash, illustrating that stronger reasoning does not always translate to better code generation in a simple prompt-completion paradigm.
 
@@ -329,7 +329,7 @@ This finding is consistent with Huang et al.'s observation~\cite{huang2024large}
 Figure~\ref{fig:per_round} shows the marginal improvement at each repair round on HumanEval. The pattern of diminishing returns is consistent across all models:
 
 \begin{itemize}
-    \item \textbf{$R_0 \to R_1$ (first repair)}: The largest single-round gain for all seven models. Gemini~2.5~Pro gains +9.8\,pp (the largest first-round gain), followed by Flash and Scout at +9.1\,pp each, while Qwen3 gains +2.4\,pp (the smallest, reflecting its high baseline).
+    \item \textbf{$R_0 \to R_1$ (first repair)}: The largest single-round gain for all seven models. Gemini~2.5~Pro gains +9.7\,pp (the largest first-round gain), followed by Scout (+9.2\,pp) and Flash (+9.1\,pp), while Qwen3 gains +2.4\,pp (the smallest, reflecting its high baseline).
 
     \item \textbf{$R_1 \to R_2$ (second repair)}: Still meaningful but reduced for all models.
 
@@ -433,7 +433,7 @@ Table~\ref{tab:ablation} and Figure~\ref{fig:ablation} present the results acros
 
 Note that each ablation configuration involves a complete re-execution of all 164 problems, including initial generation at $R_0$. Since the repair strategy does not affect the initial generation prompt, any $R_0$ variation across strategies for the same model reflects non-determinism in the Groq API's served model weights across sessions. For example, Llama~3.3~70B shows $R_0$ values of 84.1\%, 82.9\%, and 81.1\% across the three strategies. The $\Delta$ column is computed relative to each run's own $R_0$, making repair gain measurements independent of this baseline variation. Crucially, the key finding---that CoT achieves the highest final $R_2$ rate for every model---holds regardless of which $R_0$ baseline is used.
 
-\textbf{CoT consistently wins across all models.} Chain-of-thought achieves the highest final pass rate for every model: 77.4\% (8B), 96.3\% (70B), 89.6\% (Scout), and 97.0\% (Qwen3). Qwen3 with CoT achieves the highest pass rate of any model-strategy combination in our study.
+\textbf{CoT consistently wins across all models.} Chain-of-thought achieves the highest final pass rate for every model: 77.4\% (8B), 96.3\% (70B), 89.6\% (Scout), and 97.0\% (Qwen3). Qwen3 with CoT achieves the highest pass rate of any model-strategy combination in our ablation (97.0\% at $R_2$).
 
 \textbf{The benefit of richer prompts scales with model capability.} Measured by the additional self-repair gain ($\Delta_\text{CoT} - \Delta_\text{minimal}$), the advantage of CoT is modest for the 8B model (+1.8\,pp) but widens for stronger models: +5.5\,pp for Llama~3.3~70B and +3.6\,pp for Qwen3. In absolute terms, CoT achieves final $R_2$ rates 1.8--8.5\,pp higher than minimal, though part of this gap reflects $R_0$ variation across runs (see above). This confirms the interaction between model capability and prompt strategy across the three models with complete ablation data, spanning 8B to 70B parameters.
 
