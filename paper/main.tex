@@ -103,7 +103,7 @@ where the model receives the problem, its previous attempt, and the error messag
 
 \subsection{Code Extraction}
 
-LLM outputs frequently contain natural-language explanations, markdown formatting, and other non-code content surrounding the actual solution. We employ a robust code extraction pipeline that: (1)~searches for Python code blocks delimited by markdown fences (\verb|```python ... ```|); (2)~falls back to extracting the longest contiguous block of syntactically valid Python if no fences are found; and (3)~removes any extraneous content such as chain-of-thought traces (e.g., \verb|<think>...</think>| tags) that some reasoning models may prepend to their outputs.
+LLM outputs frequently contain natural-language explanations, markdown formatting, and other non-code content surrounding the actual solution. We employ a code extraction pipeline that: (1)~removes chain-of-thought traces (e.g., \verb|<think>...</think>| tags) that reasoning models may prepend; (2)~extracts code from markdown fences (\verb|```python ... ```|), including handling of unclosed fences from truncated responses; and (3)~if no complete function definition is found, prepends the function signature to body-only responses with appropriate indentation.
 
 \subsection{Error Classification}
 
@@ -170,7 +170,7 @@ We acknowledge that these benchmarks are considered relatively easy by 2025 stan
 
 \subsection{Infrastructure}
 
-Open-weight model experiments were conducted using the Groq free-tier API, which provides rate-limited access to hosted models at no monetary cost. Gemini experiments were conducted using Google Cloud Vertex AI, with total Gemini API costs under \$5 USD. Code execution was performed in isolated Python subprocesses with a 15-second timeout per test case. All code and results are publicly available.\footnote{\url{https://github.com/Johin2/Self-repair}}
+Open-weight model experiments were conducted using the Groq free-tier API, which provides rate-limited access to hosted models at no monetary cost. Gemini experiments were conducted using Google Cloud Vertex AI, with total Gemini API costs under \$20 USD (including initial debugging runs). Code execution was performed in isolated Python subprocesses with a 15-second timeout per test case. All code and results are publicly available.\footnote{\url{https://github.com/Johin2/Self-repair}}
 
 % ============================================================
 \section{Results}
@@ -315,7 +315,7 @@ Figure~\ref{fig:repair_by_error} analyzes repair success rates broken down by er
     \item \textbf{Assertion errors} are the hardest to repair, with success rates around 45\%. An assertion error indicates that the code ran successfully but produced the wrong output. The error message provides minimal diagnostic information about \emph{what} the code computed incorrectly or \emph{why}, requiring the model to re-examine its logic.
 \end{itemize}
 
-This finding is consistent with Huang et al.'s observation~\cite{huang2024large} that LLMs struggle to self-correct reasoning without external feedback. The pattern holds across all seven models and both benchmarks, confirming that error type is a robust predictor of repair success regardless of model scale, family, or architecture.
+This finding is consistent with Huang et al.'s observation~\cite{huang2024large} that LLMs struggle to self-correct reasoning without external feedback. On MBPP, assertion errors are repaired at higher rates ($\sim$63\%) than on HumanEval ($\sim$45\%), likely because MBPP's shorter problems make logical errors easier to diagnose.
 
 \subsection{Per-Round Improvement}
 
