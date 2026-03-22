@@ -44,14 +44,39 @@ def extract_code(response: str, entry_point: str, prompt: str) -> str:
     # Remove thinking traces (e.g. Qwen3 <think>...</think> tags)
     code = re.sub(r"<think>.*?</think>", "", code, flags=re.DOTALL).strip()
 
-    # Extract from markdown code blocks
+    # Extract from markdown code blocks (closed)
     blocks = re.findall(r"```(?:python)?\s*\n(.*?)```", code, flags=re.DOTALL)
     if blocks:
-        code = max(blocks, key=len).strip()
+        code = max(blocks, key=len)
+    else:
+        # Handle unclosed code blocks (e.g. truncated responses from reasoning
+        # models like Gemini 2.5 Pro): strip the opening fence line
+        code = re.sub(r"^```(?:python)?\s*\n", "", code)
+
+    # Strip trailing whitespace but preserve leading indentation
+    code = code.rstrip()
 
     # If response contains the full function definition, use it
     if f"def {entry_point}" in code:
-        return code
+        # Strip leading blank lines only
+        return code.lstrip("\n")
 
-    # Otherwise, the model returned just the body — prepend the prompt
-    return prompt + code
+    # Otherwise, the model returned just the body — prepend the prompt.
+    # Ensure the body has consistent 4-space indentation.
+    lines = code.split("\n")
+    # Detect the indentation of the first non-empty line
+    first_indent = 0
+    for line in lines:
+        if line.strip():
+            first_indent = len(line) - len(line.lstrip())
+            break
+
+    if first_indent == 0:
+        # Body has no indentation — add 4-space indent to each line
+        indented = "\n".join(
+            ("    " + line if line.strip() else line) for line in lines
+        )
+        return prompt + indented
+    else:
+        # Body already indented — use as-is
+        return prompt + code

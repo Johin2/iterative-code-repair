@@ -1,0 +1,9 @@
+{
+  "Gemini-2.5-Pro": {
+    "passed": 237,
+    "total": 257,
+    "rate": 0.9222,
+    "total_tokens": 1256565,
+    "time_seconds": 8913.9
+  }
+}

@@ -16,6 +16,10 @@ if _env_path.exists():
 
 GROQ_API_KEY: str = os.environ.get("GROQ_API_KEY", "")
 
+# Vertex AI configuration
+VERTEX_PROJECT: str = os.environ.get("VERTEX_PROJECT", "")
+VERTEX_LOCATION: str = os.environ.get("VERTEX_LOCATION", "us-central1")
+
 # Models to evaluate: display_name -> Groq model ID
 MODELS: dict[str, str] = {
     "Llama-3.1-8B": "llama-3.1-8b-instant",
@@ -23,6 +27,22 @@ MODELS: dict[str, str] = {
     "Llama-4-Scout-17B": "meta-llama/llama-4-scout-17b-16e-instruct",
     "Llama-4-Maverick-17B": "meta-llama/llama-4-maverick-17b-128e-instruct",
     "Qwen3-32B": "qwen/qwen3-32b",
+}
+
+# Vertex AI models: display_name -> model ID
+# Native Gemini models use the model ID directly.
+# Model Garden models require an endpoint_id (set via --endpoint flag or env var).
+VERTEX_MODELS: dict[str, dict] = {
+    "Gemini-2.5-Flash": {
+        "model_id": "gemini-2.5-flash",
+        "provider": "gemini",
+        "max_tokens": 4096,
+    },
+    "Gemini-2.5-Pro": {
+        "model_id": "gemini-2.5-pro",
+        "provider": "gemini",
+        "max_tokens": 4096,
+    },
 }
 
 # Experiment parameters

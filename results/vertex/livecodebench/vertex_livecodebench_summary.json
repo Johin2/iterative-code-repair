@@ -1,0 +1,28 @@
+{
+  "Gemini-2.5-Flash": {
+    "r0_passed": 0,
+    "final_passed": 8,
+    "total": 50,
+    "r0_rate": 0.0,
+    "final_rate": 16.0,
+    "gain_pp": 16.0,
+    "by_difficulty": {
+      "easy": {
+        "total": 18,
+        "r0_rate": 0.0,
+        "final_rate": 27.8
+      },
+      "medium": {
+        "total": 23,
+        "r0_rate": 0.0,
+        "final_rate": 8.7
+      },
+      "hard": {
+        "total": 9,
+        "r0_rate": 0.0,
+        "final_rate": 11.1
+      }
+    },
+    "time_seconds": 1802.5
+  }
+}

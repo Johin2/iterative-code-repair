@@ -1,0 +1,3076 @@
+[
+  {
+    "task_id": "LCB/1873_A",
+    "difficulty": "easy",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'YES\\nYES\\nYES\\nNO\\nNO\\nYES', got ''",
+        "usage": {
+          "prompt_tokens": 422,
+          "completion_tokens": 80,
+          "total_tokens": 2466
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 556,
+          "completion_tokens": 284,
+          "total_tokens": 2469
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/1873_B",
+    "difficulty": "easy",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpf_8ayioz.py\", line 10\n    # Create a temporary list to avoid modifying the original array\nIndentationError: expected an indented block after 'for' statement on line 9",
+        "usage": {
+          "prompt_tokens": 368,
+          "completion_tokens": 82,
+          "total_tokens": 2412
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 539,
+          "completion_tokens": 224,
+          "total_tokens": 763
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/1873_D",
+    "difficulty": "easy",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpohvdzej1.py\", line 1\n    This problem can be solved using a greedy approach. We want to clear all black cells. When we encounter a black cell, we *must* perform an operation that covers it. To minimize the total\n         ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 535,
+          "completion_tokens": 77,
+          "total_tokens": 2579
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 720,
+          "completion_tokens": 241,
+          "total_tokens": 961
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/1883_B",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpqsvtvjsc.py\", line 1\n    A string can be rearranged to form a palindrome if and only if at most one character appears an odd number of times in its frequency count. For example, \"aabbc\" can form \"abcba\n                                                                                                                                                                              ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 755,
+          "completion_tokens": 77,
+          "total_tokens": 2799
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5mbxtnu0.py\", line 12\n    odd_freq_chars +=\n                     ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 954,
+          "completion_tokens": 81,
+          "total_tokens": 2998
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnf04aqpx.py\", line 12\n    if count %\n              ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 1109,
+          "completion_tokens": 81,
+          "total_tokens": 3153
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpi_5_imcx.py\", line 12\n    if\n      ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 1261,
+          "completion_tokens": 79,
+          "total_tokens": 3305
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp01r7bgfq.py\", line 11\n    for count in char_counts.values():\nIndentationError: expected an indented block after 'for' statement on line 11",
+        "usage": {
+          "prompt_tokens": 1410,
+          "completion_tokens": 77,
+          "total_tokens": 3454
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/1883_C",
+    "difficulty": "medium",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2\\n2\\n1\\n0\\n2\\n0\\n1\\n2\\n0\\n1\\n1\\n4\\n0\\n4\\n3', got ''",
+        "usage": {
+          "prompt_tokens": 723,
+          "completion_tokens": 82,
+          "total_tokens": 2767
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 886,
+          "completion_tokens": 776,
+          "total_tokens": 1662
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/1899_A",
+    "difficulty": "easy",
+    "final_passed": true,
+    "rounds_to_pass": 1,
+    "total_rounds": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvl8ht9ic.py\", line 1\n    The problem describes a game played by Vanya and Vova involving an integer `n`. Vanya starts. On each turn, a player can add 1 or subtract 1 from the current integer. Vanya wins if, after his move, the integer becomes divisible by 3. If 10 moves have passed (meaning 5 moves by Vanya and 5 moves by Vova\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 316,
+          "completion_tokens": 80,
+          "total_tokens": 2360
+        }
+      },
+      {
+        "round": 1,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 545,
+          "completion_tokens": 62,
+          "total_tokens": 2573
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/1899_B",
+    "difficulty": "hard",
+    "final_passed": true,
+    "rounds_to_pass": 3,
+    "total_rounds": 4,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpciglcw5c.py\", line 1\n    Let `a` be the array of box weights.\n        ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 870,
+          "completion_tokens": 77,
+          "total_tokens": 2914
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1\\n9\\n0\\n189114\\n112141', got ''",
+        "usage": {
+          "prompt_tokens": 1025,
+          "completion_tokens": 78,
+          "total_tokens": 3069
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1\\n9\\n0\\n189114\\n112141', got ''",
+        "usage": {
+          "prompt_tokens": 1164,
+          "completion_tokens": 77,
+          "total_tokens": 3208
+        }
+      },
+      {
+        "round": 3,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 1302,
+          "completion_tokens": 468,
+          "total_tokens": 2226
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/1899_C",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15\\n17\\n8\\n4\\n-1000\\n101\\n10', got ''",
+        "usage": {
+          "prompt_tokens": 531,
+          "completion_tokens": 80,
+          "total_tokens": 2575
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15\\n17\\n8\\n4\\n-1000\\n101\\n10', got ''",
+        "usage": {
+          "prompt_tokens": 677,
+          "completion_tokens": 77,
+          "total_tokens": 2721
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15\\n17\\n8\\n4\\n-1000\\n101\\n10', got ''",
+        "usage": {
+          "prompt_tokens": 820,
+          "completion_tokens": 80,
+          "total_tokens": 2864
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15\\n17\\n8\\n4\\n-1000\\n101\\n10', got ''",
+        "usage": {
+          "prompt_tokens": 966,
+          "completion_tokens": 82,
+          "total_tokens": 3010
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15\\n17\\n8\\n4\\n-1000\\n101\\n10', got ''",
+        "usage": {
+          "prompt_tokens": 1114,
+          "completion_tokens": 81,
+          "total_tokens": 3158
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/1899_D",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0\\n2\\n1\\n3\\n19', got ''",
+        "usage": {
+          "prompt_tokens": 763,
+          "completion_tokens": 80,
+          "total_tokens": 2807
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0\\n2\\n1\\n3\\n19', got ''",
+        "usage": {
+          "prompt_tokens": 895,
+          "completion_tokens": 80,
+          "total_tokens": 2939
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0\\n2\\n1\\n3\\n19', got ''",
+        "usage": {
+          "prompt_tokens": 1027,
+          "completion_tokens": 78,
+          "total_tokens": 3071
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0\\n2\\n1\\n3\\n19', got ''",
+        "usage": {
+          "prompt_tokens": 1157,
+          "completion_tokens": 82,
+          "total_tokens": 3201
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0\\n2\\n1\\n3\\n19', got ''",
+        "usage": {
+          "prompt_tokens": 1291,
+          "completion_tokens": 77,
+          "total_tokens": 3335
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2727",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 439,
+          "completion_tokens": 305,
+          "total_tokens": 1537
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 783,
+          "completion_tokens": 336,
+          "total_tokens": 1939
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1158,
+          "completion_tokens": 336,
+          "total_tokens": 2496
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1533,
+          "completion_tokens": 336,
+          "total_tokens": 3556
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1908,
+          "completion_tokens": 336,
+          "total_tokens": 3431
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2728",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcsow31yv.py\", line 1\n    Let's analyze the process. For each row, we are always interested in\n       ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 397,
+          "completion_tokens": 78,
+          "total_tokens": 2441
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "name_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpryqe7ax_.py\", line 1, in <module>\n    class Solution:\n    ...<35 lines>...\n            return total_score\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpryqe7ax_.py\", line 2, in Solution\n    def matrixSum(self, nums: List[List[int]]) -> int:\n                              ^^^^\nNameError: name 'List' is not defined. Did you mean: 'list'?",
+        "usage": {
+          "prompt_tokens": 569,
+          "completion_tokens": 407,
+          "total_tokens": 976
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15', got ''",
+        "usage": {
+          "prompt_tokens": 1138,
+          "completion_tokens": 399,
+          "total_tokens": 1537
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '15', got ''",
+        "usage": {
+          "prompt_tokens": 1577,
+          "completion_tokens": 402,
+          "total_tokens": 3425
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphytucmgw.py\", line 9\n    for row in nums:\nIndentationError: expected an indented block after 'for' statement on line 9",
+        "usage": {
+          "prompt_tokens": 2019,
+          "completion_tokens": 77,
+          "total_tokens": 4063
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2730",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpufpm8mu0.py\", line 1\n    Let's analyze the operation: multiplying an element `x` by 2 is equivalent to a left bit shift by 1 (`x << 1`). If we apply this\n       ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 364,
+          "completion_tokens": 79,
+          "total_tokens": 2408
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpva72erni.py\", line 9\n    prefix_or =\n               ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 556,
+          "completion_tokens": 79,
+          "total_tokens": 2600
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptzkka1mm.py\", line 18\n    for i in range(n - 1, -1, -1):\nIndentationError: expected an indented block after 'for' statement on line 18",
+        "usage": {
+          "prompt_tokens": 706,
+          "completion_tokens": 216,
+          "total_tokens": 2750
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '30', got ''",
+        "usage": {
+          "prompt_tokens": 1016,
+          "completion_tokens": 454,
+          "total_tokens": 1578
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '30', got ''",
+        "usage": {
+          "prompt_tokens": 1510,
+          "completion_tokens": 82,
+          "total_tokens": 3554
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2754",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp4utviba5.py\", line 1\n    Let's analyze the properties of products:\n       ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 368,
+          "completion_tokens": 78,
+          "total_tokens": 2412
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1350', got ''",
+        "usage": {
+          "prompt_tokens": 532,
+          "completion_tokens": 79,
+          "total_tokens": 2576
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmphc3tr27j.py\", line 145\n    elif len(negatives) > 1: # Odd number of negatives, but more than one, so we take\nIndentationError: expected an indented block after 'elif' statement on line 145",
+        "usage": {
+          "prompt_tokens": 653,
+          "completion_tokens": 2048,
+          "total_tokens": 2701
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1350', got ''",
+        "usage": {
+          "prompt_tokens": 2807,
+          "completion_tokens": 1043,
+          "total_tokens": 3850
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1350', got ''",
+        "usage": {
+          "prompt_tokens": 3892,
+          "completion_tokens": 81,
+          "total_tokens": 5936
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2755",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpat2nhbwd.py\", line 1\n    This is a classic dynamic programming problem. Let `n` be the length of the string `s`.\n              ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 387,
+          "completion_tokens": 82,
+          "total_tokens": 2431
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 559,
+          "completion_tokens": 78,
+          "total_tokens": 2603
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 676,
+          "completion_tokens": 80,
+          "total_tokens": 2720
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 795,
+          "completion_tokens": 81,
+          "total_tokens": 2839
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 915,
+          "completion_tokens": 78,
+          "total_tokens": 2959
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2756",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpuoadw7u3.py\", line 1\n    Here's a step-by-step approach:\n        ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 351,
+          "completion_tokens": 77,
+          "total_tokens": 2395
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0', got ''",
+        "usage": {
+          "prompt_tokens": 517,
+          "completion_tokens": 218,
+          "total_tokens": 1692
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0', got ''",
+        "usage": {
+          "prompt_tokens": 774,
+          "completion_tokens": 80,
+          "total_tokens": 2818
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0', got ''",
+        "usage": {
+          "prompt_tokens": 893,
+          "completion_tokens": 81,
+          "total_tokens": 2937
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '0', got ''",
+        "usage": {
+          "prompt_tokens": 1013,
+          "completion_tokens": 303,
+          "total_tokens": 1789
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2757",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpwm9qd6d9.py\", line 1\n    This is a classic digit DP problem. The general approach for such problems is to define a function `count_\n              ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 405,
+          "completion_tokens": 79,
+          "total_tokens": 2449
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '11', got ''",
+        "usage": {
+          "prompt_tokens": 576,
+          "completion_tokens": 1148,
+          "total_tokens": 1724
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '11', got ''",
+        "usage": {
+          "prompt_tokens": 1764,
+          "completion_tokens": 1125,
+          "total_tokens": 2889
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '11', got ''",
+        "usage": {
+          "prompt_tokens": 2929,
+          "completion_tokens": 78,
+          "total_tokens": 4973
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '11', got ''",
+        "usage": {
+          "prompt_tokens": 3047,
+          "completion_tokens": 80,
+          "total_tokens": 5091
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2777",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpohf203iy.py\", line 1\n    The problem asks us to compute a \"distinct difference array\" `diff` for a given 0-indexed integer array `nums` of length `n`. For each index `i` from `0` to `n-1`, `diff[i]` is defined as the number of distinct elements in the prefix `nums[0, ..., i]` minus the number of distinct elements\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 728,
+          "completion_tokens": 78,
+          "total_tokens": 2772
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6xvf_yza.py\", line 8\n    prefix_set = set(nums[0 : i +\n                         ^\nSyntaxError: '[' was never closed",
+        "usage": {
+          "prompt_tokens": 954,
+          "completion_tokens": 82,
+          "total_tokens": 2998
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[-3, -1, 1, 3, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 1118,
+          "completion_tokens": 191,
+          "total_tokens": 1801
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpv2qryru6.py\", line 8\n    # The slice nums[0 : i + 1]\nIndentationError: expected an indented block after 'for' statement on line 6",
+        "usage": {
+          "prompt_tokens": 1361,
+          "completion_tokens": 82,
+          "total_tokens": 3405
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[-3, -1, 1, 3, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 1531,
+          "completion_tokens": 191,
+          "total_tokens": 2146
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2779",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpy9gz80lb.py\", line 1\n    The problem asks us to maintain an array `nums` of length `n`, initially all elements are 0 (uncolored). For each query `[index, color]`, we update `nums[index]` to `color`. After each update, we need to report the number of adjacent pairs `(nums[j], nums[j+1])` such that `nums[j\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 639,
+          "completion_tokens": 79,
+          "total_tokens": 2683
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp3ilvj48o.py\", line 8\n    \"\"\"\n    ^\nSyntaxError: unterminated triple-quoted string literal (detected at line 9)",
+        "usage": {
+          "prompt_tokens": 867,
+          "completion_tokens": 77,
+          "total_tokens": 2911
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[0, 1, 1, 0, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 1027,
+          "completion_tokens": 319,
+          "total_tokens": 1346
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmph7cngjul.py\", line 8\n    # Returns 1 if val1 and val2\nIndentationError: expected an indented block after function definition on line 7",
+        "usage": {
+          "prompt_tokens": 1397,
+          "completion_tokens": 78,
+          "total_tokens": 3441
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[0, 1, 1, 0, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 1559,
+          "completion_tokens": 417,
+          "total_tokens": 2185
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2784",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmplibbs0fm.py\", line 2\n    First, it's beneficial to sort the array `nums` in non-decreasing order.\n             ^\nSyntaxError: unterminated string literal (detected at line 2)",
+        "usage": {
+          "prompt_tokens": 571,
+          "completion_tokens": 81,
+          "total_tokens": 2615
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '141', got ''",
+        "usage": {
+          "prompt_tokens": 747,
+          "completion_tokens": 2048,
+          "total_tokens": 2795
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '141', got ''",
+        "usage": {
+          "prompt_tokens": 2836,
+          "completion_tokens": 2048,
+          "total_tokens": 4884
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '141', got ''",
+        "usage": {
+          "prompt_tokens": 4925,
+          "completion_tokens": 691,
+          "total_tokens": 5616
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '141', got ''",
+        "usage": {
+          "prompt_tokens": 5657,
+          "completion_tokens": 77,
+          "total_tokens": 7701
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2785",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp067qf5st.py\", line 1\n    Let `n_val` be the length of the permutation `nums`.\n        ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 525,
+          "completion_tokens": 82,
+          "total_tokens": 2569
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 691,
+          "completion_tokens": 79,
+          "total_tokens": 2735
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 809,
+          "completion_tokens": 79,
+          "total_tokens": 2853
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpmw029025.py\", line 9\n    if nums[i] == 1:\nIndentationError: expected an indented block after 'if' statement on line 9",
+        "usage": {
+          "prompt_tokens": 927,
+          "completion_tokens": 81,
+          "total_tokens": 2971
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmph_fzvoyp.py\", line 9\n    if nums[i] == 1:\nIndentationError: expected an indented block after 'if' statement on line 9",
+        "usage": {
+          "prompt_tokens": 1095,
+          "completion_tokens": 81,
+          "total_tokens": 3139
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2786",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp0pt1lvgm.py\", line 1\n    The problem asks us to find the length of the longest \"semi-repetitive\" substring within a given string `s`. A string is semi-repetitive if it contains at most one consecutive pair of identical digits. For example, \"0010\" (one pair \"00\") and \"0123\" (zero pairs) are semi-repetitive, but\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 404,
+          "completion_tokens": 78,
+          "total_tokens": 2448
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 629,
+          "completion_tokens": 294,
+          "total_tokens": 2608
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 962,
+          "completion_tokens": 81,
+          "total_tokens": 3006
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdzriibfo.py\", line 9\n    max_len =\n             ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 1082,
+          "completion_tokens": 79,
+          "total_tokens": 3126
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 1231,
+          "completion_tokens": 78,
+          "total_tokens": 3275
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2791",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpizp3nw9c.py\", line 1\n    Here's a step-by-\n        ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 630,
+          "completion_tokens": 81,
+          "total_tokens": 2674
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[4, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 797,
+          "completion_tokens": 335,
+          "total_tokens": 2768
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpuna6j853.py\", line 6\n    # Friends\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 1174,
+          "completion_tokens": 81,
+          "total_tokens": 3218
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[4, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 1332,
+          "completion_tokens": 528,
+          "total_tokens": 3222
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[4, 5]', got ''",
+        "usage": {
+          "prompt_tokens": 1902,
+          "completion_tokens": 80,
+          "total_tokens": 3946
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2792",
+    "difficulty": "medium",
+    "final_passed": true,
+    "rounds_to_pass": 4,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcxv9uor7.py\", line 1\n    The problem asks us to determine if a given `derived` array can be formed from a binary `original` array of the same length `n`. The rules for forming `derived` are:\n                           ^^^^^^^^^^^^^^\nSyntaxError: expected 'else' after 'if' expression",
+        "usage": {
+          "prompt_tokens": 494,
+          "completion_tokens": 81,
+          "total_tokens": 2538
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpmhnkre_x.py\", line 10\n    # Initialize\nIndentationError: expected an indented block after function definition on line 9",
+        "usage": {
+          "prompt_tokens": 692,
+          "completion_tokens": 82,
+          "total_tokens": 2736
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 851,
+          "completion_tokens": 351,
+          "total_tokens": 2164
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "value_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8408yifs.py\", line 41, in <module>\n    derived = list(map(int, derived_str.split()))\nValueError: invalid literal for int() with base 10: '[1,'",
+        "usage": {
+          "prompt_tokens": 1241,
+          "completion_tokens": 477,
+          "total_tokens": 2024
+        }
+      },
+      {
+        "round": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 1824,
+          "completion_tokens": 624,
+          "total_tokens": 2915
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2800",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp2cwd6s61.py\", line 1\n    This type of problem, where we remove adjacent pairs of characters, is typically solved efficiently using a stack (or a list acting as a stack). The idea\n         ^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 337,
+          "completion_tokens": 79,
+          "total_tokens": 2381
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 515,
+          "completion_tokens": 111,
+          "total_tokens": 1323
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp7q8a0atm.py\", line 9\n    stack.\n          ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 665,
+          "completion_tokens": 78,
+          "total_tokens": 2709
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 813,
+          "completion_tokens": 111,
+          "total_tokens": 1299
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 963,
+          "completion_tokens": 77,
+          "total_tokens": 3007
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2802",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp57w071fr.py\", line 1\n    The problem asks us to find the \"punishment number\" of a given positive integer `n`. The punishment number is defined as the sum of the squares of all integers `i` (where `1 <= i <= n`) that satisfy a specific condition. The condition is: the decimal representation of `i * i` can be partitioned into contiguous substrings such that the sum of the integer values of these\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 492,
+          "completion_tokens": 81,
+          "total_tokens": 2536
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpkym67uhw.py\", line 6\n    # substrings whose integer values sum up to target_sum.\nIndentationError: expected an indented block after function definition on line 4",
+        "usage": {
+          "prompt_tokens": 725,
+          "completion_tokens": 82,
+          "total_tokens": 2769
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '182', got ''",
+        "usage": {
+          "prompt_tokens": 894,
+          "completion_tokens": 421,
+          "total_tokens": 1315
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpb2_z6nk9.py\", line 6\n    # substrings whose integer values sum up to target_sum.\nIndentationError: expected an indented block after function definition on line 4",
+        "usage": {
+          "prompt_tokens": 1356,
+          "completion_tokens": 81,
+          "total_tokens": 3400
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '182', got ''",
+        "usage": {
+          "prompt_tokens": 1525,
+          "completion_tokens": 509,
+          "total_tokens": 2463
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2808",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp5db49_1a.py\", line 1\n    The problem asks for the minimum cost to paint `n` walls. We have two painters:\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 467,
+          "completion_tokens": 82,
+          "total_tokens": 2511
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 639,
+          "completion_tokens": 80,
+          "total_tokens": 2683
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 758,
+          "completion_tokens": 81,
+          "total_tokens": 2802
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 878,
+          "completion_tokens": 79,
+          "total_tokens": 2922
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 996,
+          "completion_tokens": 82,
+          "total_tokens": 3040
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2810",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8iotnrl6.py\", line 1\n    Let'\n       ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 514,
+          "completion_tokens": 82,
+          "total_tokens": 2558
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '13', got ''",
+        "usage": {
+          "prompt_tokens": 675,
+          "completion_tokens": 82,
+          "total_tokens": 2719
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '13', got ''",
+        "usage": {
+          "prompt_tokens": 797,
+          "completion_tokens": 1318,
+          "total_tokens": 2115
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '13', got ''",
+        "usage": {
+          "prompt_tokens": 2155,
+          "completion_tokens": 79,
+          "total_tokens": 4199
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '13', got ''",
+        "usage": {
+          "prompt_tokens": 2274,
+          "completion_tokens": 82,
+          "total_tokens": 4318
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2811",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpd826ry1h.py\", line 1\n    We can implement a greedy strategy:\n       ^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 295,
+          "completion_tokens": 82,
+          "total_tokens": 2339
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp56n6ns3m.py\", line 9\n    # To minimize the sum, we greedily pick the smallest positive integers.\nIndentationError: expected an indented block after 'while' statement on line 8",
+        "usage": {
+          "prompt_tokens": 454,
+          "completion_tokens": 78,
+          "total_tokens": 2498
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '18', got ''",
+        "usage": {
+          "prompt_tokens": 625,
+          "completion_tokens": 432,
+          "total_tokens": 1057
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpx0asdce6.py\", line 10\n    #\nIndentationError: expected an indented block after 'while' statement on line 8",
+        "usage": {
+          "prompt_tokens": 1097,
+          "completion_tokens": 80,
+          "total_tokens": 3141
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '18', got ''",
+        "usage": {
+          "prompt_tokens": 1255,
+          "completion_tokens": 213,
+          "total_tokens": 2206
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2812",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpgl25uqkq.py\", line 1\n    Let's analyze the effect of the operations on `x` and `num`. An operation consists of simultaneously increasing or\n       ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 384,
+          "completion_tokens": 79,
+          "total_tokens": 2428
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '6', got ''",
+        "usage": {
+          "prompt_tokens": 564,
+          "completion_tokens": 1976,
+          "total_tokens": 2540
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '6', got ''",
+        "usage": {
+          "prompt_tokens": 2579,
+          "completion_tokens": 39,
+          "total_tokens": 2618
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "index_key_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpydv8kjqa.py\", line 13, in <module>\n    t = int(line[1])\n            ~~~~^^^\nIndexError: list index out of range",
+        "usage": {
+          "prompt_tokens": 2657,
+          "completion_tokens": 168,
+          "total_tokens": 3522
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '6', got ''",
+        "usage": {
+          "prompt_tokens": 2921,
+          "completion_tokens": 39,
+          "total_tokens": 3636
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2816",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpdwgav303.py\", line 1\n    1.  **Minimum Operations**: A string `s` is a palindrome if `s[i]` is equal to `s[n-1-i]` for all `i` from `0` to `n/2 - 1` (where\n                  ^^^^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 419,
+          "completion_tokens": 82,
+          "total_tokens": 2463
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"efcfe\"', got ''",
+        "usage": {
+          "prompt_tokens": 623,
+          "completion_tokens": 183,
+          "total_tokens": 2152
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpomnw_8rr.py\", line 10\n    if chars[left] !=\n                     ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 846,
+          "completion_tokens": 77,
+          "total_tokens": 2890
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"efcfe\"', got ''",
+        "usage": {
+          "prompt_tokens": 997,
+          "completion_tokens": 183,
+          "total_tokens": 1616
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpphai7a0b.py\", line 10\n    if chars[left] != chars[right\n                           ^\nSyntaxError: '[' was never closed",
+        "usage": {
+          "prompt_tokens": 1220,
+          "completion_tokens": 80,
+          "total_tokens": 3264
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2817",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp8q3m2377.py\", line 1\n    Let's analyze the effect\n       ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 499,
+          "completion_tokens": 81,
+          "total_tokens": 2543
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 666,
+          "completion_tokens": 82,
+          "total_tokens": 2710
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 787,
+          "completion_tokens": 82,
+          "total_tokens": 2831
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 908,
+          "completion_tokens": 82,
+          "total_tokens": 2952
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1029,
+          "completion_tokens": 80,
+          "total_tokens": 3073
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2819",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"512301\"', got ''",
+        "usage": {
+          "prompt_tokens": 244,
+          "completion_tokens": 176,
+          "total_tokens": 1343
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpwrn500f3.py\", line 3\n    \"\"\"\n    ^\nSyntaxError: unterminated triple-quoted string literal (detected at line 8)",
+        "usage": {
+          "prompt_tokens": 464,
+          "completion_tokens": 80,
+          "total_tokens": 2508
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"512301\"', got ''",
+        "usage": {
+          "prompt_tokens": 627,
+          "completion_tokens": 120,
+          "total_tokens": 1164
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6pt4sfl6.py\", line 3\n    \"\"\"\n    ^\nSyntaxError: unterminated triple-quoted string literal (detected at line 8)",
+        "usage": {
+          "prompt_tokens": 791,
+          "completion_tokens": 80,
+          "total_tokens": 2835
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"512301\"', got ''",
+        "usage": {
+          "prompt_tokens": 953,
+          "completion_tokens": 120,
+          "total_tokens": 1304
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2824",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpm9isrpr8.py\", line 1\n    1.  **Calculate Multiples and Concatenate:**\n                    ^^^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 372,
+          "completion_tokens": 81,
+          "total_tokens": 2416
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 533,
+          "completion_tokens": 210,
+          "total_tokens": 2007
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 782,
+          "completion_tokens": 77,
+          "total_tokens": 2826
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 898,
+          "completion_tokens": 210,
+          "total_tokens": 1786
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 1147,
+          "completion_tokens": 82,
+          "total_tokens": 3191
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2825",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpuquhacsw.py\", line 1\n    The problem asks us to minimize the length of a string by repeatedly applying a specific operation. The operation involves choosing an index `i`, identifying the character `c = s[i]`, and then deleting the closest occurrence of `c` to the left of `i` (if any) and the closest occurrence of `c` to the right of `i` (if any). The character `s\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 605,
+          "completion_tokens": 82,
+          "total_tokens": 2649
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjquloby0.py\", line 142\n    #\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 838,
+          "completion_tokens": 2048,
+          "total_tokens": 2886
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 2962,
+          "completion_tokens": 1841,
+          "total_tokens": 4803
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 4842,
+          "completion_tokens": 1811,
+          "total_tokens": 6653
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpcxtg1b42.py\", line 5\n    # and then deleting the closest occurrence of `c` to\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 6692,
+          "completion_tokens": 80,
+          "total_tokens": 8736
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2827",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp4731so2j.py\", line 1\n    The problem asks whether all pairs of indices `(i, j)` in a given array `nums` can be connected through a sequence of traversals. A traversal between index `i` and index `j` is possible if `gcd(nums[i], nums[j]) > 1`. This is equivalent to checking if the graph where indices are nodes and edges exist if\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 622,
+          "completion_tokens": 77,
+          "total_tokens": 2666
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp1uwbyx5x.py\", line 11\n    self.parent[i] = self.find(self\n                              ^\nSyntaxError: '(' was never closed",
+        "usage": {
+          "prompt_tokens": 847,
+          "completion_tokens": 80,
+          "total_tokens": 2891
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 1010,
+          "completion_tokens": 744,
+          "total_tokens": 1754
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpmagt2szo.py\", line 28\n    if n\n        ^\nSyntaxError: expected ':'",
+        "usage": {
+          "prompt_tokens": 1793,
+          "completion_tokens": 211,
+          "total_tokens": 3837
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected 'true', got ''",
+        "usage": {
+          "prompt_tokens": 2074,
+          "completion_tokens": 620,
+          "total_tokens": 2808
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2828",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpg_b8vjgh.py\", line 1\n    Let's analyze the transformation:\n       ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 433,
+          "completion_tokens": 80,
+          "total_tokens": 2477
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxhgwzm3t.py\", line 9\n    if s_list[i] != 'a':\nIndentationError: expected an indented block after 'if' statement on line 9",
+        "usage": {
+          "prompt_tokens": 599,
+          "completion_tokens": 82,
+          "total_tokens": 2643
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"baabc\"', got ''",
+        "usage": {
+          "prompt_tokens": 769,
+          "completion_tokens": 392,
+          "total_tokens": 1161
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpajzmxdpe.py\", line 9\n    if s_list[i\n             ^\nSyntaxError: '[' was never closed",
+        "usage": {
+          "prompt_tokens": 1201,
+          "completion_tokens": 77,
+          "total_tokens": 3245
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '\"baabc\"', got ''",
+        "usage": {
+          "prompt_tokens": 1352,
+          "completion_tokens": 577,
+          "total_tokens": 2141
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2831",
+    "difficulty": "easy",
+    "final_passed": true,
+    "rounds_to_pass": 4,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp3j2ml7t8.py\", line 1\n    The problem asks us to count \"beautiful pairs\" in a given integer array `nums`. A pair of indices `(i, j)` is beautiful if `0 <= i < j < nums.length` and the first digit of `nums[i]` and the last digit of `nums[j]` are coprime. Two integers are coprime if their greatest common divisor (GCD) is\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 688,
+          "completion_tokens": 78,
+          "total_tokens": 2732
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpgarj91oe.py\", line 18\n    # Get the last digit of nums[\nIndentationError: expected an indented block after 'for' statement on line 17",
+        "usage": {
+          "prompt_tokens": 915,
+          "completion_tokens": 173,
+          "total_tokens": 2959
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '5', got ''",
+        "usage": {
+          "prompt_tokens": 1174,
+          "completion_tokens": 260,
+          "total_tokens": 1864
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "value_error",
+        "error_message": "Traceback (most recent call last):\n  File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpp58huzc5.py\", line 33, in <module>\n    nums = [int(x) for x in nums_str]\n            ~~~^^^\nValueError: invalid literal for int() with base 10: '[2,'",
+        "usage": {
+          "prompt_tokens": 1473,
+          "completion_tokens": 379,
+          "total_tokens": 3184
+        }
+      },
+      {
+        "round": 4,
+        "passed": true,
+        "error_type": "none",
+        "error_message": "",
+        "usage": {
+          "prompt_tokens": 1964,
+          "completion_tokens": 360,
+          "total_tokens": 2962
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2832",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp9zolhcku.py\", line 1\n    Let's rephrase the problem: we want to find a contiguous subarray `nums[i...j]` and a value `x` such that if we keep all occurrences of `x\n       ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 412,
+          "completion_tokens": 78,
+          "total_tokens": 2456
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 605,
+          "completion_tokens": 81,
+          "total_tokens": 2649
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpi_9cf5bx.py\", line 10\n    for right in range\n                      ^\nSyntaxError: expected ':'",
+        "usage": {
+          "prompt_tokens": 725,
+          "completion_tokens": 80,
+          "total_tokens": 2769
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 878,
+          "completion_tokens": 1130,
+          "total_tokens": 2069
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpnsn801q_.py\", line 10\n    for right in range(\n                      ^\nSyntaxError: '(' was never closed",
+        "usage": {
+          "prompt_tokens": 2047,
+          "completion_tokens": 81,
+          "total_tokens": 4091
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2833",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmptm20hsah.py\", line 1\n    Let's analyze the input and constraints:\n       ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 568,
+          "completion_tokens": 80,
+          "total_tokens": 2612
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpo5kfchw2.py\", line 4\n    # Each log entry is [server_id, time]. We sort by time (logs[\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 735,
+          "completion_tokens": 81,
+          "total_tokens": 2779
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[1, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 910,
+          "completion_tokens": 719,
+          "total_tokens": 1629
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpi4wjxxcf.py\", line 4\n    # Each log entry is [server_id, time]. We sort by\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 1671,
+          "completion_tokens": 77,
+          "total_tokens": 3715
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[1, 2]', got ''",
+        "usage": {
+          "prompt_tokens": 1838,
+          "completion_tokens": 791,
+          "total_tokens": 2629
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2834",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpi8owvt17.py\", line 1\n    Here's a step-by-step breakdown of the solution:\n        ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 673,
+          "completion_tokens": 77,
+          "total_tokens": 2717
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[5, 6, 8, 9]', got ''",
+        "usage": {
+          "prompt_tokens": 842,
+          "completion_tokens": 354,
+          "total_tokens": 1196
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6f_q8ac0.py\", line 5\n    # complexity for add, remove, and lookup operations.\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 1244,
+          "completion_tokens": 80,
+          "total_tokens": 3288
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[5, 6, 8, 9]', got ''",
+        "usage": {
+          "prompt_tokens": 1411,
+          "completion_tokens": 320,
+          "total_tokens": 1940
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '[5, 6, 8, 9]', got ''",
+        "usage": {
+          "prompt_tokens": 1779,
+          "completion_tokens": 320,
+          "total_tokens": 3544
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2837",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjfi42etq.py\", line 1\n    Let `k` be the number of operations. After `k` operations,\n        ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 419,
+          "completion_tokens": 79,
+          "total_tokens": 2463
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmppeq613cu.py\", line 5\n    # num1 - sum_{j=1 to k} (2^{i_j} + num2) =\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 582,
+          "completion_tokens": 82,
+          "total_tokens": 2626
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 763,
+          "completion_tokens": 2048,
+          "total_tokens": 2811
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 2850,
+          "completion_tokens": 1179,
+          "total_tokens": 4029
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpzih7es93.py\", line 5\n    # num1 - sum_{j=1 to k} (2^{i_j} + num2) =\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 4068,
+          "completion_tokens": 82,
+          "total_tokens": 6112
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2839",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp2o1nep2h.py\", line 1\n    The problem asks us to find the maximum sum `nums1[j] + nums2[j]` for given `x_i, y_i` constraints: `nums1[j] >= x_i` and `nums2[j] >= y_i`. If no such `j` exists, we return -1. The constraints `n` and `queries.length\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 840,
+          "completion_tokens": 80,
+          "total_tokens": 2884
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpaw8me3ae.py\", line 9\n    def update(self, node, start, end, idx, val):\nIndentationError: expected an indented block after function definition on line 9",
+        "usage": {
+          "prompt_tokens": 1070,
+          "completion_tokens": 77,
+          "total_tokens": 3114
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp4iqsfcmp.py\", line 8\n    self.tree = [-1] * (4 * size\n                       ^\nSyntaxError: '(' was never closed",
+        "usage": {
+          "prompt_tokens": 1236,
+          "completion_tokens": 82,
+          "total_tokens": 3280
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp3fryt9s2.py\", line 8\n    self.tree = [-1] * (\n                       ^\nSyntaxError: '(' was never closed",
+        "usage": {
+          "prompt_tokens": 1399,
+          "completion_tokens": 79,
+          "total_tokens": 3443
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpkfhbosf0.py\", line 8\n    self.tree = [-1] * (4 * size\n                       ^\nSyntaxError: '(' was never closed",
+        "usage": {
+          "prompt_tokens": 1557,
+          "completion_tokens": 82,
+          "total_tokens": 3601
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2844",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '21', got ''",
+        "usage": {
+          "prompt_tokens": 481,
+          "completion_tokens": 309,
+          "total_tokens": 1667
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '21', got ''",
+        "usage": {
+          "prompt_tokens": 830,
+          "completion_tokens": 217,
+          "total_tokens": 2193
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '21', got ''",
+        "usage": {
+          "prompt_tokens": 1087,
+          "completion_tokens": 217,
+          "total_tokens": 1886
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '21', got ''",
+        "usage": {
+          "prompt_tokens": 1344,
+          "completion_tokens": 217,
+          "total_tokens": 2583
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '21', got ''",
+        "usage": {
+          "prompt_tokens": 1601,
+          "completion_tokens": 217,
+          "total_tokens": 2602
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2845",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmplqokgktz.py\", line 1\n    Let `max1 = max(nums1)` and `min2 = min(nums2)`. We want to minimize `|max1 - min2\n        ^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 477,
+          "completion_tokens": 82,
+          "total_tokens": 2521
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 658,
+          "completion_tokens": 179,
+          "total_tokens": 837
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 876,
+          "completion_tokens": 82,
+          "total_tokens": 2920
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 997,
+          "completion_tokens": 226,
+          "total_tokens": 1959
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '1', got ''",
+        "usage": {
+          "prompt_tokens": 1262,
+          "completion_tokens": 88,
+          "total_tokens": 2401
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2847",
+    "difficulty": "easy",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp15cl_7x5.py\", line 1\n    The problem asks us to find the maximum number of pairs of strings that can be formed from a given 0-indexed array `words`. A pair `(words[i], words[j])` is valid if `words[i]` is equal to the reversed string of `words[j]`, and `0 <= i < j < words.length`. Each string can belong to at most\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 496,
+          "completion_tokens": 81,
+          "total_tokens": 2540
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxtxl67lo.py\", line 5\n    \"\"\"\n    ^\nSyntaxError: unterminated triple-quoted string literal (detected at line 7)",
+        "usage": {
+          "prompt_tokens": 729,
+          "completion_tokens": 78,
+          "total_tokens": 2773
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 888,
+          "completion_tokens": 382,
+          "total_tokens": 2826
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1309,
+          "completion_tokens": 82,
+          "total_tokens": 3353
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1430,
+          "completion_tokens": 82,
+          "total_tokens": 3474
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2848",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp3xutvsff.py\", line 1\n    The problem asks us to find the number of \"special permutations\" of a given array `nums`. A permutation is special if for any two adjacent elements `nums[i]` and `nums[i+1]`, one divides the other (i.e., `nums[i] % nums[i+1] == 0` or `nums[i+1]\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 303,
+          "completion_tokens": 77,
+          "total_tokens": 2347
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 526,
+          "completion_tokens": 82,
+          "total_tokens": 2570
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 647,
+          "completion_tokens": 78,
+          "total_tokens": 2691
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 764,
+          "completion_tokens": 713,
+          "total_tokens": 1477
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '2', got ''",
+        "usage": {
+          "prompt_tokens": 1516,
+          "completion_tokens": 79,
+          "total_tokens": 3560
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2849",
+    "difficulty": "hard",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpxjed2wd4.py\", line 1\n    Let's analyze the definition of the imbalance number. For a\n       ^\nSyntaxError: unterminated string literal (detected at line 1)",
+        "usage": {
+          "prompt_tokens": 579,
+          "completion_tokens": 82,
+          "total_tokens": 2623
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmp6cx0rfki.py\", line 8\n    # For each starting position i, we will build subarrays ending at j\nIndentationError: expected an indented block after 'for' statement on line 7",
+        "usage": {
+          "prompt_tokens": 751,
+          "completion_tokens": 77,
+          "total_tokens": 2795
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpm0ehax1u.py\", line 9\n    # We\nIndentationError: expected an indented block after 'for' statement on line 7",
+        "usage": {
+          "prompt_tokens": 918,
+          "completion_tokens": 82,
+          "total_tokens": 2962
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1079,
+          "completion_tokens": 432,
+          "total_tokens": 1511
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpvwyog3xh.py\", line 9\n    # We\nIndentationError: expected an indented block after 'for' statement on line 7",
+        "usage": {
+          "prompt_tokens": 1550,
+          "completion_tokens": 82,
+          "total_tokens": 3594
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2850",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpanos8o6z.py\", line 1\n    The problem asks us to find the maximum possible length of a string formed by concatenating `x` \"AA\" strings, `y` \"BB\" strings, and `z` \"AB\" strings, such that the resulting string does not contain \"AAA\" or \"BBB\" as a substring. Each string (\"AA\", \"BB\", \"AB\") has a length of 2.\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 418,
+          "completion_tokens": 80,
+          "total_tokens": 2462
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpm0pl8gu4.py\", line 72\n    # This is also equivalent to min(x, y) + min(\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 646,
+          "completion_tokens": 2048,
+          "total_tokens": 2694
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpk_1md0hx.py\", line 79\n    # This is also equivalent to 2 * min(x, y) + (1\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 2785,
+          "completion_tokens": 2048,
+          "total_tokens": 4833
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '12', got ''",
+        "usage": {
+          "prompt_tokens": 4927,
+          "completion_tokens": 510,
+          "total_tokens": 6422
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpznq5r8y1.py\", line 5\n    # \"AB\" blocks can always be added without creating \"AAA\"\nIndentationError: expected an indented block after function definition on line 2",
+        "usage": {
+          "prompt_tokens": 5477,
+          "completion_tokens": 79,
+          "total_tokens": 7521
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2854",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpjrd0pjgs.py\", line 1\n    The problem asks us to find the minimum possible length of a string formed by concatenating `n` words, starting with `words[0]` and then iteratively joining `words[i]` with the previously formed string `str_i-1`. At each step `i` (from 1 to `n-1`), we have two choices: `join(str_i-1, words\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 658,
+          "completion_tokens": 81,
+          "total_tokens": 2702
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 889,
+          "completion_tokens": 847,
+          "total_tokens": 1736
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 1775,
+          "completion_tokens": 870,
+          "total_tokens": 2645
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 2684,
+          "completion_tokens": 77,
+          "total_tokens": 4728
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '4', got ''",
+        "usage": {
+          "prompt_tokens": 2800,
+          "completion_tokens": 921,
+          "total_tokens": 4214
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  },
+  {
+    "task_id": "LCB/2855",
+    "difficulty": "medium",
+    "final_passed": false,
+    "rounds_to_pass": -1,
+    "total_rounds": 5,
+    "rounds": [
+      {
+        "round": 0,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpepsgb_gh.py\", line 1\n    The problem asks us to find the maximum number of jumps to reach the last index (`n-1`) of an array `nums`, starting from index 0. The allowed jump from index `i` to index `j` (where `i < j`) is constrained by `-target <= nums[j] - nums[i] <= target`. If `n-1` is unreachable, we should\n        ^^^^^^^\nSyntaxError: invalid syntax",
+        "usage": {
+          "prompt_tokens": 600,
+          "completion_tokens": 82,
+          "total_tokens": 2644
+        }
+      },
+      {
+        "round": 1,
+        "passed": false,
+        "error_type": "syntax",
+        "error_message": "File \"C:\\Users\\Johin\\AppData\\Local\\Temp\\tmpony8wmog.py\", line 18\n    # Check if index i is reachable (dp[\nIndentationError: expected an indented block after 'for' statement on line 17",
+        "usage": {
+          "prompt_tokens": 833,
+          "completion_tokens": 212,
+          "total_tokens": 2877
+        }
+      },
+      {
+        "round": 2,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1132,
+          "completion_tokens": 395,
+          "total_tokens": 1527
+        }
+      },
+      {
+        "round": 3,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1566,
+          "completion_tokens": 82,
+          "total_tokens": 3610
+        }
+      },
+      {
+        "round": 4,
+        "passed": false,
+        "error_type": "assertion",
+        "error_message": "Test 0: expected '3', got ''",
+        "usage": {
+          "prompt_tokens": 1687,
+          "completion_tokens": 395,
+          "total_tokens": 2730
+        }
+      }
+    ],
+    "model": "Gemini-2.5-Flash"
+  }
+]
