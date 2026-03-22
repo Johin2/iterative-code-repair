@@ -62,7 +62,7 @@ Our contributions are as follows:
 
     \item We present fine-grained error-type analysis revealing that error category is a strong predictor of repair success: syntax errors are repaired at $>$95\% rates and type/name errors at 60--80\%, while assertion errors succeed at only $\sim$41\%, connecting to the broader literature on LLM self-correction limits~\cite{huang2024large}.
 
-    \item We quantify the diminishing-returns curve and derive practical deployment guidelines: two repair rounds capture the majority (77--88\%) of achievable gains, and error-type-based routing can optimize the repair-vs-resample tradeoff.
+    \item We quantify the diminishing-returns curve and derive practical deployment guidelines: two repair rounds capture the majority (76--94\%) of achievable gains, and error-type-based routing can optimize the repair-vs-resample tradeoff.
 
     \item We conduct a repair prompt ablation comparing minimal, explain-then-fix, and chain-of-thought strategies, finding that CoT prompting yields +5.5\,pp additional repair gain over minimal prompting for the 70B model.
 \end{enumerate}
@@ -77,7 +77,7 @@ The emergence of Codex~\cite{chen2021evaluating} demonstrated that LLMs fine-tun
 
 \subsection{Self-Debugging and Self-Repair}
 
-Chen et al.~\cite{chen2024teaching} proposed \emph{Self-Debug}, demonstrating that LLMs can identify and fix bugs in their own code when provided with execution results. Their approach included several feedback strategies: simple error messages, code explanations, and unit test traces. Olausson et al.~\cite{olausson2024selfrepair} conducted a thorough investigation of self-repair, concluding that while GPT-4 benefited substantially, weaker models like GPT-3.5 often failed to improve or even degraded in performance. Our work extends this line of inquiry to five modern open-weight models across two benchmarks, revealing that the ``weaker models fail'' conclusion no longer holds for the 2024--2025 model generation.
+Chen et al.~\cite{chen2024teaching} proposed \emph{Self-Debug}, demonstrating that LLMs can identify and fix bugs in their own code when provided with execution results. Their approach included several feedback strategies: simple error messages, code explanations, and unit test traces. Olausson et al.~\cite{olausson2024selfrepair} conducted a thorough investigation of self-repair, concluding that while GPT-4 benefited substantially, weaker models like GPT-3.5 often failed to improve or even degraded in performance. Our work extends this line of inquiry to seven models from three families across two benchmarks, revealing that the ``weaker models fail'' conclusion no longer holds for the 2024--2025 model generation.
 
 \subsection{Iterative Refinement Beyond Code}
 
@@ -85,7 +85,7 @@ The principle of iterative self-improvement has been explored in broader context
 
 \subsection{Multi-Turn and Collaborative Code Generation}
 
-Recent work has also investigated multi-turn interactions for code generation. Key et al.~\cite{key2024multiturn} explored multi-turn code generation with instruction-tuned models, while Zhang et al.~\cite{zhang2023selfcollaboration} investigated self-collaboration patterns with ChatGPT. Zhong et al.~\cite{zhong2024ldb} proposed LDB, a debugger that verifies runtime execution step-by-step. SelfEvolve~\cite{jiang2023selfevolve} used LLMs to iteratively evolve code through self-generated feedback. Our work differs in its focus on the simplest possible self-repair protocol (feeding back raw error messages) and its systematic comparison across five models and two benchmarks.
+Recent work has also investigated multi-turn interactions for code generation. Key et al.~\cite{key2024multiturn} explored multi-turn code generation with instruction-tuned models, while Zhang et al.~\cite{zhang2023selfcollaboration} investigated self-collaboration patterns with ChatGPT. Zhong et al.~\cite{zhong2024ldb} proposed LDB, a debugger that verifies runtime execution step-by-step. SelfEvolve~\cite{jiang2023selfevolve} used LLMs to iteratively evolve code through self-generated feedback. Our work differs in its focus on the simplest possible self-repair protocol (feeding back raw error messages) and its systematic comparison across seven models from three families and two benchmarks.
 
 % ============================================================
 \section{Methodology}
@@ -541,11 +541,11 @@ Our findings suggest several practical guidelines for deploying LLM code generat
 \begin{enumerate}
     \item \textbf{Always include at least one repair round}: The first repair round consistently provides the largest marginal improvement for all models tested.
 
-    \item \textbf{Two rounds capture most gains}: For cost-sensitive applications, two repair rounds ($R_0$ through~$R_2$) capture the majority (77--88\%) of the total achievable improvement.
+    \item \textbf{Two rounds capture most gains}: For cost-sensitive applications, two repair rounds ($R_0$ through~$R_2$) capture the majority (76--94\%) of the total achievable improvement.
 
     \item \textbf{Consider error type for routing}: If the initial error is a syntax or type error, repair is very likely to succeed. If the error is an assertion error, alternative strategies (e.g., sampling multiple independent solutions) may be more cost-effective.
 
-    \item \textbf{Model selection matters}: For applications where final pass rate is paramount, Maverick or a large dense model (70B) should be preferred. For self-repair gain per token, Scout and the 70B model offer the best efficiency.
+    \item \textbf{Model selection matters}: For applications where final pass rate is paramount, Gemini~2.5~Flash (96.3\%) or Maverick (93.9\%) should be preferred. For self-repair gain per token, Gemini~2.5~Pro and Llama~3.3~70B offer the best efficiency.
 \end{enumerate}
 
 % ============================================================
