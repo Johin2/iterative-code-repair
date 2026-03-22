@@ -33,7 +33,7 @@ johinjohny144@gmail.com}}
 \maketitle
 
 \begin{abstract}
-Large language models frequently fail to produce correct code on their first attempt, yet most benchmarks evaluate them in a single-shot setting. We investigate \emph{iterative self-repair}---feeding execution errors back to the model for correction---across seven models spanning three families and both open-weight and proprietary providers: Llama~3.1~8B, Llama~3.3~70B, Llama~4~Scout (MoE, 16 experts), Llama~4~Maverick (MoE, 128 experts), Qwen3~32B, Gemini~2.5~Flash, and Gemini~2.5~Pro. On HumanEval (164 problems) and MBPP Sanitized (257 problems) with up to five attempts, self-repair universally improves pass rates: +4.9 to +17.1\,pp on HumanEval and +16.0 to +30.0\,pp on MBPP. Gemini~2.5~Flash achieves the highest final pass rates (96.3\% HumanEval, 93.8\% MBPP). Most gains concentrate in the first two rounds. Error-type analysis shows syntax errors are repaired at $>$95\% rates and type/name errors at 60--80\%, while assertion errors (logical mistakes) succeed at only $\sim$41\%, connecting to broader findings on the limits of LLM self-correction. To our knowledge, this is the first systematic comparison of self-repair across dense and MoE architectures spanning three model families (Meta, Alibaba, Google), and the first token-efficiency comparison against independent resampling. A prompt ablation reveals chain-of-thought repair yields up to +5.5\,pp additional repair gain over minimal prompting for capable models.
+Large language models frequently fail to produce correct code on their first attempt, yet most benchmarks evaluate them in a single-shot setting. We investigate \emph{iterative self-repair}---feeding execution errors back to the model for correction---across seven models spanning three families and both open-weight and proprietary providers: Llama~3.1~8B, Llama~3.3~70B, Llama~4~Scout (MoE, 16 experts), Llama~4~Maverick (MoE, 128 experts), Qwen3~32B, Gemini~2.5~Flash, and Gemini~2.5~Pro. On HumanEval (164 problems) and MBPP Sanitized (257 problems) with up to five attempts, self-repair universally improves pass rates: +4.9 to +17.1\,pp on HumanEval and +16.0 to +30.0\,pp on MBPP. Gemini~2.5~Flash achieves the highest final pass rates (96.3\% HumanEval, 93.8\% MBPP). Most gains concentrate in the first two rounds. Error-type analysis shows assertion errors (logical mistakes) are the hardest to repair at $\sim$45\%, while syntax and name errors are repaired at substantially higher rates, connecting to broader findings on the limits of LLM self-correction. To our knowledge, this is the first systematic comparison of self-repair across dense and MoE architectures spanning three model families (Meta, Alibaba, Google), and the first token-efficiency comparison against independent resampling. A prompt ablation reveals chain-of-thought repair yields up to +5.5\,pp additional repair gain over minimal prompting for capable models.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -60,7 +60,7 @@ Our contributions are as follows:
 
     \item We provide cross-benchmark validation on both HumanEval and MBPP Sanitized, showing consistent model rankings and diminishing-returns patterns, strengthening generalizability beyond single-benchmark studies.
 
-    \item We present fine-grained error-type analysis revealing that error category is a strong predictor of repair success: syntax errors are repaired at $>$95\% rates and type/name errors at 60--80\%, while assertion errors succeed at only $\sim$41\%, connecting to the broader literature on LLM self-correction limits~\cite{huang2024large}.
+    \item We present fine-grained error-type analysis revealing that error category is a strong predictor of repair success: name errors are repaired at $\sim$77\% rates, while assertion errors succeed at only $\sim$45\%, connecting to the broader literature on LLM self-correction limits~\cite{huang2024large}.
 
     \item We quantify the diminishing-returns curve and derive practical deployment guidelines: two repair rounds capture the majority (76--94\%) of achievable gains, and error-type-based routing can optimize the repair-vs-resample tradeoff.
 
@@ -308,11 +308,11 @@ Figure~\ref{fig:errors} shows the distribution of error types at the initial att
 Figure~\ref{fig:repair_by_error} analyzes repair success rates broken down by error type. A clear hierarchy emerges:
 
 \begin{itemize}
-    \item \textbf{Syntax errors} are repaired at near-perfect rates ($>95$\%). When a model is shown that its output contains invalid syntax, it can almost always produce a corrected version.
+    \item \textbf{Name errors} are repaired at high rates ($\sim$77\%). These errors provide specific diagnostic information (undefined variable or function names) that guides the model toward the fix.
 
-    \item \textbf{Type errors and name errors} are repaired at moderate-to-high rates (roughly 60--80\%). These errors provide specific diagnostic information that guides the model toward the fix.
+    \item \textbf{Syntax errors} are repaired at moderate rates ($\sim$66\%). While many syntax errors are straightforward to fix, some reflect deeper structural issues in code generation (e.g., incomplete functions or mismatched indentation) that are harder to resolve.
 
-    \item \textbf{Assertion errors} are the hardest to repair, with success rates around 41\%. An assertion error indicates that the code ran successfully but produced the wrong output. The error message provides minimal diagnostic information about \emph{what} the code computed incorrectly or \emph{why}, requiring the model to re-examine its logic.
+    \item \textbf{Assertion errors} are the hardest to repair, with success rates around 45\%. An assertion error indicates that the code ran successfully but produced the wrong output. The error message provides minimal diagnostic information about \emph{what} the code computed incorrectly or \emph{why}, requiring the model to re-examine its logic.
 \end{itemize}
 
 This finding is consistent with Huang et al.'s observation~\cite{huang2024large} that LLMs struggle to self-correct reasoning without external feedback. The pattern holds across all seven models and both benchmarks, confirming that error type is a robust predictor of repair success regardless of model scale, family, or architecture.
@@ -488,7 +488,7 @@ The cross-benchmark consistency of our findings strengthens this conclusion. Sel
 
 \subsection{Dense vs.\ Mixture-of-Experts Architectures}
 
-Our evaluation includes dense models (Llama 8B, 70B, Qwen3 32B, Gemini~2.5~Pro), MoE models (Scout 16E, Maverick 128E, Gemini~2.5~Flash), enabling architectural comparisons across three families. Several observations are noteworthy:
+Our evaluation includes dense models (Llama 8B, 70B, Qwen3 32B) and MoE models (Scout 16E, Maverick 128E) among the open-weight models, as well as two proprietary Gemini models whose architectures have not been publicly disclosed, enabling comparisons across three families. Several observations are noteworthy:
 
 \begin{itemize}
     \item Among open-weight models, Scout (16 experts) achieves the highest repair gain on HumanEval (+14.0\,pp), suggesting that its MoE architecture particularly benefits from the opportunity to repair its errors.
@@ -591,7 +591,7 @@ Our cumulative pass@1 metric counts a problem as solved if it passes all provide
 \section{Conclusion}
 \label{sec:conclusion}
 
-We have presented a systematic study of iterative self-repair across seven models from three families (Meta, Alibaba, Google), spanning both open-weight and proprietary models, dense and MoE architectures, and two benchmarks (HumanEval and MBPP Sanitized). Self-repair is universally effective: every model improves on every benchmark. Error-type analysis confirms that syntax and type/name errors are repaired at high rates, while assertion errors remain challenging---connecting to broader findings on the limits of LLM self-correction.
+We have presented a systematic study of iterative self-repair across seven models from three families (Meta, Alibaba, Google), spanning both open-weight and proprietary models, dense and MoE architectures, and two benchmarks (HumanEval and MBPP Sanitized). Self-repair is universally effective: every model improves on every benchmark. Error-type analysis confirms that name errors are repaired at high rates, while assertion errors remain the most challenging---connecting to broader findings on the limits of LLM self-correction.
 
 Two repair rounds capture the majority of achievable gains, providing clear deployment guidance. Our prompt ablation shows that chain-of-thought repair can yield additional gains for capable models, though the benefit is model-dependent. These results establish iterative self-repair as a practical, training-free technique for improving LLM code generation, while identifying code-specialized models and harder-benchmark evaluation as important directions for future work.
 
