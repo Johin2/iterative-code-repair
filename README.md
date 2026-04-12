@@ -12,27 +12,30 @@ This repository contains the code, data, and paper for **"How Many Tries Does It
 
 ## Overview
 
-We study **iterative self-repair** for LLM code generation: when a model's code fails, we feed the error back and ask it to try again, for up to five attempts. We evaluate five open-weight models (8B to 70B parameters) across dense and mixture-of-experts (MoE) architectures on HumanEval (164 problems) and MBPP Sanitized (257 problems).
+We study **iterative self-repair** for LLM code generation: when a model's code fails, we feed the error back and ask it to try again, for up to five attempts. We evaluate seven models from three families (Meta, Alibaba, Google), spanning open-weight and proprietary models, dense and mixture-of-experts (MoE) architectures, on HumanEval (164 problems) and MBPP Sanitized (257 problems).
 
 **Main findings:**
 
-- Self-repair **universally improves** pass rates for all five models on both benchmarks, with gains of +4.9 to +14.0 pp on HumanEval and +16.0 to +23.0 pp on MBPP.
-- **Most gains come early.** The first two repair rounds capture 77 to 88% of the total achievable improvement.
-- **Error type predicts repairability.** Syntax errors are fixed at >95% rates, type/name errors at 60 to 80%, and assertion errors (logic mistakes) at only ~41%.
+- Self-repair **universally improves** pass rates for all seven models on both benchmarks, with gains of +4.9 to +17.1 pp on HumanEval and +16.0 to +30.0 pp on MBPP.
+- **Gemini 2.5 Flash achieves the highest final pass rates**: 96.3% on HumanEval and 93.8% on MBPP.
+- **Most gains come early.** The first two repair rounds capture 76 to 95% of the total achievable improvement.
+- **Error type predicts repairability.** Name errors are repaired at ~77%, syntax errors at ~66%, and assertion errors (logic mistakes) at only ~45%.
 - **Chain-of-thought repair prompting** yields up to +5.5 pp additional gain over minimal prompting for capable models.
 - **Self-repair is more token-efficient** than independent resampling for capable models (32B+), using up to 54% fewer tokens.
 
 ## Models Evaluated
 
-| Model | Parameters | Architecture | Type |
-|-------|-----------|--------------|------|
-| Llama 3.1 8B | 8B | Dense | Instruction-tuned |
-| Llama 3.3 70B | 70B | Dense | Instruction-tuned |
-| Llama 4 Scout 17B | 17B active | MoE (16 experts) | Instruction-tuned |
-| Llama 4 Maverick 17B | 17B active | MoE (128 experts) | Instruction-tuned |
-| Qwen3 32B | 32B | Dense | Instruction-tuned |
+| Model | Parameters | Architecture | Provider |
+|-------|-----------|--------------|----------|
+| Llama 3.1 8B | 8B | Dense | Groq |
+| Llama 3.3 70B | 70B | Dense | Groq |
+| Llama 4 Scout 17B | 17B active | MoE (16 experts) | Groq |
+| Llama 4 Maverick 17B | 17B active | MoE (128 experts) | Groq |
+| Qwen3 32B | 32B | Dense | Groq |
+| Gemini 2.5 Flash | Undisclosed | Undisclosed | Vertex AI |
+| Gemini 2.5 Pro | Undisclosed | Undisclosed | Vertex AI |
 
-All models are accessed through the [Groq](https://console.groq.com/) free-tier API with greedy decoding (temperature = 0) for full reproducibility.
+Open-weight models are accessed through the [Groq](https://console.groq.com/) free-tier API. Gemini models are accessed via [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai). All models use greedy decoding (temperature = 0) for reproducibility.
 
 ## Key Results
 
@@ -45,16 +48,20 @@ All models are accessed through the [Groq](https://console.groq.com/) free-tier 
 | Llama 4 Scout 17B (16E) | 75.6% | 89.6% | +14.0 pp |
 | Llama 4 Maverick 17B (128E) | 87.2% | 93.9% | +6.7 pp |
 | Qwen3 32B | 87.8% | 92.7% | +4.9 pp |
+| Gemini 2.5 Flash | 86.6% | 96.3% | +9.8 pp |
+| Gemini 2.5 Pro | 73.2% | 90.2% | +17.1 pp |
 
 ### MBPP Sanitized (257 problems)
 
-| Model | Initial (R0) | Final | Gain |
-|-------|-------------|-------|------|
+| Model | Initial (R0) | Final (R4) | Gain |
+|-------|-------------|------------|------|
 | Llama 3.1 8B | 55.6% | 71.6% | +16.0 pp |
 | Llama 3.3 70B | 67.7% | 90.7% | +23.0 pp |
 | Llama 4 Scout 17B (16E) | 65.4% | 83.3% | +17.9 pp |
 | Llama 4 Maverick 17B (128E) | 72.0% | 92.6% | +20.6 pp |
 | Qwen3 32B | 70.8% | 88.3% | +17.5 pp |
+| Gemini 2.5 Flash | 63.8% | 93.8% | +30.0 pp |
+| Gemini 2.5 Pro | 66.5% | 92.2% | +25.7 pp |
 
 ## Repository Structure
 
@@ -68,15 +75,18 @@ All models are accessed through the [Groq](https://console.groq.com/) free-tier 
 ├── experiments/
 │   ├── config.py             # Model definitions, paths, hyperparameters
 │   ├── api_client.py         # Groq API client with retry logic
+│   ├── vertex_client.py      # Vertex AI client for Gemini models
 │   ├── self_repair.py        # Prompt construction and code extraction
 │   ├── code_executor.py      # Sandboxed Python execution
 │   ├── data_loader.py        # HumanEval / MBPP data loading
-│   ├── run_experiment.py     # Main experiment runner
+│   ├── run_experiment.py     # Main experiment runner (Groq)
+│   ├── run_vertex.py         # Main experiment runner (Vertex AI)
 │   ├── run_ablation.py       # Prompt ablation study
 │   ├── analyze_results.py    # Result analysis and visualization
 │   └── analyze_ablation.py   # Ablation result analysis
 ├── results/
 │   ├── *.json                # Per-model result files
+│   ├── vertex/               # Gemini model results
 │   ├── ablation/             # Prompt ablation results
 │   ├── resampling/           # Independent resampling results
 │   ├── livecodebench/        # LiveCodeBench results
@@ -91,13 +101,14 @@ All models are accessed through the [Groq](https://console.groq.com/) free-tier 
 ### Prerequisites
 
 - Python 3.10+
-- A [Groq API key](https://console.groq.com/) (free tier is sufficient)
+- A [Groq API key](https://console.groq.com/) (free tier is sufficient) for open-weight models
+- A [Google Cloud project](https://cloud.google.com/) with Vertex AI enabled for Gemini models
 
 ### Installation
 
 ```bash
-git clone https://github.com/Johin2/Self-repair.git
-cd Self-repair
+git clone https://github.com/Johin2/iterative-code-repair.git
+cd iterative-code-repair
 pip install -r requirements.txt
 ```
 
@@ -105,6 +116,8 @@ Create a `.env` file in the project root:
 
 ```
 GROQ_API_KEY=your-key-here
+VERTEX_PROJECT=your-gcp-project-id
+VERTEX_LOCATION=us-central1
 ```
 
 ### Running Experiments
@@ -114,14 +127,18 @@ All scripts are run from the project root using `-m` for correct imports.
 **Main experiments (Tables I and II in the paper):**
 
 ```bash
-# HumanEval -- all 5 models
+# HumanEval -- all open-weight models (Groq)
 python -m experiments.run_experiment --benchmark humaneval
 
-# MBPP Sanitized -- all 5 models
+# MBPP Sanitized -- all open-weight models (Groq)
 python -m experiments.run_experiment --benchmark mbpp
 
 # Single model
 python -m experiments.run_experiment --benchmark humaneval --models Llama-3.3-70B
+
+# Gemini models (Vertex AI)
+python -m experiments.run_vertex --benchmark humaneval
+python -m experiments.run_vertex --benchmark mbpp
 ```
 
 **Prompt ablation (Table VI):**
@@ -149,6 +166,8 @@ Figures are saved to `paper/figures/` in both PNG (300 dpi) and PDF formats. Res
 | `Llama-4-Maverick-17B` | `meta-llama/llama-4-maverick-17b-128e-instruct` |
 | `Qwen3-32B` | `qwen/qwen3-32b` |
 
+Gemini models (`gemini-2.5-flash`, `gemini-2.5-pro`) are accessed via Vertex AI and configured in `experiments/vertex_client.py`.
+
 ## Citation
 
 If you find this work useful, please cite:
@@ -168,4 +187,4 @@ This project is released under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-We thank [Groq](https://groq.com/) for providing free-tier API access that enabled all experiments in this work at zero monetary cost.
+We thank [Groq](https://groq.com/) for providing free-tier API access that enabled the open-weight model experiments, and Google Cloud for Vertex AI credits used for the Gemini experiments.
